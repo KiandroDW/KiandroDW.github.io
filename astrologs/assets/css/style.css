@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+	margin: 0;
+	padding: 0;
+    /* max-width: 900px; */
+    /* margin: 40px auto; */
+    /* padding: 0 20px; */
 }
 
 section {
     margin-bottom: 30px;
-    padding: 20px;
+    /* padding: 20px; */
     border: 1px solid #ddd;
     border-radius: 8px;
 }
@@ -39,8 +41,7 @@ table {
     margin-top: 20px;
 }
 
-th,
-td {
+th, td {
     text-align: left;
     padding: 8px;
     border-bottom: 1px solid #ddd;
@@ -64,7 +65,7 @@ td {
 
 .hero {
     text-align: center;
-    padding: 60px 20px;
+    /* padding: 60px 20px; */
 }
 
 .hero p {
@@ -80,3 +81,160 @@ td {
     color: #fff;
     cursor: pointer;
 }
+
+:root {
+  --nav-bg: #0e1420;
+  --nav-border: rgba(212, 175, 90, 0.18);
+  --nav-text: #e8e6df;
+  --nav-text-dim: #9a9fae;
+  --nav-accent: #d4af5a;
+  --nav-accent-dim: rgba(212, 175, 90, 0.12);
+}
+
+
+.astrologs-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--nav-border);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.astrologs-nav_links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.astrologs-nav_link {
+  color: var(--nav-text-dim);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0.5rem 0.85rem;
+  border-radius: 8px;
+  transition: color 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
+}
+
+.astrologs-nav_link:hover,
+.astrologs-nav_link:focus-visible {
+  color: var(--nav-text);
+  background: var(--nav-accent-dim);
+  outline: none;
+}
+
+.astrologs-nav_right {
+  display: flex;
+  align-items: center;
+}
+
+.astrologs-nav_btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--nav-accent);
+  background: transparent;
+  color: var(--nav-accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.astrologs-nav_btn:hover,
+.astrologs-nav_btn:focus-visible {
+  background: var(--nav-accent);
+  color: #0e1420;
+  outline: none;
+}
+
+.astrologs-nav_profile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--nav-accent);
+  color: #0e1420;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+/* Mobile hamburger, hidden on desktop */
+.astrologs-nav_toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.astrologs-nav_toggle span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--nav-text);
+  border-radius: 2px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+@media (max-width: 640px) {
+  .astrologs-nav_toggle {
+    display: flex;
+  }
+
+  .astrologs-nav_links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--nav-bg);
+    border-bottom: 1px solid var(--nav-border);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+
+  .astrologs-nav.is-open .astrologs-nav_links {
+    max-height: 240px;
+  }
+
+  .astrologs-nav_link {
+    padding: 0.9rem 1.5rem;
+    border-radius: 0;
+  }
+
+  .astrologs-nav.is-open .astrologs-nav_toggle span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+  .astrologs-nav.is-open .astrologs-nav_toggle span:nth-child(2) {
+    opacity: 0;
+  }
+  .astrologs-nav.is-open .astrologs-nav_toggle span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+}
+
