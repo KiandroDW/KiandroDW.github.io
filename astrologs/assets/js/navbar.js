@@ -9,8 +9,6 @@
   });
 })();
 
-console.log("loaded");
-
 // Example: swap between logged-out and logged-in state.
 // Replace this with your real auth check (e.g. a session cookie or API call).
 function setAstrologsAuthState(isLoggedIn, initials) {

@@ -1,81 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astrologs — Profile</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Astrologs | Profiel</title>
+		<link rel="stylesheet" href="../assets/css/style.css">
+	</head>
 
-<body>
-    <p><a href="home.html">&larr; Back to Astrologs</a></p>
-    <h1>Night Sky Catalog</h1>
-    <section>
-        <h2>Account</h2>
-        <div id="authForms">
-            <h3>Register</h3>
-            <input
-                type="email"
-                id="registerEmail"
-                placeholder="Email"
-                autocomplete="email"
-            >
-            <input
-                type="password"
-                id="registerPassword"
-                placeholder="Password"
-                autocomplete="new-password"
-            >
-            <button id="registerButton">
-                Create Account
-            </button>
-            <h3>Login</h3>
-            <input
-                type="email"
-                id="loginEmail"
-                placeholder="Email"
-                autocomplete="email"
-            >
-            <input
-                type="password"
-                id="loginPassword"
-                placeholder="Password"
-                autocomplete="current-password"
-            >
-            <button id="loginButton">
-                Login
-            </button>
-        </div>
-        <div id="userSection" class="hidden">
-            <p>
-                Logged in as:
-                <strong id="userEmail"></strong>
-            </p>
-            <p>
-                User ID:
-                <code id="userId"></code>
-            </p>
-            <button id="logoutButton">
-                Logout
-            </button>
-        </div>
-    </section>
-    <div id="status">
-        Checking connection...
-    </div>
-    <section>
-        <h2>Database</h2>
-        <p>
-            Test reading astronomical objects from Supabase.
-        </p>
-        <button id="loadObjects">
-            Load Objects
-        </button>
-        <div id="results"></div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="../assets/js/supabaseClient.js"></script>
-    <script src="../assets/js/auth.js"></script>
-    <script src="../assets/js/objects.js"></script>
-</body>
+	<body>
+		<nav class="astrologs-nav" id="astrologsNav">
+			<button class="astrologs-nav_toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<div class="astrologs-nav_links" id="navLinks">
+				<a class="astrologs-nav_link" href="home.html">Astrologs</a>
+				<a class="astrologs-nav_link" href="log.html">Mijn logs</a>
+			</div>
+
+			<div class="astrologs-nav_right" id="navRight">
+				<a class="astrologs-nav_btn" href="profile.html" id="authBtn">Login / Signup</a>
+				<a class="astrologs-nav_profile" href="profile.html" id="profileBtn" style="display:none;" title="Profile">A</a>
+			</div>
+		</nav>
+		<section>
+			<h2>Account</h2>
+			<div id="authForms">
+				<h3>Register</h3>
+				<input
+						type="email"
+						id="registerEmail"
+						placeholder="Email"
+						autocomplete="email"
+						>
+						<input
+								type="password"
+								id="registerPassword"
+								placeholder="Password"
+								autocomplete="new-password"
+								>
+								<button id="registerButton">
+									Create Account
+								</button>
+						<h3>Login</h3>
+						<input
+								type="email"
+								id="loginEmail"
+								placeholder="Email"
+								autocomplete="email"
+								>
+								<input
+										type="password"
+										id="loginPassword"
+										placeholder="Password"
+										autocomplete="current-password"
+										>
+										<button id="loginButton">
+											Login
+										</button>
+			</div>
+						<div id="userSection" class="hidden">
+							<p>
+							Logged in as:
+							<strong id="userEmail"></strong>
+							</p>
+							<p>
+							User ID:
+							<code id="userId"></code>
+							</p>
+							<button id="logoutButton">
+								Logout
+							</button>
+						</div>
+		</section>
+		<div id="status">
+			Checking connection...
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+		<script src="../assets/js/supabaseClient.js"></script>
+		<script src="../assets/js/auth.js"></script>
+		<script src="../assets/js/objects.js"></script>
+		<script src="../assets/js/navbar.js"></script>
+	</body>
 </html>
