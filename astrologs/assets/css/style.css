@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 8px 14px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+}
+
+#status {
+    margin: 20px 0;
+    padding: 15px;
+    background: #eee;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.error {
+    color: #b00020;
+}
+
+.success {
+    color: #087f23;
+}
+
+.hidden {
+    display: none;
+}
+
+#userInfo {
+    margin-top: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero p {
+    color: #555;
+}
+
+.primary-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+}

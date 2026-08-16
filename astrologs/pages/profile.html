@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrologs — Profile</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <p><a href="home.html">&larr; Back to Astrologs</a></p>
+    <h1>Night Sky Catalog</h1>
+    <section>
+        <h2>Account</h2>
+        <div id="authForms">
+            <h3>Register</h3>
+            <input
+                type="email"
+                id="registerEmail"
+                placeholder="Email"
+                autocomplete="email"
+            >
+            <input
+                type="password"
+                id="registerPassword"
+                placeholder="Password"
+                autocomplete="new-password"
+            >
+            <button id="registerButton">
+                Create Account
+            </button>
+            <h3>Login</h3>
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Email"
+                autocomplete="email"
+            >
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Password"
+                autocomplete="current-password"
+            >
+            <button id="loginButton">
+                Login
+            </button>
+        </div>
+        <div id="userSection" class="hidden">
+            <p>
+                Logged in as:
+                <strong id="userEmail"></strong>
+            </p>
+            <p>
+                User ID:
+                <code id="userId"></code>
+            </p>
+            <button id="logoutButton">
+                Logout
+            </button>
+        </div>
+    </section>
+    <div id="status">
+        Checking connection...
+    </div>
+    <section>
+        <h2>Database</h2>
+        <p>
+            Test reading astronomical objects from Supabase.
+        </p>
+        <button id="loadObjects">
+            Load Objects
+        </button>
+        <div id="results"></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../assets/js/supabaseClient.js"></script>
+    <script src="../assets/js/auth.js"></script>
+    <script src="../assets/js/objects.js"></script>
+</body>
+</html>
