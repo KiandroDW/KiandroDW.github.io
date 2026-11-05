@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SNCB GTFS Explorer</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+  :root { --bg:#fff; --fg:#1b1f24; --muted:#6a737d; --line:#d8dde3; --accent:#0a5db8; --head:#f3f5f7; --hover:#eef4fb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14181d; --fg:#e4e8ec; --muted:#8b949e; --line:#2b323a; --accent:#58a6ff; --head:#1c2229; --hover:#1b2a3a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.45 system-ui,sans-serif; background:var(--bg); color:var(--fg); }
+  header { padding:12px 16px; border-bottom:1px solid var(--line); display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  header h1 { font-size:16px; margin:0 12px 0 0; }
+  input, select, button { font:inherit; color:var(--fg); background:var(--bg); border:1px solid var(--line); border-radius:6px; padding:5px 8px; }
+  button { cursor:pointer; } button:hover { background:var(--hover); }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  #url { flex:1; min-width:260px; }
+  #status { padding:6px 16px; color:var(--muted); font-size:13px; min-height:28px; }
+  #status.err { color:#d1242f; }
+  nav { display:flex; gap:4px; padding:0 16px; border-bottom:1px solid var(--line); }
+  nav button { border:none; border-bottom:2px solid transparent; border-radius:0; padding:8px 12px; background:none; }
+  nav button.on { border-bottom-color:var(--accent); color:var(--accent); font-weight:600; }
+  main { padding:16px; }
+  .tab { display:none; } .tab.on { display:block; }
+  .bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:10px; }
+  .wrap { overflow:auto; border:1px solid var(--line); border-radius:6px; max-height:68vh; }
+  table { border-collapse:collapse; width:100%; font-size:13px; }
+  th, td { padding:4px 10px; border-bottom:1px solid var(--line); text-align:left; white-space:nowrap; max-width:380px; overflow:hidden; text-overflow:ellipsis; }
+  th { position:sticky; top:0; background:var(--head); z-index:1; }
+  tbody tr:hover { background:var(--hover); }
+  a.l { color:var(--accent); cursor:pointer; text-decoration:none; } a.l:hover { text-decoration:underline; }
+  .muted { color:var(--muted); }
+  .cols { display:grid; grid-template-columns:minmax(260px,1fr) 2fr; gap:16px; }
+  @media (max-width:800px) { .cols { grid-template-columns:1fr; } }
+  .pill { display:inline-block; padding:0 6px; border-radius:10px; background:var(--head); border:1px solid var(--line); font-size:12px; }
+  h3 { margin:0 0 8px; font-size:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🚆 SNCB GTFS Explorer</h1>
+  <input id="url" value="https://data.gtfs.be/sncb/gtfs/be-sncb-gtfs.zip" title="GTFS zip URL">
+  <button class="primary" id="load">Load</button>
+  <label class="muted">or <input type="file" id="file" accept=".zip"></label>
+</header>
+<div id="status">Load the feed URL, or pick a downloaded GTFS .zip if the browser blocks the download (CORS).</div>
+<nav id="nav">
+  <button data-t="overview" class="on">Overview</button>
+  <button data-t="table">Tables</button>
+  <button data-t="stops">Stop departures</button>
+  <button data-t="trip">Trip</button>
+</nav>
+<main>
+  <section class="tab on" id="t-overview"><div class="muted">No data loaded.</div></section>
+
+  <section class="tab" id="t-table">
+    <div class="bar">
+      <select id="tf"></select>
+      <input id="tq" placeholder="Filter rows (text)…" size="30">
+      <select id="tc"><option value="">any column</option></select>
+      <select id="tps"><option>50</option><option>100</option><option>250</option></select>
+      <button id="prev">‹</button><span id="pg" class="muted"></span><button id="next">›</button>
+    </div>
+    <div class="wrap"><table id="tt"></table></div>
+  </section>
+
+  <section class="tab" id="t-stops">
+    <div class="cols">
+      <div>
+        <div class="bar"><input id="sq" placeholder="Search stop name… (e.g. Gent-Sint-Pieters)" style="flex:1"></div>
+        <div class="wrap" style="max-height:60vh"><table id="sl"></table></div>
+      </div>
+      <div>
+        <div class="bar"><b id="sname">Select a stop</b>
+          <input type="date" id="sdate"><input id="sfilter" placeholder="Filter (route, headsign)…"></div>
+        <div class="wrap" style="max-height:60vh"><table id="sd"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tab" id="t-trip">
+    <div class="bar"><input id="tid" placeholder="trip_id" size="40"><button id="tgo">Show</button><span id="tinfo" class="muted"></span></div>
+    <div class="wrap"><table id="tr"></table></div>
+  </section>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const D = {};            // filename -> {cols, lines, ci}
+const cache = {};        // lazy indexes
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function parseLine(s) {
+  const out = []; let i = 0, n = s.length;
+  while (i <= n) {
+    if (s[i] === '"') {
+      let v = ''; i++;
+      while (i < n) { if (s[i] === '"') { if (s[i+1] === '"') { v += '"'; i += 2; continue; } i++; break; } v += s[i++]; }
+      out.push(v); if (s[i] === ',') i++; else break;
+    } else {
+      const j = s.indexOf(',', i);
+      if (j < 0) { out.push(s.slice(i)); break; }
+      out.push(s.slice(i, j)); i = j + 1;
+      if (i === n) { out.push(''); break; }
+    }
+  }
+  return out;
+}
+function ingest(name, text) {
+  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+  const lines = text.split(/\r?\n/);
+  const cols = parseLine(lines.shift());
+  while (lines.length && !lines[lines.length-1]) lines.pop();
+  const ci = Object.fromEntries(cols.map((c,i)=>[c.trim(),i]));
+  D[name] = { cols: cols.map(c=>c.trim()), lines, ci };
+}
+function setStatus(m, err) { const s = $('#status'); s.textContent = m; s.className = err ? 'err' : ''; }
+
+async function loadZip(buf) {
+  setStatus('Unzipping…');
+  const zip = await JSZip.loadAsync(buf);
+  for (const k of Object.keys(D)) delete D[k];
+  for (const k of Object.keys(cache)) delete cache[k];
+  const names = Object.keys(zip.files).filter(n => n.endsWith('.txt'));
+  for (const n of names) { setStatus('Reading ' + n + '…'); ingest(n.split('/').pop(), await zip.files[n].async('string')); }
+  setStatus(`Loaded ${names.length} files.`);
+  initUI();
+}
+$('#load').onclick = async () => {
+  try {
+    setStatus('Downloading… (can be 30–50 MB)');
+    const r = await fetch($('#url').value);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    await loadZip(await r.arrayBuffer());
+  } catch (e) {
+    setStatus('Download failed (' + e.message + '). Likely CORS or a licence/key requirement — download the zip manually and use the file picker.', true);
+  }
+};
+$('#file').onchange = async e => { const f = e.target.files[0]; if (f) { try { await loadZip(await f.arrayBuffer()); } catch (x) { setStatus(x.message, true); } } };
+
+// tabs
+$('#nav').onclick = e => { const t = e.target.dataset.t; if (t) showTab(t); };
+function showTab(t) {
+  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.t === t));
+  document.querySelectorAll('.tab').forEach(s => s.classList.toggle('on', s.id === 't-' + t));
+}
+
+function initUI() {
+  // overview
+  const names = Object.keys(D).sort();
+  let h = '<div class="wrap"><table><thead><tr><th>File</th><th>Rows</th><th>Columns</th></tr></thead><tbody>';
+  for (const n of names) h += `<tr><td><a class="l" onclick="openTable('${n}')">${n}</a></td><td>${D[n].lines.length.toLocaleString()}</td><td class="muted">${esc(D[n].cols.join(', '))}</td></tr>`;
+  h += '</tbody></table></div>';
+  if (D['feed_info.txt']?.lines.length) { const fi = D['feed_info.txt']; const r = parseLine(fi.lines[0]);
+    h = '<p>' + fi.cols.map((c,i)=>`<span class="pill">${esc(c)}: ${esc(r[i])}</span>`).join(' ') + '</p>' + h; }
+  $('#t-overview').innerHTML = h;
+  $('#tf').innerHTML = names.map(n=>`<option>${n}</option>`).join('');
+  $('#sdate').value = new Date().toLocaleDateString('sv');
+  tState.page = 0; renderTable();
+}
+
+// ---- table viewer
+const tState = { page: 0, rows: [] };
+window.openTable = (n, q = '', col = '') => { showTab('table'); $('#tf').value = n; fillCols(); $('#tq').value = q; $('#tc').value = col; tState.page = 0; renderTable(); };
+function fillCols() { const f = D[$('#tf').value]; $('#tc').innerHTML = '<option value="">any column</option>' + f.cols.map(c=>`<option>${c}</option>`).join(''); }
+const LINKS = { trip_id: v => `<a class="l" onclick="openTrip('${esc(v)}')">${esc(v)}</a>`,
+                stop_id: v => `<a class="l" onclick="openStop('${esc(v)}')">${esc(v)}</a>`,
+                route_id: v => `<a class="l" onclick="openTable('routes.txt','${esc(v)}','route_id')">${esc(v)}</a>`,
+                service_id: v => `<a class="l" onclick="openTable('calendar_dates.txt','${esc(v)}','service_id')">${esc(v)}</a>` };
+function renderTable() {
+  const name = $('#tf').value; if (!name) return;
+  const f = D[name];
+  if (!$('#tc').options.length || $('#tc').dataset.f !== name) { fillCols(); $('#tc').dataset.f = name; }
+  const q = $('#tq').value.toLowerCase(), col = $('#tc').value, ps = +$('#tps').value;
+  let matches;
+  if (!q) matches = null;
+  else if (!col) matches = f.lines.filter(l => l.toLowerCase().includes(q));
+  else { const ci = f.ci[col]; matches = f.lines.filter(l => l.toLowerCase().includes(q) && (parseLine(l)[ci] ?? '').toLowerCase().includes(q)); }
+  const total = matches ? matches.length : f.lines.length;
+  const pages = Math.max(1, Math.ceil(total / ps));
+  tState.page = Math.min(tState.page, pages - 1);
+  const slice = (matches || f.lines).slice(tState.page * ps, (tState.page + 1) * ps);
+  $('#pg').textContent = `${total.toLocaleString()} rows · page ${tState.page+1}/${pages}`;
+  let h = '<thead><tr>' + f.cols.map(c=>`<th>${esc(c)}</th>`).join('') + '</tr></thead><tbody>';
+  for (const l of slice) { const r = parseLine(l);
+    h += '<tr>' + f.cols.map((c,i)=> `<td title="${esc(r[i])}">${(LINKS[c] && name !== 'calendar.txt' && r[i]) ? LINKS[c](r[i]) : esc(r[i])}</td>`).join('') + '</tr>'; }
+  $('#tt').innerHTML = h + '</tbody>';
+}
+$('#tf').onchange = () => { fillCols(); $('#tq').value=''; tState.page=0; renderTable(); };
+let tt; $('#tq').oninput = () => { clearTimeout(tt); tt = setTimeout(()=>{ tState.page=0; renderTable(); }, 250); };
+$('#tc').onchange = $('#tps').onchange = () => { tState.page=0; renderTable(); };
+$('#prev').onclick = () => { tState.page = Math.max(0, tState.page-1); renderTable(); };
+$('#next').onclick = () => { tState.page++; renderTable(); };
+
+// ---- helpers: lazy maps
+function mapOf(file, key) {
+  const k = file + key; if (cache[k]) return cache[k];
+  const f = D[file]; if (!f) return (cache[k] = new Map());
+  const m = new Map(), ki = f.ci[key];
+  for (const l of f.lines) { const r = parseLine(l); m.set(r[ki], r); }
+  return (cache[k] = m);
+}
+function row(file, r) { const f = D[file]; return Object.fromEntries(f.cols.map((c,i)=>[c, r[i]])); }
+
+// ---- stop search
+function renderStopList() {
+  const f = D['stops.txt']; if (!f) return;
+  const q = $('#sq').value.toLowerCase(); if (!q) { $('#sl').innerHTML = '<tbody><tr><td class="muted">Type to search…</td></tr></tbody>'; return; }
+  const ni = f.ci.stop_name, hits = [];
+  for (const l of f.lines) { if (!l.toLowerCase().includes(q)) continue; const r = parseLine(l);
+    if ((r[ni]||'').toLowerCase().includes(q) || (r[f.ci.stop_id]||'').toLowerCase().includes(q)) { hits.push(r); if (hits.length >= 200) break; } }
+  $('#sl').innerHTML = '<thead><tr><th>Name</th><th>ID</th></tr></thead><tbody>' +
+    hits.map(r=>`<tr><td><a class="l" onclick="openStop('${esc(r[f.ci.stop_id])}')">${esc(r[ni])}</a></td><td class="muted">${esc(r[f.ci.stop_id])}</td></tr>`).join('') + '</tbody>';
+}
+$('#sq').oninput = renderStopList;
+
+function activeServices(dateStr) {
+  const d = dateStr.replace(/-/g, ''), wd = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'][new Date(dateStr + 'T12:00:00').getDay()];
+  const act = new Set();
+  const cal = D['calendar.txt'];
+  if (cal) for (const l of cal.lines) { const r = parseLine(l);
+    if (r[cal.ci.start_date] <= d && d <= r[cal.ci.end_date] && r[cal.ci[wd]] === '1') act.add(r[cal.ci.service_id]); }
+  const cd = D['calendar_dates.txt'];
+  if (cd) for (const l of cd.lines) { if (!l.includes(d)) continue; const r = parseLine(l);
+    if (r[cd.ci.date] !== d) continue;
+    if (r[cd.ci.exception_type] === '1') act.add(r[cd.ci.service_id]); else if (r[cd.ci.exception_type] === '2') act.delete(r[cd.ci.service_id]); }
+  return act;
+}
+
+let curStop = null;
+window.openStop = id => { showTab('stops'); curStop = id; renderDepartures(); };
+function renderDepartures() {
+  if (!curStop || !D['stop_times.txt']) return;
+  const stops = mapOf('stops.txt', 'stop_id'), sf = D['stops.txt'];
+  const st = stops.get(curStop);
+  $('#sname').textContent = st ? `${st[sf.ci.stop_name]} (${curStop})` : curStop;
+  // include child platforms
+  const ids = new Set([curStop]);
+  if (sf.ci.parent_station !== undefined) for (const [k, r] of stops) if (r[sf.ci.parent_station] === curStop) ids.add(k);
+  const act = activeServices($('#sdate').value);
+  const f = D['stop_times.txt'], trips = mapOf('trips.txt', 'trip_id'), tf = D['trips.txt'], routes = mapOf('routes.txt', 'route_id'), rf = D['routes.txt'];
+  const q = $('#sfilter').value.toLowerCase();
+  const si = f.ci.stop_id, ti = f.ci.trip_id, dep = f.ci.departure_time, arr = f.ci.arrival_time, seq = f.ci.stop_sequence;
+  const out = [];
+  const probe = [...ids];
+  for (const l of f.lines) {
+    if (!probe.some(p => l.includes(p))) continue;
+    const r = parseLine(l); if (!ids.has(r[si])) continue;
+    const t = trips.get(r[ti]); if (!t || !act.has(t[tf.ci.service_id])) continue;
+    const ro = routes.get(t[tf.ci.route_id]);
+    const route = ro ? (ro[rf.ci.route_short_name] || ro[rf.ci.route_long_name] || '') : '';
+    const rec = { dep: r[dep] || r[arr], arr: r[arr], trip: r[ti], head: t[tf.ci.trip_headsign] || '', route, stop: r[si] };
+    if (q && !(rec.route + ' ' + rec.head + ' ' + rec.trip).toLowerCase().includes(q)) continue;
+    out.push(rec);
+  }
+  out.sort((a,b)=> a.dep < b.dep ? -1 : a.dep > b.dep ? 1 : 0);
+  $('#sd').innerHTML = '<thead><tr><th>Dep</th><th>Arr</th><th>Route</th><th>Headsign</th><th>Platform stop</th><th>Trip</th></tr></thead><tbody>' +
+    out.slice(0, 500).map(o=>`<tr><td>${esc(o.dep)}</td><td class="muted">${esc(o.arr)}</td><td>${esc(o.route)}</td><td>${esc(o.head)}</td><td class="muted">${esc(o.stop)}</td><td><a class="l" onclick="openTrip('${esc(o.trip)}')">${esc(o.trip)}</a></td></tr>`).join('') +
+    `</tbody><caption class="muted" style="caption-side:bottom;padding:6px">${out.length} departures on ${$('#sdate').value}${out.length>500?' (showing 500)':''} · ${act.size} active services</caption>`;
+}
+$('#sdate').onchange = renderDepartures;
+$('#sfilter').oninput = renderDepartures;
+
+// ---- trip view
+window.openTrip = id => { showTab('trip'); $('#tid').value = id; renderTrip(); };
+function renderTrip() {
+  const id = $('#tid').value.trim(); const f = D['stop_times.txt']; if (!id || !f) return;
+  const stops = mapOf('stops.txt', 'stop_id'), sf = D['stops.txt'];
+  const rows = [];
+  for (const l of f.lines) { if (!l.includes(id)) continue; const r = parseLine(l); if (r[f.ci.trip_id] === id) rows.push(r); }
+  rows.sort((a,b)=> +a[f.ci.stop_sequence] - +b[f.ci.stop_sequence]);
+  const t = mapOf('trips.txt', 'trip_id').get(id);
+  $('#tinfo').textContent = t ? Object.entries(row('trips.txt', t)).map(([k,v])=>`${k}=${v}`).join(' · ') : 'trip not found in trips.txt';
+  $('#tr').innerHTML = '<thead><tr>' + f.cols.map(c=>`<th>${c}</th>`).join('') + '<th>stop_name</th></tr></thead><tbody>' +
+    rows.map(r=>'<tr>' + r.map((v,i)=> f.cols[i]==='stop_id' ? `<td>${LINKS.stop_id(v)}</td>` : `<td>${esc(v)}</td>`).join('') + `<td>${esc(stops.get(r[f.ci.stop_id])?.[sf.ci.stop_name] ?? '')}</td></tr>`).join('') + '</tbody>';
+}
+$('#tgo').onclick = renderTrip;
+$('#tid').onkeydown = e => { if (e.key === 'Enter') renderTrip(); };
+</script>
+</body>
+</html>
