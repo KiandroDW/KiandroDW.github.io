@@ -42,7 +42,8 @@
 <body>
 <header>
   <h1>🚆 SNCB GTFS Explorer</h1>
-  <input id="url" value="https://data.gtfs.be/sncb/gtfs/be-sncb-gtfs.zip" title="GTFS zip URL">
+  <input id="url" value="https://api-management-discovery-production.azure-api.net/api/gtfs/feed/nmbssncb/static" title="GTFS zip URL (transportdata.be official SNCB feed)">
+  <input id="key" type="password" placeholder="API key (if required)" size="20" title="Sent as Ocp-Apim-Subscription-Key header">
   <button class="primary" id="load">Load</button>
   <label class="muted">or <input type="file" id="file" accept=".zip"></label>
 </header>
@@ -132,11 +133,12 @@ async function loadZip(buf) {
 $('#load').onclick = async () => {
   try {
     setStatus('Downloading… (can be 30–50 MB)');
-    const r = await fetch($('#url').value);
-    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const key = $('#key').value.trim();
+    const r = await fetch($('#url').value, key ? { headers: { 'Ocp-Apim-Subscription-Key': key } } : {});
+    if (!r.ok) throw new Error('HTTP ' + r.status + (r.status === 401 || r.status === 403 ? ' – a key/licence is likely required' : ''));
     await loadZip(await r.arrayBuffer());
   } catch (e) {
-    setStatus('Download failed (' + e.message + '). Likely CORS or a licence/key requirement — download the zip manually and use the file picker.', true);
+    setStatus('Download failed (' + e.message + '). Likely a missing licence/API key or CORS — download the zip manually and use the file picker.', true);
   }
 };
 $('#file').onchange = async e => { const f = e.target.files[0]; if (f) { try { await loadZip(await f.arrayBuffer()); } catch (x) { setStatus(x.message, true); } } };
