@@ -99,6 +99,7 @@ with open("data/routes.txt") as csvfile:
             "route_short_name": row["route_short_name"]
         }
         for row in reader
+        if row["route_type"] == "2"
     }
 
 if len(routes) == 0:
