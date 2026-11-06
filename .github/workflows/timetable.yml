@@ -1,0 +1,83 @@
+name: Timetable update
+
+on:
+  schedule:
+    # GitHub cron runs in UTC. Brussels is UTC+1 (winter) or UTC+2 (summer),
+    # so we trigger at both 01:00 and 02:00 UTC. The "Gate" step skips a run
+    # only if it is before 03:00 in Brussels or today's update already exists,
+    # so a delayed run still executes instead of being dropped.
+    - cron: "0 1 * * *"
+    - cron: "0 2 * * *"
+  workflow_dispatch: # manual runs skip the time gate
+
+permissions:
+  contents: write
+
+concurrency:
+  group: timetable-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: trainmap
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 50
+
+      - name: Gate on Brussels local time
+        id: gate
+        working-directory: .
+        run: |
+          hour=$(TZ=Europe/Brussels date +%H)
+          date=$(TZ=Europe/Brussels date +%Y-%m-%d)
+          echo "date=$date" >> "$GITHUB_OUTPUT"
+          msg="AUTOMATED ACTION: timetable update $date"
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Manual run - continuing."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$((10#$hour))" -lt 3 ]; then
+            # Early trigger (winter: 01:00 UTC = 02:00 Brussels) - wait for the next one.
+            echo "It is $hour:xx in Brussels, before 03:00 - skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          elif git log origin/main --since="36 hours ago" --grep="$msg" --fixed-strings --format=%H | grep -q .; then
+            # The other trigger already updated today, so don't repeat it.
+            echo "Already updated for $date - skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Create venv and install requirements
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          if [ ! -d .venv ]; then
+            python -m venv .venv
+            .venv/bin/pip install -r requirements.txt
+          fi
+
+      - name: Run timetable script
+        if: steps.gate.outputs.run == 'true'
+        run: .venv/bin/python timetable/timetable.py
+
+      - name: Commit and push
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- . ':!.venv'
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "AUTOMATED ACTION: timetable update ${{ steps.gate.outputs.date }}"
+            git push origin HEAD:main
+          fi
