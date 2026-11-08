@@ -1,3819 +1,4 @@
 {
-    "gt:nmbssncb:88____:049::8729500:8872009:11:1228:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "10:45:00",
-                "departure_time": "10:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "11:05:00",
-                "departure_time": "11:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "11:09:00",
-                "departure_time": "11:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "11:16:00",
-                "departure_time": "11:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "11:21:00",
-                "departure_time": "11:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "11:26:00",
-                "departure_time": "11:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "11:37:00",
-                "departure_time": "11:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "11:45:00",
-                "departure_time": "11:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "12:14:00",
-                "departure_time": "12:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "12:22:00",
-                "departure_time": "12:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "12:28:00",
-                "departure_time": "12:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8729500:8872009:11:1428:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "12:45:00",
-                "departure_time": "12:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "13:05:00",
-                "departure_time": "13:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "13:09:00",
-                "departure_time": "13:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "13:16:00",
-                "departure_time": "13:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "13:21:00",
-                "departure_time": "13:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "13:26:00",
-                "departure_time": "13:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "13:37:00",
-                "departure_time": "13:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "13:45:00",
-                "departure_time": "13:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "14:14:00",
-                "departure_time": "14:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "14:22:00",
-                "departure_time": "14:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "14:28:00",
-                "departure_time": "14:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8729500:8872009:11:1828:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "16:45:00",
-                "departure_time": "16:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "17:05:00",
-                "departure_time": "17:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "17:09:00",
-                "departure_time": "17:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "17:16:00",
-                "departure_time": "17:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "17:21:00",
-                "departure_time": "17:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "17:26:00",
-                "departure_time": "17:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "17:37:00",
-                "departure_time": "17:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "17:45:00",
-                "departure_time": "17:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "18:14:00",
-                "departure_time": "18:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "18:22:00",
-                "departure_time": "18:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "18:28:00",
-                "departure_time": "18:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8729500:8872009:11:2228:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "20:45:00",
-                "departure_time": "20:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "21:05:00",
-                "departure_time": "21:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "21:09:00",
-                "departure_time": "21:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "21:16:00",
-                "departure_time": "21:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "21:21:00",
-                "departure_time": "21:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "21:26:00",
-                "departure_time": "21:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "21:37:00",
-                "departure_time": "21:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "21:45:00",
-                "departure_time": "21:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "22:14:00",
-                "departure_time": "22:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "22:22:00",
-                "departure_time": "22:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "22:28:00",
-                "departure_time": "22:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1447:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "13:20:00",
-                "departure_time": "13:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "13:32:00",
-                "departure_time": "13:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "13:40:00",
-                "departure_time": "13:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "13:47:00",
-                "departure_time": "13:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "13:54:00",
-                "departure_time": "13:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "14:00:00",
-                "departure_time": "14:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "14:12:00",
-                "departure_time": "14:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "14:20:00",
-                "departure_time": "14:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "14:28:00",
-                "departure_time": "14:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "14:37:00",
-                "departure_time": "14:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "14:47:00",
-                "departure_time": "14:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:2447:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "23:20:00",
-                "departure_time": "23:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "23:32:00",
-                "departure_time": "23:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "23:40:00",
-                "departure_time": "23:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "23:47:00",
-                "departure_time": "23:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "23:54:00",
-                "departure_time": "23:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "24:00:00",
-                "departure_time": "24:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "24:12:00",
-                "departure_time": "24:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "24:20:00",
-                "departure_time": "24:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "24:28:00",
-                "departure_time": "24:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "24:37:00",
-                "departure_time": "24:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "24:47:00",
-                "departure_time": "24:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:2048:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "19:21:00",
-                "departure_time": "19:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "19:31:00",
-                "departure_time": "19:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "19:40:00",
-                "departure_time": "19:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "19:48:00",
-                "departure_time": "19:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "19:56:00",
-                "departure_time": "19:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "20:08:00",
-                "departure_time": "20:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "20:14:00",
-                "departure_time": "20:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "20:21:00",
-                "departure_time": "20:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "20:28:00",
-                "departure_time": "20:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "20:36:00",
-                "departure_time": "20:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "20:48:00",
-                "departure_time": "20:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:2148:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "20:21:00",
-                "departure_time": "20:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "20:31:00",
-                "departure_time": "20:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "20:40:00",
-                "departure_time": "20:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "20:48:00",
-                "departure_time": "20:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "20:56:00",
-                "departure_time": "20:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "21:08:00",
-                "departure_time": "21:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "21:14:00",
-                "departure_time": "21:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "21:21:00",
-                "departure_time": "21:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "21:28:00",
-                "departure_time": "21:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "21:36:00",
-                "departure_time": "21:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "21:48:00",
-                "departure_time": "21:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1044:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "10:14:00",
-                "departure_time": "10:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "10:24:00",
-                "departure_time": "10:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "10:27:00",
-                "departure_time": "10:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "10:44:00",
-                "departure_time": "10:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1144:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "11:14:00",
-                "departure_time": "11:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "11:24:00",
-                "departure_time": "11:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "11:27:00",
-                "departure_time": "11:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "11:44:00",
-                "departure_time": "11:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1444:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "14:14:00",
-                "departure_time": "14:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "14:24:00",
-                "departure_time": "14:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "14:27:00",
-                "departure_time": "14:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "14:44:00",
-                "departure_time": "14:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:2044:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "20:14:00",
-                "departure_time": "20:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "20:24:00",
-                "departure_time": "20:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "20:27:00",
-                "departure_time": "20:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "20:44:00",
-                "departure_time": "20:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1144:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "11:14:00",
-                "departure_time": "11:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "11:31:00",
-                "departure_time": "11:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "11:34:00",
-                "departure_time": "11:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "11:44:00",
-                "departure_time": "11:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:2144:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "21:14:00",
-                "departure_time": "21:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "21:31:00",
-                "departure_time": "21:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "21:34:00",
-                "departure_time": "21:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "21:44:00",
-                "departure_time": "21:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:1017:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "08:34:00",
-                "departure_time": "08:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "08:40:00",
-                "departure_time": "08:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "08:48:00",
-                "departure_time": "08:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "09:17:00",
-                "departure_time": "09:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "09:25:00",
-                "departure_time": "09:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "09:36:00",
-                "departure_time": "09:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "09:40:00",
-                "departure_time": "09:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "09:45:00",
-                "departure_time": "09:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "09:53:00",
-                "departure_time": "09:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "09:57:00",
-                "departure_time": "09:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "10:17:00",
-                "departure_time": "10:17:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8729500:8872009:11:2028:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "18:45:00",
-                "departure_time": "18:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "19:05:00",
-                "departure_time": "19:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "19:09:00",
-                "departure_time": "19:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "19:16:00",
-                "departure_time": "19:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "19:21:00",
-                "departure_time": "19:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "19:26:00",
-                "departure_time": "19:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "19:37:00",
-                "departure_time": "19:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "19:45:00",
-                "departure_time": "19:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "20:14:00",
-                "departure_time": "20:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "20:22:00",
-                "departure_time": "20:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "20:28:00",
-                "departure_time": "20:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1547:20261108:2": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "14:20:00",
-                "departure_time": "14:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "14:32:00",
-                "departure_time": "14:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "14:40:00",
-                "departure_time": "14:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "14:47:00",
-                "departure_time": "14:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "14:54:00",
-                "departure_time": "14:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "15:00:00",
-                "departure_time": "15:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "15:12:00",
-                "departure_time": "15:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "15:20:00",
-                "departure_time": "15:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "15:28:00",
-                "departure_time": "15:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "15:37:00",
-                "departure_time": "15:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "15:47:00",
-                "departure_time": "15:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1348:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "12:21:00",
-                "departure_time": "12:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "12:31:00",
-                "departure_time": "12:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "12:40:00",
-                "departure_time": "12:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "12:48:00",
-                "departure_time": "12:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "12:56:00",
-                "departure_time": "12:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "13:08:00",
-                "departure_time": "13:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "13:14:00",
-                "departure_time": "13:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "13:21:00",
-                "departure_time": "13:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "13:28:00",
-                "departure_time": "13:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "13:36:00",
-                "departure_time": "13:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "13:48:00",
-                "departure_time": "13:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1448:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "13:21:00",
-                "departure_time": "13:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "13:31:00",
-                "departure_time": "13:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "13:40:00",
-                "departure_time": "13:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "13:48:00",
-                "departure_time": "13:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "13:56:00",
-                "departure_time": "13:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "14:08:00",
-                "departure_time": "14:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "14:14:00",
-                "departure_time": "14:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "14:21:00",
-                "departure_time": "14:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "14:28:00",
-                "departure_time": "14:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "14:36:00",
-                "departure_time": "14:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "14:48:00",
-                "departure_time": "14:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1548:20261108:2": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "14:21:00",
-                "departure_time": "14:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "14:31:00",
-                "departure_time": "14:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "14:40:00",
-                "departure_time": "14:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "14:48:00",
-                "departure_time": "14:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "14:56:00",
-                "departure_time": "14:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "15:08:00",
-                "departure_time": "15:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "15:14:00",
-                "departure_time": "15:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "15:21:00",
-                "departure_time": "15:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "15:28:00",
-                "departure_time": "15:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "15:36:00",
-                "departure_time": "15:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "15:48:00",
-                "departure_time": "15:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1948:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "18:21:00",
-                "departure_time": "18:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "18:31:00",
-                "departure_time": "18:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "18:40:00",
-                "departure_time": "18:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "18:48:00",
-                "departure_time": "18:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "18:56:00",
-                "departure_time": "18:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "19:08:00",
-                "departure_time": "19:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "19:14:00",
-                "departure_time": "19:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "19:21:00",
-                "departure_time": "19:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "19:28:00",
-                "departure_time": "19:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "19:36:00",
-                "departure_time": "19:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "19:48:00",
-                "departure_time": "19:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:748:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "06:21:00",
-                "departure_time": "06:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "06:31:00",
-                "departure_time": "06:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "06:40:00",
-                "departure_time": "06:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "06:48:00",
-                "departure_time": "06:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "06:56:00",
-                "departure_time": "06:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "07:08:00",
-                "departure_time": "07:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "07:14:00",
-                "departure_time": "07:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "07:21:00",
-                "departure_time": "07:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "07:28:00",
-                "departure_time": "07:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "07:36:00",
-                "departure_time": "07:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "07:48:00",
-                "departure_time": "07:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:2247:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "21:20:00",
-                "departure_time": "21:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "21:32:00",
-                "departure_time": "21:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "21:40:00",
-                "departure_time": "21:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "21:47:00",
-                "departure_time": "21:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "21:54:00",
-                "departure_time": "21:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "22:00:00",
-                "departure_time": "22:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "22:12:00",
-                "departure_time": "22:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "22:20:00",
-                "departure_time": "22:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "22:28:00",
-                "departure_time": "22:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "22:37:00",
-                "departure_time": "22:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "22:47:00",
-                "departure_time": "22:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:847:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "07:20:00",
-                "departure_time": "07:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "07:32:00",
-                "departure_time": "07:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "07:40:00",
-                "departure_time": "07:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "07:47:00",
-                "departure_time": "07:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "07:54:00",
-                "departure_time": "07:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "08:00:00",
-                "departure_time": "08:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "08:12:00",
-                "departure_time": "08:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "08:20:00",
-                "departure_time": "08:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "08:28:00",
-                "departure_time": "08:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "08:37:00",
-                "departure_time": "08:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "08:47:00",
-                "departure_time": "08:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1244:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "12:14:00",
-                "departure_time": "12:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "12:31:00",
-                "departure_time": "12:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "12:34:00",
-                "departure_time": "12:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "12:44:00",
-                "departure_time": "12:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:817:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "06:34:00",
-                "departure_time": "06:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "06:40:00",
-                "departure_time": "06:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "06:48:00",
-                "departure_time": "06:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "07:17:00",
-                "departure_time": "07:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "07:25:00",
-                "departure_time": "07:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "07:36:00",
-                "departure_time": "07:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "07:40:00",
-                "departure_time": "07:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "07:45:00",
-                "departure_time": "07:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "07:53:00",
-                "departure_time": "07:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "07:57:00",
-                "departure_time": "07:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "08:17:00",
-                "departure_time": "08:17:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8729500:8872009:11:1028:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "08:45:00",
-                "departure_time": "08:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "09:05:00",
-                "departure_time": "09:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "09:09:00",
-                "departure_time": "09:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "09:16:00",
-                "departure_time": "09:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "09:21:00",
-                "departure_time": "09:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "09:26:00",
-                "departure_time": "09:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "09:37:00",
-                "departure_time": "09:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "09:45:00",
-                "departure_time": "09:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "10:14:00",
-                "departure_time": "10:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "10:22:00",
-                "departure_time": "10:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "10:28:00",
-                "departure_time": "10:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1647:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "15:20:00",
-                "departure_time": "15:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "15:32:00",
-                "departure_time": "15:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "15:40:00",
-                "departure_time": "15:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "15:47:00",
-                "departure_time": "15:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "15:54:00",
-                "departure_time": "15:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "16:00:00",
-                "departure_time": "16:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "16:12:00",
-                "departure_time": "16:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "16:20:00",
-                "departure_time": "16:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "16:28:00",
-                "departure_time": "16:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "16:37:00",
-                "departure_time": "16:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "16:47:00",
-                "departure_time": "16:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:2047:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "19:20:00",
-                "departure_time": "19:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "19:32:00",
-                "departure_time": "19:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "19:40:00",
-                "departure_time": "19:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "19:47:00",
-                "departure_time": "19:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "19:54:00",
-                "departure_time": "19:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "20:00:00",
-                "departure_time": "20:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "20:12:00",
-                "departure_time": "20:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "20:20:00",
-                "departure_time": "20:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "20:28:00",
-                "departure_time": "20:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "20:37:00",
-                "departure_time": "20:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "20:47:00",
-                "departure_time": "20:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:2248:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "21:21:00",
-                "departure_time": "21:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "21:31:00",
-                "departure_time": "21:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "21:40:00",
-                "departure_time": "21:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "21:48:00",
-                "departure_time": "21:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "21:56:00",
-                "departure_time": "21:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "22:08:00",
-                "departure_time": "22:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "22:14:00",
-                "departure_time": "22:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "22:21:00",
-                "departure_time": "22:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "22:28:00",
-                "departure_time": "22:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "22:36:00",
-                "departure_time": "22:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "22:48:00",
-                "departure_time": "22:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:648:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "05:21:00",
-                "departure_time": "05:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "05:31:00",
-                "departure_time": "05:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "05:40:00",
-                "departure_time": "05:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "05:48:00",
-                "departure_time": "05:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "05:56:00",
-                "departure_time": "05:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "06:08:00",
-                "departure_time": "06:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "06:14:00",
-                "departure_time": "06:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "06:21:00",
-                "departure_time": "06:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "06:28:00",
-                "departure_time": "06:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "06:36:00",
-                "departure_time": "06:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304",
-                "arrival_time": "06:48:00",
-                "departure_time": "06:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:2144:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "21:14:00",
-                "departure_time": "21:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "21:24:00",
-                "departure_time": "21:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "21:27:00",
-                "departure_time": "21:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "21:44:00",
-                "departure_time": "21:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:2244:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "22:14:00",
-                "departure_time": "22:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "22:31:00",
-                "departure_time": "22:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "22:34:00",
-                "departure_time": "22:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "22:44:00",
-                "departure_time": "22:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1047:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "09:20:00",
-                "departure_time": "09:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "09:32:00",
-                "departure_time": "09:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "09:40:00",
-                "departure_time": "09:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "09:47:00",
-                "departure_time": "09:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "09:54:00",
-                "departure_time": "09:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "10:00:00",
-                "departure_time": "10:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "10:12:00",
-                "departure_time": "10:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "10:20:00",
-                "departure_time": "10:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "10:28:00",
-                "departure_time": "10:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "10:37:00",
-                "departure_time": "10:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "10:47:00",
-                "departure_time": "10:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1347:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "12:20:00",
-                "departure_time": "12:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "12:32:00",
-                "departure_time": "12:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "12:40:00",
-                "departure_time": "12:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "12:47:00",
-                "departure_time": "12:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "12:54:00",
-                "departure_time": "12:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "13:00:00",
-                "departure_time": "13:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "13:12:00",
-                "departure_time": "13:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "13:20:00",
-                "departure_time": "13:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "13:28:00",
-                "departure_time": "13:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "13:37:00",
-                "departure_time": "13:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "13:47:00",
-                "departure_time": "13:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1847:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "17:20:00",
-                "departure_time": "17:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "17:32:00",
-                "departure_time": "17:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "17:40:00",
-                "departure_time": "17:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "17:47:00",
-                "departure_time": "17:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "17:54:00",
-                "departure_time": "17:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "18:00:00",
-                "departure_time": "18:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "18:12:00",
-                "departure_time": "18:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "18:20:00",
-                "departure_time": "18:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "18:28:00",
-                "departure_time": "18:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "18:37:00",
-                "departure_time": "18:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "18:47:00",
-                "departure_time": "18:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:2347:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "22:20:00",
-                "departure_time": "22:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "22:32:00",
-                "departure_time": "22:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "22:40:00",
-                "departure_time": "22:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "22:47:00",
-                "departure_time": "22:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "22:54:00",
-                "departure_time": "22:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "23:00:00",
-                "departure_time": "23:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "23:12:00",
-                "departure_time": "23:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "23:20:00",
-                "departure_time": "23:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "23:28:00",
-                "departure_time": "23:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "23:37:00",
-                "departure_time": "23:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "23:47:00",
-                "departure_time": "23:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:947:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "08:20:00",
-                "departure_time": "08:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "08:32:00",
-                "departure_time": "08:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "08:40:00",
-                "departure_time": "08:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "08:47:00",
-                "departure_time": "08:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "08:54:00",
-                "departure_time": "08:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "09:00:00",
-                "departure_time": "09:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "09:12:00",
-                "departure_time": "09:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "09:20:00",
-                "departure_time": "09:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "09:28:00",
-                "departure_time": "09:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "09:37:00",
-                "departure_time": "09:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "09:47:00",
-                "departure_time": "09:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1848:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "17:21:00",
-                "departure_time": "17:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "17:31:00",
-                "departure_time": "17:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "17:40:00",
-                "departure_time": "17:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "17:48:00",
-                "departure_time": "17:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "17:56:00",
-                "departure_time": "17:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "18:08:00",
-                "departure_time": "18:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "18:14:00",
-                "departure_time": "18:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "18:21:00",
-                "departure_time": "18:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "18:28:00",
-                "departure_time": "18:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "18:36:00",
-                "departure_time": "18:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "18:48:00",
-                "departure_time": "18:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:848:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "07:21:00",
-                "departure_time": "07:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "07:31:00",
-                "departure_time": "07:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "07:40:00",
-                "departure_time": "07:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "07:48:00",
-                "departure_time": "07:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "07:56:00",
-                "departure_time": "07:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "08:08:00",
-                "departure_time": "08:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "08:14:00",
-                "departure_time": "08:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "08:21:00",
-                "departure_time": "08:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "08:28:00",
-                "departure_time": "08:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "08:36:00",
-                "departure_time": "08:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "08:48:00",
-                "departure_time": "08:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1844:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "18:14:00",
-                "departure_time": "18:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "18:24:00",
-                "departure_time": "18:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "18:27:00",
-                "departure_time": "18:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "18:44:00",
-                "departure_time": "18:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:944:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "09:14:00",
-                "departure_time": "09:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "09:24:00",
-                "departure_time": "09:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "09:27:00",
-                "departure_time": "09:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "09:44:00",
-                "departure_time": "09:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841400:8833001:4:2350:20261109": {
-        "route_id": "gr:nmbssncb:1512",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841400",
-                "arrival_time": "22:35:00",
-                "departure_time": "22:35:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8833605",
-                "arrival_time": "22:58:00",
-                "departure_time": "22:58:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8833308",
-                "arrival_time": "23:23:00",
-                "departure_time": "23:23:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8833001",
-                "arrival_time": "23:50:00",
-                "departure_time": "23:50:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1044:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "10:14:00",
-                "departure_time": "10:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "10:31:00",
-                "departure_time": "10:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "10:34:00",
-                "departure_time": "10:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "10:44:00",
-                "departure_time": "10:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1944:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "19:14:00",
-                "departure_time": "19:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "19:31:00",
-                "departure_time": "19:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "19:34:00",
-                "departure_time": "19:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "19:44:00",
-                "departure_time": "19:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:744:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "07:14:00",
-                "departure_time": "07:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "07:31:00",
-                "departure_time": "07:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "07:34:00",
-                "departure_time": "07:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "07:44:00",
-                "departure_time": "07:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:1617:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "14:34:00",
-                "departure_time": "14:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "14:40:00",
-                "departure_time": "14:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "14:48:00",
-                "departure_time": "14:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "15:17:00",
-                "departure_time": "15:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "15:25:00",
-                "departure_time": "15:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "15:36:00",
-                "departure_time": "15:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "15:40:00",
-                "departure_time": "15:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "15:45:00",
-                "departure_time": "15:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "15:53:00",
-                "departure_time": "15:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "15:57:00",
-                "departure_time": "15:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "16:17:00",
-                "departure_time": "16:17:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8729500:8872009:11:1628:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "14:45:00",
-                "departure_time": "14:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "15:05:00",
-                "departure_time": "15:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "15:09:00",
-                "departure_time": "15:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "15:16:00",
-                "departure_time": "15:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "15:21:00",
-                "departure_time": "15:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "15:26:00",
-                "departure_time": "15:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "15:37:00",
-                "departure_time": "15:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "15:45:00",
-                "departure_time": "15:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "16:14:00",
-                "departure_time": "16:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "16:22:00",
-                "departure_time": "16:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "16:28:00",
-                "departure_time": "16:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8729500:8872009:11:828:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "06:45:00",
-                "departure_time": "06:45:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "07:05:00",
-                "departure_time": "07:05:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "07:09:00",
-                "departure_time": "07:09:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "07:16:00",
-                "departure_time": "07:16:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "07:21:00",
-                "departure_time": "07:21:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "07:26:00",
-                "departure_time": "07:26:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "07:37:00",
-                "departure_time": "07:37:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "07:45:00",
-                "departure_time": "07:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "08:14:00",
-                "departure_time": "08:14:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "08:22:00",
-                "departure_time": "08:22:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "08:28:00",
-                "departure_time": "08:28:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1247:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "11:20:00",
-                "departure_time": "11:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "11:32:00",
-                "departure_time": "11:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "11:40:00",
-                "departure_time": "11:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "11:47:00",
-                "departure_time": "11:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "11:54:00",
-                "departure_time": "11:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "12:00:00",
-                "departure_time": "12:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "12:12:00",
-                "departure_time": "12:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "12:20:00",
-                "departure_time": "12:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "12:28:00",
-                "departure_time": "12:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "12:37:00",
-                "departure_time": "12:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "12:47:00",
-                "departure_time": "12:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1747:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "16:20:00",
-                "departure_time": "16:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "16:32:00",
-                "departure_time": "16:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "16:40:00",
-                "departure_time": "16:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "16:47:00",
-                "departure_time": "16:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "16:54:00",
-                "departure_time": "16:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "17:00:00",
-                "departure_time": "17:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "17:12:00",
-                "departure_time": "17:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "17:20:00",
-                "departure_time": "17:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "17:28:00",
-                "departure_time": "17:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "17:37:00",
-                "departure_time": "17:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "17:47:00",
-                "departure_time": "17:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1947:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "18:20:00",
-                "departure_time": "18:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "18:32:00",
-                "departure_time": "18:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "18:40:00",
-                "departure_time": "18:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "18:47:00",
-                "departure_time": "18:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "18:54:00",
-                "departure_time": "18:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "19:00:00",
-                "departure_time": "19:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "19:12:00",
-                "departure_time": "19:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "19:20:00",
-                "departure_time": "19:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "19:28:00",
-                "departure_time": "19:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "19:37:00",
-                "departure_time": "19:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "19:47:00",
-                "departure_time": "19:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:2147:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "20:20:00",
-                "departure_time": "20:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "20:32:00",
-                "departure_time": "20:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "20:40:00",
-                "departure_time": "20:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "20:47:00",
-                "departure_time": "20:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "20:54:00",
-                "departure_time": "20:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "21:00:00",
-                "departure_time": "21:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "21:12:00",
-                "departure_time": "21:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "21:20:00",
-                "departure_time": "21:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "21:28:00",
-                "departure_time": "21:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "21:37:00",
-                "departure_time": "21:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "21:47:00",
-                "departure_time": "21:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1048:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "09:21:00",
-                "departure_time": "09:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "09:31:00",
-                "departure_time": "09:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "09:40:00",
-                "departure_time": "09:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "09:48:00",
-                "departure_time": "09:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "09:56:00",
-                "departure_time": "09:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "10:08:00",
-                "departure_time": "10:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "10:14:00",
-                "departure_time": "10:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "10:21:00",
-                "departure_time": "10:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "10:28:00",
-                "departure_time": "10:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "10:36:00",
-                "departure_time": "10:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "10:48:00",
-                "departure_time": "10:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1248:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "11:21:00",
-                "departure_time": "11:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "11:31:00",
-                "departure_time": "11:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "11:40:00",
-                "departure_time": "11:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "11:48:00",
-                "departure_time": "11:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "11:56:00",
-                "departure_time": "11:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "12:08:00",
-                "departure_time": "12:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "12:14:00",
-                "departure_time": "12:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "12:21:00",
-                "departure_time": "12:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "12:28:00",
-                "departure_time": "12:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "12:36:00",
-                "departure_time": "12:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "12:48:00",
-                "departure_time": "12:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1648:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "15:21:00",
-                "departure_time": "15:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "15:31:00",
-                "departure_time": "15:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "15:40:00",
-                "departure_time": "15:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "15:48:00",
-                "departure_time": "15:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "15:56:00",
-                "departure_time": "15:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "16:08:00",
-                "departure_time": "16:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "16:14:00",
-                "departure_time": "16:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "16:21:00",
-                "departure_time": "16:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "16:28:00",
-                "departure_time": "16:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "16:36:00",
-                "departure_time": "16:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "16:48:00",
-                "departure_time": "16:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1244:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "12:14:00",
-                "departure_time": "12:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "12:24:00",
-                "departure_time": "12:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "12:27:00",
-                "departure_time": "12:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "12:44:00",
-                "departure_time": "12:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1744:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "17:14:00",
-                "departure_time": "17:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "17:24:00",
-                "departure_time": "17:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "17:27:00",
-                "departure_time": "17:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "17:44:00",
-                "departure_time": "17:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:2244:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "22:14:00",
-                "departure_time": "22:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "22:24:00",
-                "departure_time": "22:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "22:27:00",
-                "departure_time": "22:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "22:44:00",
-                "departure_time": "22:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1344:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "13:14:00",
-                "departure_time": "13:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "13:31:00",
-                "departure_time": "13:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "13:34:00",
-                "departure_time": "13:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "13:44:00",
-                "departure_time": "13:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1644:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "16:14:00",
-                "departure_time": "16:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "16:31:00",
-                "departure_time": "16:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "16:34:00",
-                "departure_time": "16:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "16:44:00",
-                "departure_time": "16:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1844:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "18:14:00",
-                "departure_time": "18:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "18:31:00",
-                "departure_time": "18:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "18:34:00",
-                "departure_time": "18:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "18:44:00",
-                "departure_time": "18:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:1417:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "12:34:00",
-                "departure_time": "12:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "12:40:00",
-                "departure_time": "12:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "12:48:00",
-                "departure_time": "12:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "13:17:00",
-                "departure_time": "13:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "13:25:00",
-                "departure_time": "13:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "13:36:00",
-                "departure_time": "13:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "13:40:00",
-                "departure_time": "13:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "13:45:00",
-                "departure_time": "13:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "13:53:00",
-                "departure_time": "13:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "13:57:00",
-                "departure_time": "13:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "14:17:00",
-                "departure_time": "14:17:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:1817:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "16:34:00",
-                "departure_time": "16:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "16:40:00",
-                "departure_time": "16:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "16:48:00",
-                "departure_time": "16:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "17:17:00",
-                "departure_time": "17:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "17:25:00",
-                "departure_time": "17:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "17:36:00",
-                "departure_time": "17:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "17:40:00",
-                "departure_time": "17:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "17:45:00",
-                "departure_time": "17:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "17:53:00",
-                "departure_time": "17:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "17:57:00",
-                "departure_time": "17:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "18:17:00",
-                "departure_time": "18:17:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:2017:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "18:34:00",
-                "departure_time": "18:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "18:40:00",
-                "departure_time": "18:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "18:48:00",
-                "departure_time": "18:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "19:17:00",
-                "departure_time": "19:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "19:25:00",
-                "departure_time": "19:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "19:36:00",
-                "departure_time": "19:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "19:40:00",
-                "departure_time": "19:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "19:45:00",
-                "departure_time": "19:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "19:53:00",
-                "departure_time": "19:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "19:57:00",
-                "departure_time": "19:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "20:17:00",
-                "departure_time": "20:17:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1344:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "13:14:00",
-                "departure_time": "13:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "13:24:00",
-                "departure_time": "13:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "13:27:00",
-                "departure_time": "13:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "13:44:00",
-                "departure_time": "13:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1644:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "16:14:00",
-                "departure_time": "16:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "16:24:00",
-                "departure_time": "16:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "16:27:00",
-                "departure_time": "16:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "16:44:00",
-                "departure_time": "16:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1944:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "19:14:00",
-                "departure_time": "19:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "19:24:00",
-                "departure_time": "19:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "19:27:00",
-                "departure_time": "19:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "19:44:00",
-                "departure_time": "19:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1444:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "14:14:00",
-                "departure_time": "14:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "14:31:00",
-                "departure_time": "14:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "14:34:00",
-                "departure_time": "14:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "14:44:00",
-                "departure_time": "14:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:2044:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "20:14:00",
-                "departure_time": "20:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "20:31:00",
-                "departure_time": "20:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "20:34:00",
-                "departure_time": "20:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "20:44:00",
-                "departure_time": "20:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:844:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "08:14:00",
-                "departure_time": "08:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "08:31:00",
-                "departure_time": "08:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "08:34:00",
-                "departure_time": "08:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "08:44:00",
-                "departure_time": "08:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:1217:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "10:34:00",
-                "departure_time": "10:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "10:40:00",
-                "departure_time": "10:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "10:48:00",
-                "departure_time": "10:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "11:17:00",
-                "departure_time": "11:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "11:25:00",
-                "departure_time": "11:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "11:36:00",
-                "departure_time": "11:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "11:40:00",
-                "departure_time": "11:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "11:45:00",
-                "departure_time": "11:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "11:53:00",
-                "departure_time": "11:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "11:57:00",
-                "departure_time": "11:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "12:17:00",
-                "departure_time": "12:17:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8891009:8891116:2:430:20261109": {
-        "route_id": "gr:nmbssncb:2118",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8891009",
-                "arrival_time": "04:14:00",
-                "departure_time": "04:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8891116_1",
-                "arrival_time": "04:30:00",
-                "departure_time": "04:30:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811304:8811601:11:1147:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "10:20:00",
-                "departure_time": "10:20:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "10:32:00",
-                "departure_time": "10:32:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "10:40:00",
-                "departure_time": "10:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "10:47:00",
-                "departure_time": "10:47:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "10:54:00",
-                "departure_time": "10:54:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "11:00:00",
-                "departure_time": "11:00:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "11:12:00",
-                "departure_time": "11:12:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "11:20:00",
-                "departure_time": "11:20:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "11:28:00",
-                "departure_time": "11:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "11:37:00",
-                "departure_time": "11:37:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "11:47:00",
-                "departure_time": "11:47:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1148:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "10:21:00",
-                "departure_time": "10:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "10:31:00",
-                "departure_time": "10:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "10:40:00",
-                "departure_time": "10:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "10:48:00",
-                "departure_time": "10:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "10:56:00",
-                "departure_time": "10:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "11:08:00",
-                "departure_time": "11:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "11:14:00",
-                "departure_time": "11:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "11:21:00",
-                "departure_time": "11:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "11:28:00",
-                "departure_time": "11:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "11:36:00",
-                "departure_time": "11:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "11:48:00",
-                "departure_time": "11:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:1748:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "16:21:00",
-                "departure_time": "16:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "16:31:00",
-                "departure_time": "16:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "16:40:00",
-                "departure_time": "16:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "16:48:00",
-                "departure_time": "16:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "16:56:00",
-                "departure_time": "16:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "17:08:00",
-                "departure_time": "17:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "17:14:00",
-                "departure_time": "17:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "17:21:00",
-                "departure_time": "17:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "17:28:00",
-                "departure_time": "17:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "17:36:00",
-                "departure_time": "17:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "17:48:00",
-                "departure_time": "17:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8811601:8811304:11:948:20261108": {
-        "route_id": "gr:nmbssncb:1878",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8811601",
-                "arrival_time": "08:21:00",
-                "departure_time": "08:21:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8811544",
-                "arrival_time": "08:31:00",
-                "departure_time": "08:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8811536",
-                "arrival_time": "08:40:00",
-                "departure_time": "08:40:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8811528",
-                "arrival_time": "08:48:00",
-                "departure_time": "08:48:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8811510",
-                "arrival_time": "08:56:00",
-                "departure_time": "08:56:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8811460",
-                "arrival_time": "09:08:00",
-                "departure_time": "09:08:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8811445",
-                "arrival_time": "09:14:00",
-                "departure_time": "09:14:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8811437",
-                "arrival_time": "09:21:00",
-                "departure_time": "09:21:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8811429",
-                "arrival_time": "09:28:00",
-                "departure_time": "09:28:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8811411",
-                "arrival_time": "09:36:00",
-                "departure_time": "09:36:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8811304_3",
-                "arrival_time": "09:48:00",
-                "departure_time": "09:48:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:1544:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "15:14:00",
-                "departure_time": "15:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "15:24:00",
-                "departure_time": "15:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "15:27:00",
-                "departure_time": "15:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "15:44:00",
-                "departure_time": "15:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8841004:8843208:4:844:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "08:14:00",
-                "departure_time": "08:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "08:24:00",
-                "departure_time": "08:24:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "08:27:00",
-                "departure_time": "08:27:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "08:44:00",
-                "departure_time": "08:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1544:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "15:14:00",
-                "departure_time": "15:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "15:31:00",
-                "departure_time": "15:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "15:34:00",
-                "departure_time": "15:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "15:44:00",
-                "departure_time": "15:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:1744:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "17:14:00",
-                "departure_time": "17:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "17:31:00",
-                "departure_time": "17:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "17:34:00",
-                "departure_time": "17:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "17:44:00",
-                "departure_time": "17:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8843208:8841004:4:944:20261108": {
-        "route_id": "gr:nmbssncb:1909",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8843208",
-                "arrival_time": "09:14:00",
-                "departure_time": "09:14:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8843067",
-                "arrival_time": "09:31:00",
-                "departure_time": "09:31:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8843174",
-                "arrival_time": "09:34:00",
-                "departure_time": "09:34:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8841004_7",
-                "arrival_time": "09:44:00",
-                "departure_time": "09:44:00"
-            }
-        }
-    },
-    "gt:nmbssncb:88____:049::8872009:8729500:11:2217:20261108": {
-        "route_id": "gr:nmbssncb:1968",
-        "stops": {
-            "1": {
-                "stop_id": "gs:nmbssncb:8872009",
-                "arrival_time": "20:34:00",
-                "departure_time": "20:34:00"
-            },
-            "2": {
-                "stop_id": "gs:nmbssncb:8871852",
-                "arrival_time": "20:40:00",
-                "departure_time": "20:40:00"
-            },
-            "3": {
-                "stop_id": "gs:nmbssncb:8871837",
-                "arrival_time": "20:48:00",
-                "departure_time": "20:48:00"
-            },
-            "4": {
-                "stop_id": "gs:nmbssncb:8871811",
-                "arrival_time": "21:17:00",
-                "departure_time": "21:17:00"
-            },
-            "5": {
-                "stop_id": "gs:nmbssncb:8871712",
-                "arrival_time": "21:25:00",
-                "departure_time": "21:25:00"
-            },
-            "6": {
-                "stop_id": "gs:nmbssncb:8871688",
-                "arrival_time": "21:36:00",
-                "departure_time": "21:36:00"
-            },
-            "7": {
-                "stop_id": "gs:nmbssncb:8871670",
-                "arrival_time": "21:40:00",
-                "departure_time": "21:40:00"
-            },
-            "8": {
-                "stop_id": "gs:nmbssncb:8871662",
-                "arrival_time": "21:45:00",
-                "departure_time": "21:45:00"
-            },
-            "9": {
-                "stop_id": "gs:nmbssncb:8871647",
-                "arrival_time": "21:53:00",
-                "departure_time": "21:53:00"
-            },
-            "10": {
-                "stop_id": "gs:nmbssncb:8871605",
-                "arrival_time": "21:57:00",
-                "departure_time": "21:57:00"
-            },
-            "11": {
-                "stop_id": "gs:nmbssncb:8729500",
-                "arrival_time": "22:17:00",
-                "departure_time": "22:17:00"
-            }
-        }
-    },
     "gt:nmbssncb:88____:007::8200100:8814001:16:1028:20261211:5": {
         "route_id": "gr:nmbssncb:184",
         "stops": {
@@ -21064,6 +17249,31 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8891009:8891553:4:1731:20271210": {
+        "route_id": "gr:nmbssncb:1929",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891009",
+                "arrival_time": "17:16:00",
+                "departure_time": "17:16:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891033",
+                "arrival_time": "17:20:00",
+                "departure_time": "17:20:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891629",
+                "arrival_time": "17:26:00",
+                "departure_time": "17:26:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891553",
+                "arrival_time": "17:31:00",
+                "departure_time": "17:31:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8892007:8892338:11:1734:20271210": {
         "route_id": "gr:nmbssncb:2108",
         "stops": {
@@ -21151,6 +17361,46 @@
                 "stop_id": "gs:nmbssncb:8896008_7",
                 "arrival_time": "13:11:00",
                 "departure_time": "13:11:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8893401:8822004:7:659:20271210:1": {
+        "route_id": "gr:nmbssncb:1959",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8893401_2",
+                "arrival_time": "06:30:00",
+                "departure_time": "06:30:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8822160_1",
+                "arrival_time": "06:35:00",
+                "departure_time": "06:35:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8822145_1",
+                "arrival_time": "06:38:00",
+                "departure_time": "06:39:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8822137_1",
+                "arrival_time": "06:42:00",
+                "departure_time": "06:42:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8822111_1",
+                "arrival_time": "06:46:00",
+                "departure_time": "06:47:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8822053_1",
+                "arrival_time": "06:51:00",
+                "departure_time": "06:51:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8822004_2",
+                "arrival_time": "06:59:00",
+                "departure_time": "06:59:00"
             }
         }
     },
@@ -77294,6 +73544,71 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8891009:8892007:7:751:20271210:3": {
+        "route_id": "gr:nmbssncb:1914",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891009_4",
+                "arrival_time": "07:13:00",
+                "departure_time": "07:13:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891124_1",
+                "arrival_time": "07:22:00",
+                "departure_time": "07:23:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891140_1",
+                "arrival_time": "07:29:00",
+                "departure_time": "07:30:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891165_2",
+                "arrival_time": "07:35:00",
+                "departure_time": "07:36:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892056_1",
+                "arrival_time": "07:39:00",
+                "departure_time": "07:40:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892031_1",
+                "arrival_time": "07:44:00",
+                "departure_time": "07:45:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8892007_5",
+                "arrival_time": "07:51:00",
+                "departure_time": "07:51:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891553:8891009:4:1650:20271210:2": {
+        "route_id": "gr:nmbssncb:1929",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891553_1",
+                "arrival_time": "16:35:00",
+                "departure_time": "16:35:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891629_2",
+                "arrival_time": "16:40:00",
+                "departure_time": "16:40:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891033_2",
+                "arrival_time": "16:46:00",
+                "departure_time": "16:46:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891009_3",
+                "arrival_time": "16:50:00",
+                "departure_time": "16:50:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8891702:8895208:13:809:20261211": {
         "route_id": "gr:nmbssncb:2095",
         "stops": {
@@ -110214,6 +106529,56 @@
             }
         }
     },
+    "gt:nmbssncb:88____:L70::8841004:8844008:9:617:20261211": {
+        "route_id": "gr:nmbssncb:1519",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8841004",
+                "arrival_time": "05:42:00",
+                "departure_time": "05:42:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8842002",
+                "arrival_time": "05:46:00",
+                "departure_time": "05:47:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8842036",
+                "arrival_time": "05:50:00",
+                "departure_time": "05:51:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8842051",
+                "arrival_time": "05:54:00",
+                "departure_time": "05:55:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8844271",
+                "arrival_time": "05:59:00",
+                "departure_time": "05:59:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8844255",
+                "arrival_time": "06:02:00",
+                "departure_time": "06:03:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8844230",
+                "arrival_time": "06:05:00",
+                "departure_time": "06:06:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8844206",
+                "arrival_time": "06:11:00",
+                "departure_time": "06:12:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8844008",
+                "arrival_time": "06:17:00",
+                "departure_time": "06:17:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:L71::8841673:8843208:9:1929:20261109": {
         "route_id": "gr:nmbssncb:1537",
         "stops": {
@@ -132009,6 +128374,61 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8811007:8891702:10:1900:20261211:2": {
+        "route_id": "gr:nmbssncb:1680",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8811007_14",
+                "arrival_time": "17:24:00",
+                "departure_time": "17:24:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8812005_5",
+                "arrival_time": "17:29:00",
+                "departure_time": "17:31:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8813003_2",
+                "arrival_time": "17:35:00",
+                "departure_time": "17:36:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8814001_12",
+                "arrival_time": "17:40:00",
+                "departure_time": "17:43:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892007_12",
+                "arrival_time": "18:11:00",
+                "departure_time": "18:14:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892031_3",
+                "arrival_time": "18:18:00",
+                "departure_time": "18:19:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8892056_3",
+                "arrival_time": "18:24:00",
+                "departure_time": "18:25:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8891124_3",
+                "arrival_time": "18:36:00",
+                "departure_time": "18:37:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8891009_10",
+                "arrival_time": "18:45:00",
+                "departure_time": "18:47:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8891702_4",
+                "arrival_time": "19:00:00",
+                "departure_time": "19:00:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8814001:8863008:8:1748:20261211:8": {
         "route_id": "gr:nmbssncb:2026",
         "stops": {
@@ -134566,6 +130986,46 @@
                 "stop_id": "gs:nmbssncb:8811007_7",
                 "arrival_time": "08:47:00",
                 "departure_time": "08:47:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891009:8891405:2:1621:20271210:3": {
+        "route_id": "gr:nmbssncb:1927",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891009_6",
+                "arrival_time": "16:10:00",
+                "departure_time": "16:10:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891405_2",
+                "arrival_time": "16:21:00",
+                "departure_time": "16:21:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891009:8891553:4:724:20271210": {
+        "route_id": "gr:nmbssncb:1929",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891009_1",
+                "arrival_time": "07:08:00",
+                "departure_time": "07:08:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891033_1",
+                "arrival_time": "07:12:00",
+                "departure_time": "07:12:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891629_1",
+                "arrival_time": "07:18:00",
+                "departure_time": "07:18:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891553_1",
+                "arrival_time": "07:24:00",
+                "departure_time": "07:24:00"
             }
         }
     },
@@ -188999,6 +185459,76 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8822004:8894508:6:1659:20261211:2": {
+        "route_id": "gr:nmbssncb:1954",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8822004_2",
+                "arrival_time": "16:20:00",
+                "departure_time": "16:20:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8822608_2",
+                "arrival_time": "16:33:00",
+                "departure_time": "16:33:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8822715_1",
+                "arrival_time": "16:39:00",
+                "departure_time": "16:40:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8822772_1",
+                "arrival_time": "16:44:00",
+                "departure_time": "16:45:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8894672_2",
+                "arrival_time": "16:49:00",
+                "departure_time": "16:50:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8894508_1",
+                "arrival_time": "16:59:00",
+                "departure_time": "16:59:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8822004:8894508:6:759:20261211:2": {
+        "route_id": "gr:nmbssncb:1954",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8822004_2",
+                "arrival_time": "07:10:00",
+                "departure_time": "07:10:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8822608_2",
+                "arrival_time": "07:22:00",
+                "departure_time": "07:23:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8822715_1",
+                "arrival_time": "07:29:00",
+                "departure_time": "07:40:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8822772_1",
+                "arrival_time": "07:44:00",
+                "departure_time": "07:45:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8894672_2",
+                "arrival_time": "07:49:00",
+                "departure_time": "07:50:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8894508_1",
+                "arrival_time": "07:59:00",
+                "departure_time": "07:59:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8833001:8831005:9:1741:20261211:3": {
         "route_id": "gr:nmbssncb:1989",
         "stops": {
@@ -191221,6 +187751,196 @@
                 "stop_id": "gs:nmbssncb:8885001_2",
                 "arrival_time": "19:12:00",
                 "departure_time": "19:12:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891009:8892007:7:1250:20261211:2": {
+        "route_id": "gr:nmbssncb:1914",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891009_4",
+                "arrival_time": "12:13:00",
+                "departure_time": "12:13:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891124_1",
+                "arrival_time": "12:22:00",
+                "departure_time": "12:23:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891140_1",
+                "arrival_time": "12:29:00",
+                "departure_time": "12:30:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891165_2",
+                "arrival_time": "12:36:00",
+                "departure_time": "12:36:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892056_1",
+                "arrival_time": "12:39:00",
+                "departure_time": "12:40:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892031_1",
+                "arrival_time": "12:45:00",
+                "departure_time": "12:45:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8892007_4",
+                "arrival_time": "12:50:00",
+                "departure_time": "12:50:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891009:8892007:7:659:20271210:6": {
+        "route_id": "gr:nmbssncb:1914",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891009_4",
+                "arrival_time": "06:22:00",
+                "departure_time": "06:22:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891124_1",
+                "arrival_time": "06:31:00",
+                "departure_time": "06:32:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891140_1",
+                "arrival_time": "06:38:00",
+                "departure_time": "06:39:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891165_2",
+                "arrival_time": "06:44:00",
+                "departure_time": "06:45:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892056_1",
+                "arrival_time": "06:48:00",
+                "departure_time": "06:49:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892031_1",
+                "arrival_time": "06:53:00",
+                "departure_time": "06:54:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8892007_5",
+                "arrival_time": "06:59:00",
+                "departure_time": "06:59:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891702:8811007:10:721:20261211:2": {
+        "route_id": "gr:nmbssncb:1680",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891702_6",
+                "arrival_time": "05:40:00",
+                "departure_time": "05:40:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891009_8",
+                "arrival_time": "05:54:00",
+                "departure_time": "05:57:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891124_2",
+                "arrival_time": "06:05:00",
+                "departure_time": "06:06:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8892056_2",
+                "arrival_time": "06:18:00",
+                "departure_time": "06:19:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892031_2",
+                "arrival_time": "06:23:00",
+                "departure_time": "06:24:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892007_10",
+                "arrival_time": "06:29:00",
+                "departure_time": "06:32:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8814001_11",
+                "arrival_time": "07:00:00",
+                "departure_time": "07:05:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8813003_1",
+                "arrival_time": "07:09:00",
+                "departure_time": "07:10:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8812005_3",
+                "arrival_time": "07:14:00",
+                "departure_time": "07:16:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8811007_14",
+                "arrival_time": "07:21:00",
+                "departure_time": "07:21:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891702:8811007:10:821:20261211:4": {
+        "route_id": "gr:nmbssncb:1680",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891702_5",
+                "arrival_time": "06:34:00",
+                "departure_time": "06:34:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891009_5",
+                "arrival_time": "06:48:00",
+                "departure_time": "06:58:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891124_1",
+                "arrival_time": "07:07:00",
+                "departure_time": "07:08:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8892056_2",
+                "arrival_time": "07:19:00",
+                "departure_time": "07:20:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892031_2",
+                "arrival_time": "07:25:00",
+                "departure_time": "07:26:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892007_10",
+                "arrival_time": "07:30:00",
+                "departure_time": "07:34:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8814001_5",
+                "arrival_time": "08:02:00",
+                "departure_time": "08:05:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8813003_1",
+                "arrival_time": "08:09:00",
+                "departure_time": "08:10:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8812005_3",
+                "arrival_time": "08:14:00",
+                "departure_time": "08:16:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8811007_14",
+                "arrival_time": "08:21:00",
+                "departure_time": "08:21:00"
             }
         }
     },
@@ -241839,6 +238559,141 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8811007:8891702:10:1800:20261211:7": {
+        "route_id": "gr:nmbssncb:1680",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8811007_13",
+                "arrival_time": "16:18:00",
+                "departure_time": "16:18:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8812005_5",
+                "arrival_time": "16:23:00",
+                "departure_time": "16:26:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8813003_2",
+                "arrival_time": "16:30:00",
+                "departure_time": "16:31:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8814001_9",
+                "arrival_time": "16:35:00",
+                "departure_time": "16:42:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892007_12",
+                "arrival_time": "17:10:00",
+                "departure_time": "17:13:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892031_3",
+                "arrival_time": "17:17:00",
+                "departure_time": "17:18:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8892056_3",
+                "arrival_time": "17:23:00",
+                "departure_time": "17:24:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8891124_3",
+                "arrival_time": "17:35:00",
+                "departure_time": "17:36:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8891009_10",
+                "arrival_time": "17:44:00",
+                "departure_time": "17:46:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8891702_6",
+                "arrival_time": "18:00:00",
+                "departure_time": "18:00:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8811007:8892007:15:1702:20271210:6": {
+        "route_id": "gr:nmbssncb:1698",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8811007_10",
+                "arrival_time": "15:37:00",
+                "departure_time": "15:37:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8812005_9",
+                "arrival_time": "15:42:00",
+                "departure_time": "15:44:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8813003_4",
+                "arrival_time": "15:48:00",
+                "departure_time": "15:49:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8814001_15",
+                "arrival_time": "15:53:00",
+                "departure_time": "15:58:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8895836_4",
+                "arrival_time": "16:11:00",
+                "departure_time": "16:12:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8895802_3",
+                "arrival_time": "16:15:00",
+                "departure_time": "16:17:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8895091_2",
+                "arrival_time": "16:21:00",
+                "departure_time": "16:22:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8895000_2",
+                "arrival_time": "16:25:00",
+                "departure_time": "16:27:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8895067_1",
+                "arrival_time": "16:31:00",
+                "departure_time": "16:32:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8893583_1",
+                "arrival_time": "16:35:00",
+                "departure_time": "16:36:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8893542_2",
+                "arrival_time": "16:40:00",
+                "departure_time": "16:41:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8893559_2",
+                "arrival_time": "16:44:00",
+                "departure_time": "16:45:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8893567_2",
+                "arrival_time": "16:49:00",
+                "departure_time": "16:50:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8893013_3",
+                "arrival_time": "16:55:00",
+                "departure_time": "16:56:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8892007_7",
+                "arrival_time": "17:02:00",
+                "departure_time": "17:02:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8811007:8894508:11:1839:20271210:1": {
         "route_id": "gr:nmbssncb:1728",
         "stops": {
@@ -244759,6 +241614,21 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8891009:8891405:2:814:20271210:4": {
+        "route_id": "gr:nmbssncb:1927",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891009_5",
+                "arrival_time": "08:03:00",
+                "departure_time": "08:03:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891405_1",
+                "arrival_time": "08:14:00",
+                "departure_time": "08:14:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8891660:8891009:4:831:20271210": {
         "route_id": "gr:nmbssncb:525",
         "stops": {
@@ -245296,6 +242166,96 @@
                 "stop_id": "gs:nmbssncb:8892007_8",
                 "arrival_time": "06:20:00",
                 "departure_time": "06:20:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8896735:8811007:17:811:20261211:4": {
+        "route_id": "gr:nmbssncb:1718",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8896735_1",
+                "arrival_time": "05:47:00",
+                "departure_time": "05:47:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8896503_1",
+                "arrival_time": "05:55:00",
+                "departure_time": "05:56:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8896412_2",
+                "arrival_time": "06:05:00",
+                "departure_time": "06:06:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8896396_2",
+                "arrival_time": "06:10:00",
+                "departure_time": "06:11:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8896305_2",
+                "arrival_time": "06:16:00",
+                "departure_time": "06:17:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8896370_2",
+                "arrival_time": "06:22:00",
+                "departure_time": "06:23:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8896388_2",
+                "arrival_time": "06:27:00",
+                "departure_time": "06:28:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8896008_2",
+                "arrival_time": "06:33:00",
+                "departure_time": "06:39:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8896115_1",
+                "arrival_time": "06:44:00",
+                "departure_time": "06:45:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8896149_2",
+                "arrival_time": "06:51:00",
+                "departure_time": "06:53:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8892106_2",
+                "arrival_time": "07:01:00",
+                "departure_time": "07:02:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8892080_4",
+                "arrival_time": "07:08:00",
+                "departure_time": "07:10:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8892007_9",
+                "arrival_time": "07:17:00",
+                "departure_time": "07:20:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8814001_14",
+                "arrival_time": "07:49:00",
+                "departure_time": "07:55:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8813003_3",
+                "arrival_time": "07:59:00",
+                "departure_time": "08:00:00"
+            },
+            "16": {
+                "stop_id": "gs:nmbssncb:8812005_5",
+                "arrival_time": "08:04:00",
+                "departure_time": "08:06:00"
+            },
+            "17": {
+                "stop_id": "gs:nmbssncb:8811007_15",
+                "arrival_time": "08:11:00",
+                "departure_time": "08:11:00"
             }
         }
     },
@@ -249526,6 +246486,86 @@
                 "stop_id": "gs:nmbssncb:8866001_3",
                 "arrival_time": "21:18:00",
                 "departure_time": "21:18:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:046::8865300:8863008:15:708:20261211:4": {
+        "route_id": "gr:nmbssncb:1629",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8865300_2",
+                "arrival_time": "05:30:00",
+                "departure_time": "05:30:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8865540_2",
+                "arrival_time": "05:39:00",
+                "departure_time": "05:40:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8865565_1",
+                "arrival_time": "05:43:00",
+                "departure_time": "05:44:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8865615_1",
+                "arrival_time": "05:48:00",
+                "departure_time": "05:49:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8865649_1",
+                "arrival_time": "05:54:00",
+                "departure_time": "05:55:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8863867_1",
+                "arrival_time": "06:09:00",
+                "departure_time": "06:10:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8863842_1",
+                "arrival_time": "06:18:00",
+                "departure_time": "06:18:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8863834_2",
+                "arrival_time": "06:24:00",
+                "departure_time": "06:25:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8863818_2",
+                "arrival_time": "06:32:00",
+                "departure_time": "06:33:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8863503_2",
+                "arrival_time": "06:37:00",
+                "departure_time": "06:38:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8863545_1",
+                "arrival_time": "06:45:00",
+                "departure_time": "06:45:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8863560_1",
+                "arrival_time": "06:50:00",
+                "departure_time": "06:50:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8863156_2",
+                "arrival_time": "06:54:00",
+                "departure_time": "06:54:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8863115_1",
+                "arrival_time": "07:02:00",
+                "departure_time": "07:03:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8863008_8",
+                "arrival_time": "07:08:00",
+                "departure_time": "07:08:00"
             }
         }
     },
@@ -298744,6 +295784,96 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8811007:8896735:17:1844:20271210:6": {
+        "route_id": "gr:nmbssncb:1718",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8811007_10",
+                "arrival_time": "16:27:00",
+                "departure_time": "16:27:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8812005_10",
+                "arrival_time": "16:32:00",
+                "departure_time": "16:34:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8813003_4",
+                "arrival_time": "16:38:00",
+                "departure_time": "16:39:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8814001_14",
+                "arrival_time": "16:43:00",
+                "departure_time": "16:47:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892007_9",
+                "arrival_time": "17:15:00",
+                "departure_time": "17:18:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892080_3",
+                "arrival_time": "17:25:00",
+                "departure_time": "17:26:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8892106_1",
+                "arrival_time": "17:33:00",
+                "departure_time": "17:34:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8896149_1",
+                "arrival_time": "17:42:00",
+                "departure_time": "17:43:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8896115_2",
+                "arrival_time": "17:49:00",
+                "departure_time": "17:50:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8896008_5",
+                "arrival_time": "17:55:00",
+                "departure_time": "17:59:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8896388_1",
+                "arrival_time": "18:04:00",
+                "departure_time": "18:05:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8896370_1",
+                "arrival_time": "18:09:00",
+                "departure_time": "18:10:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8896305_1",
+                "arrival_time": "18:14:00",
+                "departure_time": "18:15:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8896396_1",
+                "arrival_time": "18:20:00",
+                "departure_time": "18:21:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8896412_1",
+                "arrival_time": "18:25:00",
+                "departure_time": "18:26:00"
+            },
+            "16": {
+                "stop_id": "gs:nmbssncb:8896503_1",
+                "arrival_time": "18:35:00",
+                "departure_time": "18:36:00"
+            },
+            "17": {
+                "stop_id": "gs:nmbssncb:8896735_1",
+                "arrival_time": "18:44:00",
+                "departure_time": "18:44:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8814001:8841004:9:1737:20271210:8": {
         "route_id": "gr:nmbssncb:1995",
         "stops": {
@@ -298791,6 +295921,41 @@
                 "stop_id": "gs:nmbssncb:8841004_4",
                 "arrival_time": "17:37:00",
                 "departure_time": "17:37:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8822004:8894508:6:1859:20261211:3": {
+        "route_id": "gr:nmbssncb:1954",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8822004_2",
+                "arrival_time": "18:20:00",
+                "departure_time": "18:20:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8822608_2",
+                "arrival_time": "18:33:00",
+                "departure_time": "18:33:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8822715_1",
+                "arrival_time": "18:39:00",
+                "departure_time": "18:40:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8822772_1",
+                "arrival_time": "18:44:00",
+                "departure_time": "18:45:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8894672_2",
+                "arrival_time": "18:49:00",
+                "departure_time": "18:50:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8894508_1",
+                "arrival_time": "18:59:00",
+                "departure_time": "18:59:00"
             }
         }
     },
@@ -301074,6 +298239,21 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8891405:8891009:2:800:20271210:5": {
+        "route_id": "gr:nmbssncb:1927",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891405_5",
+                "arrival_time": "07:49:00",
+                "departure_time": "07:49:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891009_3",
+                "arrival_time": "08:00:00",
+                "departure_time": "08:00:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8892007:8895505:11:1732:20261211:4": {
         "route_id": "gr:nmbssncb:2103",
         "stops": {
@@ -302891,6 +300071,86 @@
                 "stop_id": "gs:nmbssncb:8881000_4",
                 "arrival_time": "17:58:00",
                 "departure_time": "17:58:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:046::8865300:8863008:15:709:20261212:7": {
+        "route_id": "gr:nmbssncb:1629",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8865300_2",
+                "arrival_time": "05:30:00",
+                "departure_time": "05:30:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8865540_2",
+                "arrival_time": "05:39:00",
+                "departure_time": "05:40:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8865565_1",
+                "arrival_time": "05:43:00",
+                "departure_time": "05:44:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8865615_1",
+                "arrival_time": "05:48:00",
+                "departure_time": "05:49:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8865649_1",
+                "arrival_time": "05:54:00",
+                "departure_time": "05:55:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8863867_1",
+                "arrival_time": "06:09:00",
+                "departure_time": "06:10:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8863842_1",
+                "arrival_time": "06:18:00",
+                "departure_time": "06:18:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8863834_2",
+                "arrival_time": "06:24:00",
+                "departure_time": "06:25:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8863818_2",
+                "arrival_time": "06:32:00",
+                "departure_time": "06:33:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8863503_3",
+                "arrival_time": "06:37:00",
+                "departure_time": "06:38:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8863545_1",
+                "arrival_time": "06:45:00",
+                "departure_time": "06:45:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8863560_1",
+                "arrival_time": "06:50:00",
+                "departure_time": "06:50:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8863156_2",
+                "arrival_time": "06:54:00",
+                "departure_time": "06:55:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8863115_1",
+                "arrival_time": "07:03:00",
+                "departure_time": "07:04:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8863008_7",
+                "arrival_time": "07:09:00",
+                "departure_time": "07:09:00"
             }
         }
     },
@@ -345579,6 +342839,166 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8811007:8892007:14:1811:20261211:4": {
+        "route_id": "gr:nmbssncb:1698",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8811007_10",
+                "arrival_time": "16:37:00",
+                "departure_time": "16:37:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8812005_9",
+                "arrival_time": "16:42:00",
+                "departure_time": "16:44:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8813003_4",
+                "arrival_time": "16:48:00",
+                "departure_time": "16:49:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8814001_16",
+                "arrival_time": "16:53:00",
+                "departure_time": "16:58:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8895836_4",
+                "arrival_time": "17:12:00",
+                "departure_time": "17:14:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8895802_2",
+                "arrival_time": "17:17:00",
+                "departure_time": "17:20:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8895091_2",
+                "arrival_time": "17:24:00",
+                "departure_time": "17:25:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8895000_2",
+                "arrival_time": "17:29:00",
+                "departure_time": "17:37:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8895067_1",
+                "arrival_time": "17:42:00",
+                "departure_time": "17:43:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8893583_1",
+                "arrival_time": "17:46:00",
+                "departure_time": "17:47:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8893542_2",
+                "arrival_time": "17:51:00",
+                "departure_time": "17:52:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8893559_2",
+                "arrival_time": "17:55:00",
+                "departure_time": "17:56:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8893567_2",
+                "arrival_time": "18:00:00",
+                "departure_time": "18:01:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8892007_8",
+                "arrival_time": "18:11:00",
+                "departure_time": "18:11:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8811007:8896735:16:1944:20261211:5": {
+        "route_id": "gr:nmbssncb:1718",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8811007_10",
+                "arrival_time": "17:27:00",
+                "departure_time": "17:27:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8812005_9",
+                "arrival_time": "17:32:00",
+                "departure_time": "17:34:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8813003_4",
+                "arrival_time": "17:38:00",
+                "departure_time": "17:39:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8814001_16",
+                "arrival_time": "17:43:00",
+                "departure_time": "17:46:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8892007_11",
+                "arrival_time": "18:15:00",
+                "departure_time": "18:21:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8892080_3",
+                "arrival_time": "18:28:00",
+                "departure_time": "18:29:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8896149_1",
+                "arrival_time": "18:41:00",
+                "departure_time": "18:43:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8896115_2",
+                "arrival_time": "18:49:00",
+                "departure_time": "18:50:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8896008_8",
+                "arrival_time": "18:55:00",
+                "departure_time": "18:59:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8896388_1",
+                "arrival_time": "19:04:00",
+                "departure_time": "19:05:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8896370_1",
+                "arrival_time": "19:09:00",
+                "departure_time": "19:10:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8896305_1",
+                "arrival_time": "19:14:00",
+                "departure_time": "19:15:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8896396_1",
+                "arrival_time": "19:20:00",
+                "departure_time": "19:21:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8896412_1",
+                "arrival_time": "19:25:00",
+                "departure_time": "19:26:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8896503_1",
+                "arrival_time": "19:35:00",
+                "departure_time": "19:36:00"
+            },
+            "16": {
+                "stop_id": "gs:nmbssncb:8896735_1",
+                "arrival_time": "19:44:00",
+                "departure_time": "19:44:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8814001:8200100:11:1615:20261211:3": {
         "route_id": "gr:nmbssncb:2030",
         "stops": {
@@ -349144,6 +346564,271 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8892007:8811007:13:823:20271210:4": {
+        "route_id": "gr:nmbssncb:1698",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8892007_4",
+                "arrival_time": "06:58:00",
+                "departure_time": "06:58:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8893013_4",
+                "arrival_time": "07:05:00",
+                "departure_time": "07:06:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8893039_1",
+                "arrival_time": "07:10:00",
+                "departure_time": "07:11:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8893567_1",
+                "arrival_time": "07:14:00",
+                "departure_time": "07:15:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8893559_1",
+                "arrival_time": "07:19:00",
+                "departure_time": "07:20:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8895067_2",
+                "arrival_time": "07:28:00",
+                "departure_time": "07:29:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8895000_3",
+                "arrival_time": "07:34:00",
+                "departure_time": "07:36:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8895091_1",
+                "arrival_time": "07:40:00",
+                "departure_time": "07:41:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8895802_1",
+                "arrival_time": "07:45:00",
+                "departure_time": "07:48:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8814001_12",
+                "arrival_time": "08:04:00",
+                "departure_time": "08:07:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8813003_3",
+                "arrival_time": "08:11:00",
+                "departure_time": "08:12:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8812005_6",
+                "arrival_time": "08:16:00",
+                "departure_time": "08:18:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8811007_11",
+                "arrival_time": "08:23:00",
+                "departure_time": "08:23:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8892007:8811007:16:922:20261211:3": {
+        "route_id": "gr:nmbssncb:1698",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8892007_7",
+                "arrival_time": "07:27:00",
+                "departure_time": "07:27:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8893013_2",
+                "arrival_time": "07:33:00",
+                "departure_time": "07:34:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8893039_1",
+                "arrival_time": "07:37:00",
+                "departure_time": "07:38:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8893567_1",
+                "arrival_time": "07:41:00",
+                "departure_time": "07:42:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8893559_1",
+                "arrival_time": "07:46:00",
+                "departure_time": "07:47:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8893542_1",
+                "arrival_time": "07:50:00",
+                "departure_time": "07:51:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8893583_2",
+                "arrival_time": "07:55:00",
+                "departure_time": "07:56:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8895067_2",
+                "arrival_time": "07:59:00",
+                "departure_time": "08:00:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8895000_4",
+                "arrival_time": "08:05:00",
+                "departure_time": "08:31:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8895091_1",
+                "arrival_time": "08:35:00",
+                "departure_time": "08:36:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8895802_1",
+                "arrival_time": "08:40:00",
+                "departure_time": "08:44:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8895836_3",
+                "arrival_time": "08:47:00",
+                "departure_time": "08:48:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8814001_13",
+                "arrival_time": "09:02:00",
+                "departure_time": "09:07:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8813003_3",
+                "arrival_time": "09:11:00",
+                "departure_time": "09:12:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8812005_6",
+                "arrival_time": "09:16:00",
+                "departure_time": "09:18:00"
+            },
+            "16": {
+                "stop_id": "gs:nmbssncb:8811007_14",
+                "arrival_time": "09:22:00",
+                "departure_time": "09:22:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8892007:8891009:10:1302:20271210:4": {
+        "route_id": "gr:nmbssncb:1914",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8892007_9",
+                "arrival_time": "12:19:00",
+                "departure_time": "12:19:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8892031_4",
+                "arrival_time": "12:24:00",
+                "departure_time": "12:25:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8892056_4",
+                "arrival_time": "12:29:00",
+                "departure_time": "12:30:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891165_3",
+                "arrival_time": "12:33:00",
+                "departure_time": "12:34:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8891157_3",
+                "arrival_time": "12:38:00",
+                "departure_time": "12:38:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8891140_3",
+                "arrival_time": "12:41:00",
+                "departure_time": "12:42:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8891132_3",
+                "arrival_time": "12:46:00",
+                "departure_time": "12:46:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8891124_3",
+                "arrival_time": "12:49:00",
+                "departure_time": "12:50:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8891116_4",
+                "arrival_time": "12:56:00",
+                "departure_time": "12:56:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8891009_1",
+                "arrival_time": "13:02:00",
+                "departure_time": "13:02:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8892007:8891009:10:1650:20271210:3": {
+        "route_id": "gr:nmbssncb:1914",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8892007_10",
+                "arrival_time": "16:12:00",
+                "departure_time": "16:12:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8892031_3",
+                "arrival_time": "16:15:00",
+                "departure_time": "16:16:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8892056_3",
+                "arrival_time": "16:20:00",
+                "departure_time": "16:21:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891165_3",
+                "arrival_time": "16:24:00",
+                "departure_time": "16:24:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8891157_3",
+                "arrival_time": "16:28:00",
+                "departure_time": "16:28:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8891140_3",
+                "arrival_time": "16:31:00",
+                "departure_time": "16:32:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8891132_3",
+                "arrival_time": "16:36:00",
+                "departure_time": "16:36:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8891124_3",
+                "arrival_time": "16:39:00",
+                "departure_time": "16:40:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8891116_4",
+                "arrival_time": "16:45:00",
+                "departure_time": "16:45:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8891009_6",
+                "arrival_time": "16:50:00",
+                "departure_time": "16:50:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8892007:8895000:9:501:20271210:3": {
         "route_id": "gr:nmbssncb:554",
         "stops": {
@@ -349331,6 +347016,41 @@
                 "stop_id": "gs:nmbssncb:8811007_15",
                 "arrival_time": "08:31:00",
                 "departure_time": "08:31:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8894508:8822004:6:1705:20261211:3": {
+        "route_id": "gr:nmbssncb:1954",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8894508_A",
+                "arrival_time": "16:20:00",
+                "departure_time": "16:20:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8894672_2",
+                "arrival_time": "16:28:00",
+                "departure_time": "16:29:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8822772_1",
+                "arrival_time": "16:33:00",
+                "departure_time": "16:34:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8822715_2",
+                "arrival_time": "16:38:00",
+                "departure_time": "16:45:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8822608_1",
+                "arrival_time": "16:51:00",
+                "departure_time": "16:53:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8822004_2",
+                "arrival_time": "17:05:00",
+                "departure_time": "17:05:00"
             }
         }
     },
@@ -396999,6 +394719,41 @@
             }
         }
     },
+    "gt:nmbssncb:88____:044::8822004:8894508:6:1759:20261211:2": {
+        "route_id": "gr:nmbssncb:1954",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8822004_2",
+                "arrival_time": "17:20:00",
+                "departure_time": "17:20:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8822608_2",
+                "arrival_time": "17:33:00",
+                "departure_time": "17:33:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8822715_1",
+                "arrival_time": "17:39:00",
+                "departure_time": "17:40:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8822772_1",
+                "arrival_time": "17:44:00",
+                "departure_time": "17:45:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8894672_2",
+                "arrival_time": "17:49:00",
+                "departure_time": "17:50:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8894508_1",
+                "arrival_time": "17:59:00",
+                "departure_time": "17:59:00"
+            }
+        }
+    },
     "gt:nmbssncb:88____:044::8831310:8833001:5:2056:20261108": {
         "route_id": "gr:nmbssncb:1990",
         "stops": {
@@ -397766,6 +395521,96 @@
                 "stop_id": "gs:nmbssncb:8892007_11",
                 "arrival_time": "07:30:00",
                 "departure_time": "07:30:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8896735:8811007:17:912:20261211:8": {
+        "route_id": "gr:nmbssncb:1718",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8896735_1",
+                "arrival_time": "06:49:00",
+                "departure_time": "06:49:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8896503_1",
+                "arrival_time": "06:57:00",
+                "departure_time": "06:58:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8896412_2",
+                "arrival_time": "07:07:00",
+                "departure_time": "07:08:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8896396_2",
+                "arrival_time": "07:12:00",
+                "departure_time": "07:13:00"
+            },
+            "5": {
+                "stop_id": "gs:nmbssncb:8896305_2",
+                "arrival_time": "07:18:00",
+                "departure_time": "07:19:00"
+            },
+            "6": {
+                "stop_id": "gs:nmbssncb:8896370_2",
+                "arrival_time": "07:24:00",
+                "departure_time": "07:25:00"
+            },
+            "7": {
+                "stop_id": "gs:nmbssncb:8896388_2",
+                "arrival_time": "07:29:00",
+                "departure_time": "07:30:00"
+            },
+            "8": {
+                "stop_id": "gs:nmbssncb:8896008_2",
+                "arrival_time": "07:35:00",
+                "departure_time": "07:38:00"
+            },
+            "9": {
+                "stop_id": "gs:nmbssncb:8896115_1",
+                "arrival_time": "07:43:00",
+                "departure_time": "07:44:00"
+            },
+            "10": {
+                "stop_id": "gs:nmbssncb:8896149_2",
+                "arrival_time": "07:50:00",
+                "departure_time": "07:52:00"
+            },
+            "11": {
+                "stop_id": "gs:nmbssncb:8892106_2",
+                "arrival_time": "08:00:00",
+                "departure_time": "08:02:00"
+            },
+            "12": {
+                "stop_id": "gs:nmbssncb:8892080_4",
+                "arrival_time": "08:08:00",
+                "departure_time": "08:09:00"
+            },
+            "13": {
+                "stop_id": "gs:nmbssncb:8892007_9",
+                "arrival_time": "08:16:00",
+                "departure_time": "08:20:00"
+            },
+            "14": {
+                "stop_id": "gs:nmbssncb:8814001_13",
+                "arrival_time": "08:49:00",
+                "departure_time": "08:55:00"
+            },
+            "15": {
+                "stop_id": "gs:nmbssncb:8813003_3",
+                "arrival_time": "08:59:00",
+                "departure_time": "09:00:00"
+            },
+            "16": {
+                "stop_id": "gs:nmbssncb:8812005_7",
+                "arrival_time": "09:04:00",
+                "departure_time": "09:07:00"
+            },
+            "17": {
+                "stop_id": "gs:nmbssncb:8811007_15",
+                "arrival_time": "09:12:00",
+                "departure_time": "09:12:00"
             }
         }
     },
@@ -398681,6 +396526,31 @@
                 "stop_id": "gs:nmbssncb:8811676_3",
                 "arrival_time": "20:51:00",
                 "departure_time": "20:51:00"
+            }
+        }
+    },
+    "gt:nmbssncb:88____:044::8891553:8891009:4:753:20271210": {
+        "route_id": "gr:nmbssncb:1929",
+        "stops": {
+            "1": {
+                "stop_id": "gs:nmbssncb:8891553",
+                "arrival_time": "07:38:00",
+                "departure_time": "07:38:00"
+            },
+            "2": {
+                "stop_id": "gs:nmbssncb:8891629",
+                "arrival_time": "07:43:00",
+                "departure_time": "07:43:00"
+            },
+            "3": {
+                "stop_id": "gs:nmbssncb:8891033",
+                "arrival_time": "07:49:00",
+                "departure_time": "07:49:00"
+            },
+            "4": {
+                "stop_id": "gs:nmbssncb:8891009",
+                "arrival_time": "07:53:00",
+                "departure_time": "07:53:00"
             }
         }
     },

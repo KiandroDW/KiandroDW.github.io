@@ -1,15 +1,24 @@
 # Get the timetable data and put it into one large json
 # Directory structure:
-# timetable/
+# data/
 # ├── timetable.py
+# ├── routes.json
+# ├── stops.json
 # └── timetable.json
 
 # Data gathered from zip file:
+# routes.txt -> to fill routes.json
+# stops.txt -> to fill stops.json
+# translations.txt -> to translate everything in the jsons
 # calendar_dates.txt -> on which dates every service runs
 # stop_times.txt -> every stop on every trip
 # trips.txt -> link every trip with a route and a service
 
-# Only trips that run today are added
+# routes.json:
+# {route_id: {route_long_name(translated), route_short_name}}
+
+# stops.json:
+# {stop_id: {stop_name (translated), stop_lat, stop_lon}}
 
 # timetable.json:
 # {
@@ -39,16 +48,16 @@ from zipfile import ZipFile
 
 def terminate_connection():
     print("Deleting txt files")
-    os.remove("timetable/agency.txt")
-    os.remove("timetable/calendar.txt")
-    os.remove("timetable/calendar_dates.txt")
-    os.remove("timetable/feed_info.txt")
-    os.remove("timetable/routes.txt")
-    os.remove("timetable/stop_times.txt")
-    os.remove("timetable/stops.txt")
-    os.remove("timetable/transfers.txt")
-    os.remove("timetable/translations.txt")
-    os.remove("timetable/trips.txt")
+    os.remove("data/agency.txt")
+    os.remove("data/calendar.txt")
+    os.remove("data/calendar_dates.txt")
+    os.remove("data/feed_info.txt")
+    os.remove("data/routes.txt")
+    os.remove("data/stop_times.txt")
+    os.remove("data/stops.txt")
+    os.remove("data/transfers.txt")
+    os.remove("data/translations.txt")
+    os.remove("data/trips.txt")
     print("Finished deleting")
     exit(0)
 
@@ -56,16 +65,77 @@ def terminate_connection():
 url = 'https://api-management-discovery-production.azure-api.net/api/gtfs/feed/nmbssncb/static'
 print("Downloading started")
 response = requests.get(url)
-file_path = "timetable/nmbssncb.zip"
+file_path = "data/nmbssncb.zip"
 
 if response.status_code == 200:
     with ZipFile(BytesIO(response.content)) as zip_file:
-        zip_file.extractall('timetable/')
+        zip_file.extractall('data/')
         print("Files extracted succesfully")
 else:
     print(f"Failed to download file: {response.status_code}")
     exit(1)
 
+translations = {}
+
+print("Parsing translations")
+with open("data/translations.txt") as csvfile:
+    reader = csv.DictReader(csvfile, delimiter=",")
+
+    translations = {
+        row["field_value"]: row["translation"]
+        for row in reader
+        if row["table_name"] == "stops" and row["language"] == "nl"
+    }
+
+if len(translations) == 0:
+    print("Failed parsing translations")
+    terminate_connection()
+
+
+stops = {}
+print("Parsing stops")
+with open("data/stops.txt") as csvfile:
+    reader = csv.DictReader(csvfile, delimiter=",")
+
+    stops = {
+        row["stop_id"]: {
+            "stop_name": translations[row["stop_name"]] if row["stop_name"] in translations else row["stop_name"],
+            "stop_lat": row["stop_lat"],
+            "stop_lon": row["stop_lon"]
+        }
+        for row in reader
+    }
+
+if len(stops) == 0:
+    print("Failed parsing stops")
+    terminate_connection()
+
+routes = {}
+print("Parsing routes")
+with open("data/routes.txt") as csvfile:
+    reader = csv.DictReader(csvfile, delimiter=",")
+
+    routes = {
+        row["route_id"]: {
+            "route_long_name": " -- ".join([translations[e.strip()] if e.strip() in translations else e.strip() for e in row["route_long_name"].split("--")]),
+            "route_short_name": row["route_short_name"]
+        }
+        for row in reader
+        if row["route_type"] == "2"
+    }
+
+if len(routes) == 0:
+    print("Failed parsing routes")
+    terminate_connection()
+
+print("Writing json files")
+json_stops = json.dumps(stops, indent=4)
+with open("data/stops.json", "w") as f:
+    f.write(json_stops)
+
+json_routes = json.dumps(routes, indent=4)
+with open("data/routes.json", "w") as f:
+    f.write(json_routes)
 
 # The feed uses Belgian local time
 today = datetime.now(ZoneInfo("Europe/Brussels"))
@@ -76,7 +146,7 @@ print(f"Finding services for {date_td} and {date_tm}")
 
 services = set()
 print("Parsing calendar dates")
-with open("timetable/calendar_dates.txt") as csvfile:
+with open("data/calendar_dates.txt") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=",")
 
     for row in reader:
@@ -94,7 +164,7 @@ with open("data/routes.json", "r") as f:
 
 trips = {}
 print("Parsing trips")
-with open("timetable/trips.txt") as csvfile:
+with open("data/trips.txt") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=",")
 
     trips = {
@@ -111,7 +181,7 @@ if len(trips) == 0:
     terminate_connection()
 
 print("Parsing stop times")
-with open("timetable/stop_times.txt") as csvfile:
+with open("data/stop_times.txt") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=",")
 
     for row in reader:
@@ -128,7 +198,7 @@ with open("timetable/stop_times.txt") as csvfile:
 
 print("Writing json files")
 json_stops = json.dumps(trips, indent=4)
-with open("timetable/timetable.json", "w") as f:
+with open("data/timetable.json", "w") as f:
     f.write(json_stops)
 
 print("Done, cleaning up")

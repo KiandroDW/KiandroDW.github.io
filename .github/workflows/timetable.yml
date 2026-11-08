@@ -37,11 +37,8 @@ jobs:
             .venv/bin/pip install -r requirements.txt
           fi
 
-      - name: Update routes and stops
-        run: .venv/bin/python data/consts.py
-
       - name: Run timetable script
-        run: .venv/bin/python timetable/timetable.py
+        run: .venv/bin/python data/timetable.py
 
       - name: Commit and push
         run: |
