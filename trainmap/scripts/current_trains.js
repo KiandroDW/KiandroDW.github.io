@@ -15,7 +15,7 @@ function loadStaticData() {
 		staticDataPromise = Promise.all([
 			readJson("data/routes.json"),
 			readJson("data/stops.json"),
-			readJson("timetable/timetable.json"),
+			readJson("data/timetable.json"),
 		]).catch((err) => {
 			staticDataPromise = null; // allow a retry on the next refresh
 			throw err;
