@@ -31,6 +31,7 @@ import json
 import os
 import requests
 from datetime import datetime
+from datetime import timedelta
 from io import BytesIO
 from zoneinfo import ZoneInfo
 from zipfile import ZipFile
@@ -68,8 +69,10 @@ else:
 
 # The feed uses Belgian local time
 today = datetime.now(ZoneInfo("Europe/Brussels"))
-date = today.strftime("%Y%m%d")
-print(f"Finding services for {date}")
+tomorow = today + timedelta(days=1)
+date_td = today.strftime("%Y%m%d")
+date_tm = tomorow.strftime("%Y%m%d")
+print(f"Finding services for {date_td} and {date_tm}")
 
 services = set()
 print("Parsing calendar dates")
@@ -77,7 +80,7 @@ with open("timetable/calendar_dates.txt") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=",")
 
     for row in reader:
-        if row["date"] == date:
+        if row["date"] in (date_td, date_tm):
             services.add(row["service_id"])
 
 if len(services) == 0:
