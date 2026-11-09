@@ -73,6 +73,11 @@ async function getPositions() {
 	if (!response.ok) {
 		throw new Error(`HTTP ${response.status} ${response.statusText}`);
 	}
+	const today = new Date();
+	const formattedDate = today.getFullYear().toString() + 
+		String(today.getMonth() + 1).padStart(2, '0') +
+		String(today.getDate()).padStart(2, '0');
+
 	const data = await response.json();
 
 	// tripId -> stopTimeUpdate[]
@@ -105,6 +110,9 @@ async function getPositions() {
 	const ret_obj = {};
 
 	for (const [tripId, trip] of Object.entries(timetable)) {
+		if (!trip.dates.includes(formattedDate)) {
+			continue;
+		}
 		const route = routes[trip.route_id];
 		const stopList = Object.values(trip.stops);
 		const updates = rtByTrip.get(tripId); // undefined => no realtime data
@@ -119,6 +127,10 @@ async function getPositions() {
 
 			// Between previous and current stop (delay-corrected)
 			if (prev && prev.dep < nowUnix && nowUnix < curr.arr) {
+				if (/\([A-Z][A-Z]\)$/.test(stops[stopList[i-1].stop_id].stop_name)) {
+					// Not currently in Belgium.
+					break;
+				}
 				ret_obj[tripId] = {
 					name: route.route_long_name,
 					short_name: route.route_short_name,
@@ -134,6 +146,10 @@ async function getPositions() {
 
 			// Standing at the current stop (delay-corrected)
 			if (curr.arr < nowUnix && nowUnix < curr.dep) {
+				if (/\([A-Z][A-Z]\)$/.test(stops[stopList[i].stop_id].stop_name)) {
+					// Not currently in Belgium.
+					break;
+				}
 				ret_obj[tripId] = {
 					name: route.route_long_name,
 					short_name: route.route_short_name,

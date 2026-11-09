@@ -24,6 +24,7 @@
 # {
 #     trips.txt[trip_id]: {
 #         route_id: trips.txt[route_id],
+#         dates: [calendar_dates[date]],
 #         stops: {
 #             stop_sequence: {
 #                 stop_id: stop_times[stop_id],
@@ -139,21 +140,24 @@ with open("data/routes.json", "w") as f:
 
 # The feed uses Belgian local time
 today = datetime.now(ZoneInfo("Europe/Brussels"))
-tomorow = today + timedelta(days=1)
+tomorrow = today + timedelta(days=1)
 date_td = today.strftime("%Y%m%d")
-date_tm = tomorow.strftime("%Y%m%d")
+date_tm = tomorrow.strftime("%Y%m%d")
 print(f"Finding services for {date_td} and {date_tm}")
 
-services = set()
+services_today = set()
+services_tomorrow = set()
 print("Parsing calendar dates")
 with open("data/calendar_dates.txt") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=",")
 
     for row in reader:
-        if row["date"] in (date_td, date_tm):
-            services.add(row["service_id"])
+        if row["date"] == date_td:
+            services_today.add(row["service_id"])
+        elif row["date"] == date_tm:
+            services_tomorrow.add(row["service_id"])
 
-if len(services) == 0:
+if len(services_today) == 0 or len(services_tomorrow) == 0:
     print("No services found")
     terminate_connection()
 
@@ -170,10 +174,15 @@ with open("data/trips.txt") as csvfile:
     trips = {
         row["trip_id"]: {
             "route_id": row["route_id"],
+            "dates": (
+                ([date_td] if row["service_id"] in services_today else []) +
+                ([date_tm] if row["service_id"] in services_tomorrow else [])
+                ),
             "stops": {}
-        }
+            }
         for row in reader
-        if row["service_id"] in services and row["route_id"] in valid_routes
+        if (row["service_id"] in services_today or row["service_id"] in services_tomorrow)
+        and row["route_id"] in valid_routes
     }
 
 if len(trips) == 0:
