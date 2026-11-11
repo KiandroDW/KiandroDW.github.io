@@ -1,0 +1,44 @@
+Lelystad Centrum
+Hamburg-Harburg
+Berlin Gesundbrunnen
+LYON-PERRACHE
+ANGERS-SAINT-LAUD
+Laval
+Paris-Est
+Creil - Bât Voyageurs
+Meuse-TGV
+LORRAINE TGV
+ARRAS
+St.Poelten Hbf
+PASSAU HBF
+Freilassing
+NURNBERG
+Würzburg Hbf
+FRANKFURT(MAIN) SUD
+MONTABAUR
+Bonn Hbf
+KOLN SUD
+KOLN-EHRENFELD
+GOEBELSMUHLE
+Aken West
+Herzogenrath
+Eygelshoven markt
+Landgraaf
+Heerlen
+Valkenburg
+Meerssen
+Hergenrath
+Hergenrath-Frontière
+Gouvy-Frontière
+Athus-Frontière
+Aubange-Frontière-Luxembourg
+Sterpenich-Frontière
+MEER-GRENS
+Essen-Grens
+Mouscron-Frontière
+Blandain-Frontière
+ESPLECHIN-FRONTIERE
+QUEVY-FRONTIERE
+ERQUELINNES-FRONTIERE
+Antwerpen-Dam
+Antwerpen-Oost

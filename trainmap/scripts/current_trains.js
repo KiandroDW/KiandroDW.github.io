@@ -114,7 +114,11 @@ async function getPositions() {
 			continue;
 		}
 		const route = routes[trip.route_id];
-		const stopList = Object.values(trip.stops);
+		const stopList = Object.values(trip.stops).map(stop => ({
+			...stop,
+			stop_id: stop.stop_id.replace(/_.*$/, ""),
+			stop_platform: stop.stop_id.replace(/^.*_/, "")
+		}));
 		const updates = rtByTrip.get(tripId); // undefined => no realtime data
 		const hasRt = updates !== undefined;
 
@@ -139,6 +143,7 @@ async function getPositions() {
 					next_station: stops[stopList[i].stop_id].stop_name,
 					dep_time: prev.dep,
 					arr_time: curr.arr,
+					arr_platform: curr.stop_platform,
 					current_delay: hasRt ? prev.depDelay : -1,
 				};
 				break;
@@ -158,6 +163,7 @@ async function getPositions() {
 					next_station: stopList[i + 1] ? stops[stopList[i + 1].stop_id].stop_name : null,
 					arr_time: curr.arr,
 					dep_time: curr.dep,
+					curr_platform: curr.stop_platform,
 					current_delay: hasRt ? curr.depDelay : -1,
 				};
 				break;

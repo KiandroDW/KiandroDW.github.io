@@ -105,6 +105,7 @@ with open("data/stops.txt") as csvfile:
             "stop_lon": row["stop_lon"]
         }
         for row in reader
+        if "_" not in row["stop_id"]
     }
 
 if len(stops) == 0:

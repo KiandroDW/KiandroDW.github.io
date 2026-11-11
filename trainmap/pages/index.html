@@ -5,31 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NMBS real time positions</title>
 <script src="../scripts/current_trains.js"></script>
+<script src="../scripts/map.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 </head>
 <body>
 <h1>NMBS real time positions</h1>
 
 <button type="button" onclick="location.href='./gtfs_zip_grabber.html'">Go to GTFS zip grabber</button>
 <button type="button" onclick="refresh()">Refresh now</button>
-
-<p>Last updated: <span id="updated">never</span></p>
-<pre id="output">Loading...</pre>
+<div id="map" style="height: 100vh">
 
 <script>
-async function refresh() {
-  const out = document.getElementById("output");
-  try {
-    // await works whether getPositions() returns an object or a Promise
-    const positions = await getPositions();
-    out.textContent = JSON.stringify(positions, null, 2);
-    document.getElementById("updated").textContent = new Date().toLocaleTimeString();
-  } catch (err) {
-    out.textContent = "Error: " + err;
-  }
-}
+	async function refresh() {
+		try {
+			// await works whether getPositions() returns an object or a Promise
+			const positions = await getPositions();
+			console.log(positions);
+		} catch (err) {
+			console.log("Error: " + err);
+		}
+	}
 
-refresh();
-setInterval(refresh, 30000);
+	refresh();
+	setInterval(refresh, 30000);
+
+	loadMap();
 </script>
 </body>
 </html>
