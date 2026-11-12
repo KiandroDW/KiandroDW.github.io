@@ -98,12 +98,17 @@ async function getPositions() {
 			arrDelay = upd.arrival?.delay ?? upd.departure.delay;
 			depDelay = upd.departure?.delay ?? upd.arrival.delay;
 		}
+		let platform = ""
+		if (upd) {
+			[_, platform] = upd.stopId.split("_");
+		}
 
 		return {
 			arr: toUnix(stop.arrival_time) + arrDelay,
 			dep: toUnix(stop.departure_time) + depDelay,
 			arrDelay,
 			depDelay,
+			platform,
 		};
 	}
 
@@ -114,11 +119,10 @@ async function getPositions() {
 			continue;
 		}
 		const route = routes[trip.route_id];
-		const stopList = Object.values(trip.stops).map(stop => ({
-			...stop,
-			stop_id: stop.stop_id.replace(/_.*$/, ""),
-			stop_platform: stop.stop_id.replace(/^.*_/, "")
-		}));
+		const stopList = Object.values(trip.stops).map(stop => {
+			const [id, platform] = stop.stop_id.split("_");
+			return { ...stop, stop_id: id, stop_platform: platform };
+		});
 		const updates = rtByTrip.get(tripId); // undefined => no realtime data
 		const hasRt = updates !== undefined;
 
@@ -131,7 +135,7 @@ async function getPositions() {
 
 			// Between previous and current stop (delay-corrected)
 			if (prev && prev.dep < nowUnix && nowUnix < curr.arr) {
-				if (/\([A-Z][A-Z]\)$/.test(stops[stopList[i-1].stop_id].stop_name)) {
+				if (/\([A-Z][A-Z]\)$/.test(stops[stopList[i-1].stop_id].stop_name) || /\([A-Z][A-Z]\)$/.test(stops[stopList[i].stop_id].stop_name)) {
 					// Not currently in Belgium.
 					break;
 				}
@@ -143,7 +147,7 @@ async function getPositions() {
 					next_station: stops[stopList[i].stop_id].stop_name,
 					dep_time: prev.dep,
 					arr_time: curr.arr,
-					arr_platform: curr.stop_platform,
+					arr_platform: curr.platform == "" ? stopList[i].stop_platform : curr.platform,
 					current_delay: hasRt ? prev.depDelay : -1,
 				};
 				break;
@@ -163,7 +167,7 @@ async function getPositions() {
 					next_station: stopList[i + 1] ? stops[stopList[i + 1].stop_id].stop_name : null,
 					arr_time: curr.arr,
 					dep_time: curr.dep,
-					curr_platform: curr.stop_platform,
+					curr_platform: curr.platform == "" ? stopList[i].stop_platform : curr.platform,
 					current_delay: hasRt ? curr.depDelay : -1,
 				};
 				break;

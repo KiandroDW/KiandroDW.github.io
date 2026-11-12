@@ -5,11 +5,11 @@ async function loadMap() {
 		maxZoom: 15,
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
-
+	
 	const [geojson, stops, blacklistText] = await Promise.all([
-		fetch('data/simplified.geojson').then(r => r.json()),
-		fetch('data/stops.json').then(r => r.json()),
-		fetch('data/blacklist.txt').then(r => r.text())
+		fetch('../data/simplified.geojson').then(r => r.json()),
+		fetch('../data/stops.json').then(r => r.json()),
+		fetch('../data/blacklist.txt').then(r => r.text())
 	]);
 
 	const blacklist = new Set(
