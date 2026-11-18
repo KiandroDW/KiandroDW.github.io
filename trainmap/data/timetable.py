@@ -38,6 +38,7 @@
 
 import csv
 import json
+import math
 import os
 import requests
 from datetime import datetime
@@ -129,6 +130,48 @@ with open("data/routes.txt") as csvfile:
 if len(routes) == 0:
     print("Failed parsing routes")
     terminate_connection()
+
+print("Snapping stops to the network")
+with open("data/simplified.geojson") as f:
+    geo = json.load(f)
+
+lines = [
+    [(c[0], c[1]) for c in feature["geometry"]["coordinates"]]
+    for feature in geo["features"]
+]
+print(f"Loaded {len(lines)} network lines, {sum(len(l) for l in lines)} points")
+
+if len(lines) == 0:
+    print("Failed loading network lines")
+    terminate_connection()
+
+
+def snap_to_network(lat, lon):
+    cos_lat = math.cos(math.radians(lat))
+    best_d2 = float("inf")
+    best = None
+    for line in lines:
+        for (x1, y1), (x2, y2) in zip(line, line[1:]):
+            # Work in degrees, with longitude scaled by cos(lat)
+            ax, ay = (x1 - lon) * cos_lat, y1 - lat
+            bx, by = (x2 - lon) * cos_lat, y2 - lat
+            dx, dy = bx - ax, by - ay
+            seg2 = dx * dx + dy * dy
+            t = 0.0 if seg2 == 0 else max(0.0, min(1.0, -(ax * dx + ay * dy) / seg2))
+            px, py = ax + t * dx, ay + t * dy
+            d2 = px * px + py * py
+            if d2 < best_d2:
+                best_d2 = d2
+                best = (x1 + t * (x2 - x1), y1 + t * (y2 - y1))
+    return best[0], best[1]
+
+
+for stop in stops.values():
+    lat = float(stop["stop_lat"])
+    lon = float(stop["stop_lon"])
+    node_lon, node_lat = snap_to_network(lat, lon)
+    stop["stop_lat"] = str(node_lat)
+    stop["stop_lon"] = str(node_lon)
 
 print("Writing json files")
 json_stops = json.dumps(stops, indent=4)
