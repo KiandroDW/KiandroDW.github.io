@@ -1,15 +1,15 @@
 {
-    "gr:nmbssncb:32": {
-        "route_long_name": "Genk -- Landen",
-        "route_short_name": "IC"
+    "gr:nmbssncb:781": {
+        "route_long_name": "Aalst -- Burst",
+        "route_short_name": "P"
     },
-    "gr:nmbssncb:377": {
-        "route_long_name": "Liers -- Bergen",
-        "route_short_name": "IC"
+    "gr:nmbssncb:451": {
+        "route_long_name": "Hasselt -- Mol",
+        "route_short_name": "L"
     },
-    "gr:nmbssncb:379": {
-        "route_long_name": "Tamines -- Bergen",
-        "route_short_name": "IC"
+    "gr:nmbssncb:772": {
+        "route_long_name": "Bergen -- Qu\u00e9vy",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:100": {
         "route_long_name": "Lokeren -- Sint-Niklaas",
@@ -124,15 +124,15 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:127": {
-        "route_long_name": "Blankenberge -- Gent-Sint-Pieters",
+        "route_long_name": "Antwerpen-Centraal -- Noorderkempen (Brecht)",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:128": {
-        "route_long_name": "Liers -- Charleroi-Centraal",
-        "route_short_name": "IC"
+        "route_long_name": "Antwerpen-Centraal -- Essen",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:129": {
-        "route_long_name": "Saint-Ghislain -- Qui\u00e9vrain",
+        "route_long_name": "Brussels Airport-Zaventem -- Antwerpen-Centraal",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:13": {
@@ -140,319 +140,307 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:130": {
-        "route_long_name": "Zottegem -- Burst",
-        "route_short_name": "L"
+        "route_long_name": "Blankenberge -- Gent-Sint-Pieters",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:131": {
-        "route_long_name": "Luik-Guillemins -- Luik-Sint-Lambertus",
+        "route_long_name": "Gent-Sint-Pieters -- Ronse",
         "route_short_name": "L"
     },
     "gr:nmbssncb:132": {
-        "route_long_name": "Antwerpen-Centraal -- Noorderkempen (Brecht)",
+        "route_long_name": "Saint-Ghislain -- Qui\u00e9vrain",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:133": {
+        "route_long_name": "Luik-Guillemins -- Herstal",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:134": {
+        "route_long_name": "Zottegem -- Burst",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:135": {
+        "route_long_name": "Luik-Guillemins -- Luik-Sint-Lambertus",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:136": {
         "route_long_name": "Luik-Guillemins -- Wezet",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:134": {
+    "gr:nmbssncb:137": {
         "route_long_name": "Doornik -- Froyennes",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:135": {
+    "gr:nmbssncb:138": {
         "route_long_name": "Tongeren -- Saint-Ghislain",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:136": {
-        "route_long_name": "Brussel-Zuid -- Antwerpen-Centraal",
-        "route_short_name": "S1"
-    },
-    "gr:nmbssncb:137": {
-        "route_long_name": "Nijvel -- Antwerpen-Centraal",
-        "route_short_name": "S1"
-    },
-    "gr:nmbssncb:138": {
-        "route_long_name": "Brussel-Zuid -- Nijvel",
-        "route_short_name": "S1"
-    },
     "gr:nmbssncb:139": {
-        "route_long_name": "Vilvoorde -- Nijvel",
+        "route_long_name": "Brussel-Zuid -- Antwerpen-Centraal",
         "route_short_name": "S1"
     },
     "gr:nmbssncb:14": {
         "route_long_name": "De Panne -- Diksmuide",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:38": {
-        "route_long_name": "Mol -- Hamont",
-        "route_short_name": "IC"
-    },
     "gr:nmbssncb:140": {
-        "route_long_name": "Schaarbeek -- Nijvel",
+        "route_long_name": "Nijvel -- Antwerpen-Centraal",
         "route_short_name": "S1"
     },
     "gr:nmbssncb:141": {
+        "route_long_name": "Brussel-Zuid -- Nijvel",
+        "route_short_name": "S1"
+    },
+    "gr:nmbssncb:142": {
+        "route_long_name": "Vilvoorde -- Nijvel",
+        "route_short_name": "S1"
+    },
+    "gr:nmbssncb:143": {
+        "route_long_name": "Schaarbeek -- Nijvel",
+        "route_short_name": "S1"
+    },
+    "gr:nmbssncb:144": {
         "route_long_name": "Ottignies -- Waver",
         "route_short_name": "T"
     },
-    "gr:nmbssncb:142": {
+    "gr:nmbssncb:145": {
         "route_long_name": "Ottignies -- Brussel-Zuid",
         "route_short_name": "T"
     },
-    "gr:nmbssncb:143": {
+    "gr:nmbssncb:146": {
         "route_long_name": "Antwerpen-Centraal -- Gent-Sint-Pieters",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:144": {
+    "gr:nmbssncb:147": {
         "route_long_name": "Schaarbeek -- Cambron-Casteau",
         "route_short_name": "T"
     },
-    "gr:nmbssncb:145": {
+    "gr:nmbssncb:148": {
         "route_long_name": "Antwerpen-Centraal -- Oostende",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:146": {
-        "route_long_name": "Dinant -- Houyet",
-        "route_short_name": "T"
-    },
-    "gr:nmbssncb:147": {
-        "route_long_name": "Luik-Guillemins -- Rochefort-Jemelle",
-        "route_short_name": "T"
-    },
-    "gr:nmbssncb:148": {
-        "route_long_name": "Brugge -- Knokke",
-        "route_short_name": "T"
-    },
     "gr:nmbssncb:149": {
-        "route_long_name": "Turnhout -- Blankenberge",
+        "route_long_name": "Dinant -- Houyet",
         "route_short_name": "T"
     },
     "gr:nmbssncb:15": {
         "route_long_name": "Gent-Sint-Pieters -- Schellebelle",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:348": {
-        "route_long_name": "Lier -- Binche",
-        "route_short_name": "IC"
-    },
     "gr:nmbssncb:150": {
-        "route_long_name": "Antwerpen-Centraal -- Blankenberge",
+        "route_long_name": "Luik-Guillemins -- Rochefort-Jemelle",
         "route_short_name": "T"
     },
     "gr:nmbssncb:151": {
-        "route_long_name": "Charleroi-Centraal -- Blankenberge",
+        "route_long_name": "Brugge -- Knokke",
         "route_short_name": "T"
     },
     "gr:nmbssncb:152": {
-        "route_long_name": "Neerpelt -- Blankenberge",
+        "route_long_name": "Turnhout -- Blankenberge",
         "route_short_name": "T"
     },
     "gr:nmbssncb:153": {
-        "route_long_name": "Schaarbeek -- Blankenberge",
+        "route_long_name": "Antwerpen-Centraal -- Blankenberge",
         "route_short_name": "T"
     },
     "gr:nmbssncb:154": {
-        "route_long_name": "Schaarbeek -- Oostende",
+        "route_long_name": "Charleroi-Centraal -- Blankenberge",
         "route_short_name": "T"
     },
     "gr:nmbssncb:155": {
-        "route_long_name": "Tongeren -- Oostende",
+        "route_long_name": "Neerpelt -- Blankenberge",
         "route_short_name": "T"
     },
     "gr:nmbssncb:156": {
-        "route_long_name": "Gent-Sint-Pieters -- De Panne",
+        "route_long_name": "Schaarbeek -- Blankenberge",
         "route_short_name": "T"
     },
     "gr:nmbssncb:157": {
-        "route_long_name": "Schaarbeek -- De Panne",
+        "route_long_name": "Schaarbeek -- Oostende",
         "route_short_name": "T"
     },
     "gr:nmbssncb:158": {
-        "route_long_name": "Leuven -- Oostende",
-        "route_short_name": "EXT"
+        "route_long_name": "Tongeren -- Oostende",
+        "route_short_name": "T"
     },
     "gr:nmbssncb:159": {
-        "route_long_name": "Welkenraedt -- Oostende",
-        "route_short_name": "EXT"
+        "route_long_name": "Gent-Sint-Pieters -- De Panne",
+        "route_short_name": "T"
     },
     "gr:nmbssncb:16": {
         "route_long_name": "Oudenaarde -- Kortrijk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:160": {
-        "route_long_name": "Welkenraedt -- Knokke",
-        "route_short_name": "EXT"
+        "route_long_name": "Schaarbeek -- De Panne",
+        "route_short_name": "T"
     },
     "gr:nmbssncb:161": {
-        "route_long_name": "Leuven -- Knokke",
+        "route_long_name": "Leuven -- Oostende",
         "route_short_name": "EXT"
     },
     "gr:nmbssncb:162": {
-        "route_long_name": "Schaarbeek -- Oostende",
+        "route_long_name": "Welkenraedt -- Oostende",
         "route_short_name": "EXT"
     },
     "gr:nmbssncb:163": {
-        "route_long_name": "Antwerpen-Berchem -- Oostende",
-        "route_short_name": "IC"
+        "route_long_name": "Welkenraedt -- Knokke",
+        "route_short_name": "EXT"
     },
     "gr:nmbssncb:164": {
-        "route_long_name": "Leuven -- Blankenberge",
+        "route_long_name": "Leuven -- Knokke",
         "route_short_name": "EXT"
     },
     "gr:nmbssncb:165": {
-        "route_long_name": "Antwerpen-Centraal -- Blankenberge",
+        "route_long_name": "Schaarbeek -- Oostende",
         "route_short_name": "EXT"
     },
     "gr:nmbssncb:166": {
-        "route_long_name": "Charleroi-Centraal -- Blankenberge",
-        "route_short_name": "EXT"
+        "route_long_name": "Antwerpen-Berchem -- Oostende",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:167": {
-        "route_long_name": "Hasselt -- Blankenberge",
+        "route_long_name": "Leuven -- Blankenberge",
         "route_short_name": "EXT"
     },
     "gr:nmbssncb:168": {
-        "route_long_name": "Mol -- Leuven",
+        "route_long_name": "Antwerpen-Centraal -- Blankenberge",
         "route_short_name": "EXT"
     },
     "gr:nmbssncb:169": {
-        "route_long_name": "Gent-Sint-Pieters -- Geraardsbergen",
-        "route_short_name": "S52"
+        "route_long_name": "Charleroi-Centraal -- Blankenberge",
+        "route_short_name": "EXT"
     },
     "gr:nmbssncb:17": {
         "route_long_name": "Gent-Sint-Pieters -- Aalst",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:170": {
+        "route_long_name": "Hasselt -- Blankenberge",
+        "route_short_name": "EXT"
+    },
+    "gr:nmbssncb:171": {
+        "route_long_name": "Mol -- Leuven",
+        "route_short_name": "EXT"
+    },
+    "gr:nmbssncb:172": {
+        "route_long_name": "Herentals -- Leuven",
+        "route_short_name": "EXT"
+    },
+    "gr:nmbssncb:173": {
+        "route_long_name": "Gent-Sint-Pieters -- Geraardsbergen",
+        "route_short_name": "S52"
+    },
+    "gr:nmbssncb:174": {
         "route_long_name": "Zottegem -- Geraardsbergen",
         "route_short_name": "S52"
     },
-    "gr:nmbssncb:171": {
+    "gr:nmbssncb:175": {
         "route_long_name": "Gent-Sint-Pieters -- Zottegem",
         "route_short_name": "S52"
     },
-    "gr:nmbssncb:172": {
+    "gr:nmbssncb:176": {
         "route_long_name": "Eeklo -- Geraardsbergen",
         "route_short_name": "S52"
     },
-    "gr:nmbssncb:173": {
+    "gr:nmbssncb:177": {
         "route_long_name": "Antwerpen-Centraal -- Puurs",
         "route_short_name": "S32"
     },
-    "gr:nmbssncb:174": {
+    "gr:nmbssncb:178": {
         "route_long_name": "Antwerpen-Centraal -- Antwerpen-Zuid",
         "route_short_name": "S32"
     },
-    "gr:nmbssncb:175": {
-        "route_long_name": "Antwerpen-Zuid -- Essen",
-        "route_short_name": "S32"
-    },
-    "gr:nmbssncb:176": {
-        "route_long_name": "Essen -- Puurs",
-        "route_short_name": "S32"
-    },
-    "gr:nmbssncb:177": {
-        "route_long_name": "Roosendaal (NL) -- Puurs",
-        "route_short_name": "S32"
-    },
-    "gr:nmbssncb:178": {
-        "route_long_name": "Roosendaal (NL) -- Antwerpen-Zuid",
-        "route_short_name": "S32"
-    },
     "gr:nmbssncb:179": {
-        "route_long_name": "Roosendaal (NL) -- Boom",
+        "route_long_name": "Antwerpen-Zuid -- Essen",
         "route_short_name": "S32"
     },
     "gr:nmbssncb:18": {
         "route_long_name": "Lichtervelde -- Kortrijk",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:380": {
-        "route_long_name": "Namen -- Bergen",
-        "route_short_name": "IC"
-    },
     "gr:nmbssncb:180": {
-        "route_long_name": "Roosendaal (NL) -- Antwerpen-Centraal",
+        "route_long_name": "Essen -- Puurs",
         "route_short_name": "S32"
     },
     "gr:nmbssncb:181": {
-        "route_long_name": "Antwerpen-Centraal -- Essen",
+        "route_long_name": "Roosendaal (NL) -- Puurs",
         "route_short_name": "S32"
     },
     "gr:nmbssncb:182": {
+        "route_long_name": "Roosendaal (NL) -- Antwerpen-Zuid",
+        "route_short_name": "S32"
+    },
+    "gr:nmbssncb:183": {
+        "route_long_name": "Roosendaal (NL) -- Boom",
+        "route_short_name": "S32"
+    },
+    "gr:nmbssncb:184": {
+        "route_long_name": "Roosendaal (NL) -- Antwerpen-Centraal",
+        "route_short_name": "S32"
+    },
+    "gr:nmbssncb:185": {
+        "route_long_name": "Antwerpen-Centraal -- Essen",
+        "route_short_name": "S32"
+    },
+    "gr:nmbssncb:186": {
         "route_long_name": "Luxemburg (LU) -- Aarlen",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:183": {
+    "gr:nmbssncb:187": {
         "route_long_name": "Aachen Hbf (DE) -- Luik-Guillemins",
         "route_short_name": "S43"
     },
-    "gr:nmbssncb:184": {
+    "gr:nmbssncb:188": {
         "route_long_name": "Heerlen -- Luik-Guillemins",
         "route_short_name": "S43"
     },
-    "gr:nmbssncb:185": {
+    "gr:nmbssncb:189": {
         "route_long_name": "Luik-Guillemins -- Wezet",
         "route_short_name": "S43"
-    },
-    "gr:nmbssncb:186": {
-        "route_long_name": "Brussels Airport-Zaventem -- Doornik",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:187": {
-        "route_long_name": "Brussels Airport-Zaventem -- Aat",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:188": {
-        "route_long_name": "Brussels Airport-Zaventem -- Edingen",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:189": {
-        "route_long_name": "Brussel-Noord -- Doornik",
-        "route_short_name": "IC"
     },
     "gr:nmbssncb:19": {
         "route_long_name": "Geraardsbergen -- Denderleeuw",
         "route_short_name": "L"
     },
     "gr:nmbssncb:190": {
+        "route_long_name": "Brussels Airport-Zaventem -- Doornik",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:191": {
+        "route_long_name": "Brussels Airport-Zaventem -- Aat",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:192": {
+        "route_long_name": "Brussels Airport-Zaventem -- Edingen",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:193": {
         "route_long_name": "Antwerpen-Centraal -- Charleroi-Centraal",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:191": {
+    "gr:nmbssncb:194": {
         "route_long_name": "Antwerpen-Centraal -- Luttre",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:192": {
+    "gr:nmbssncb:195": {
         "route_long_name": "Antwerpen-Centraal -- Marchienne-au-Pont",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:193": {
+    "gr:nmbssncb:196": {
         "route_long_name": "Vilvoorde -- Brussel-Zuid",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:194": {
+    "gr:nmbssncb:197": {
         "route_long_name": "Schaarbeek -- Brussel-Zuid",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:195": {
+    "gr:nmbssncb:198": {
         "route_long_name": "Lille Flandres (FR) -- Antwerpen-Centraal",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:196": {
-        "route_long_name": "Lille Flandres (FR) -- Kortrijk",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:197": {
-        "route_long_name": "Lille Flandres (FR) -- Moeskroen",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:198": {
-        "route_long_name": "Antwerpen-Centraal -- Moeskroen",
-        "route_short_name": "IC"
-    },
     "gr:nmbssncb:199": {
-        "route_long_name": "Moeskroen -- Kortrijk",
+        "route_long_name": "Lille Flandres (FR) -- Kortrijk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:2": {
@@ -464,91 +452,87 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:200": {
+        "route_long_name": "Lille Flandres (FR) -- Moeskroen",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:201": {
+        "route_long_name": "Antwerpen-Centraal -- Moeskroen",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:202": {
+        "route_long_name": "Moeskroen -- Kortrijk",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:203": {
         "route_long_name": "Brussel-Noord -- Nijvel",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:201": {
+    "gr:nmbssncb:204": {
         "route_long_name": "Nijvel -- Kontich-Lint",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:202": {
+    "gr:nmbssncb:205": {
         "route_long_name": "Brussel-Noord -- Antwerpen-Centraal",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:203": {
+    "gr:nmbssncb:206": {
         "route_long_name": "Nijvel -- Mechelen",
         "route_short_name": "S1"
     },
-    "gr:nmbssncb:204": {
+    "gr:nmbssncb:207": {
         "route_long_name": "Lille Flandres (FR) -- Antwerpen-Berchem",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:205": {
+    "gr:nmbssncb:208": {
         "route_long_name": "Erquelinnes -- Charleroi-Centraal",
         "route_short_name": "S63"
     },
-    "gr:nmbssncb:206": {
+    "gr:nmbssncb:209": {
         "route_long_name": "Maubeuge (FR) -- Charleroi-Centraal",
         "route_short_name": "S63"
-    },
-    "gr:nmbssncb:207": {
-        "route_long_name": "Lille Flandres (FR) -- Doornik",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:208": {
-        "route_long_name": "Lille Flandres (FR) -- Namen",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:209": {
-        "route_long_name": "Vilvoorde -- Antwerpen-Centraal",
-        "route_short_name": "S1"
     },
     "gr:nmbssncb:21": {
         "route_long_name": "Zeebrugge-Strand -- Schellebelle",
         "route_short_name": "L"
     },
     "gr:nmbssncb:210": {
-        "route_long_name": "Schaarbeek -- Antwerpen-Centraal",
-        "route_short_name": "S1"
+        "route_long_name": "Lille Flandres (FR) -- Doornik",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:211": {
-        "route_long_name": "Brussel-Zuid -- Essen",
+        "route_long_name": "Lille Flandres (FR) -- Namen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:212": {
-        "route_long_name": "Essen -- Charleroi-Centraal",
-        "route_short_name": "IC"
+        "route_long_name": "Vilvoorde -- Antwerpen-Centraal",
+        "route_short_name": "S1"
     },
     "gr:nmbssncb:213": {
-        "route_long_name": "Antwerpen-Centraal -- Charleroi-Centraal",
-        "route_short_name": "IC"
+        "route_long_name": "Schaarbeek -- Antwerpen-Centraal",
+        "route_short_name": "S1"
     },
     "gr:nmbssncb:214": {
-        "route_long_name": "Brussel-Noord -- Charleroi-Centraal",
+        "route_long_name": "Brussel-Zuid -- Essen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:215": {
-        "route_long_name": "Jette -- Aalst",
-        "route_short_name": "S10"
+        "route_long_name": "Essen -- Charleroi-Centraal",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:216": {
-        "route_long_name": "Dendermonde -- Aalst",
-        "route_short_name": "S10"
+        "route_long_name": "Antwerpen-Centraal -- Charleroi-Centraal",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:217": {
-        "route_long_name": "Brussel-Zuid -- Aalst",
-        "route_short_name": "S10"
-    },
-    "gr:nmbssncb:381": {
-        "route_long_name": "Liers -- Moeskroen",
+        "route_long_name": "Brussel-Noord -- Charleroi-Centraal",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:218": {
-        "route_long_name": "Brussel-Zuid -- Denderleeuw",
+        "route_long_name": "Jette -- Aalst",
         "route_short_name": "S10"
     },
     "gr:nmbssncb:219": {
-        "route_long_name": "Dendermonde -- Denderleeuw",
+        "route_long_name": "Dendermonde -- Aalst",
         "route_short_name": "S10"
     },
     "gr:nmbssncb:22": {
@@ -556,43 +540,43 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:220": {
-        "route_long_name": "Opwijk -- Aalst",
+        "route_long_name": "Brussel-Zuid -- Aalst",
         "route_short_name": "S10"
     },
     "gr:nmbssncb:221": {
+        "route_long_name": "Brussel-Zuid -- Denderleeuw",
+        "route_short_name": "S10"
+    },
+    "gr:nmbssncb:222": {
+        "route_long_name": "Dendermonde -- Denderleeuw",
+        "route_short_name": "S10"
+    },
+    "gr:nmbssncb:223": {
+        "route_long_name": "Opwijk -- Aalst",
+        "route_short_name": "S10"
+    },
+    "gr:nmbssncb:224": {
         "route_long_name": "Luxemburg (LU) -- Namen",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:222": {
+    "gr:nmbssncb:225": {
         "route_long_name": "Namen -- Aarlen",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:223": {
+    "gr:nmbssncb:226": {
         "route_long_name": "Bertrange Strassen (LU) -- Namen",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:224": {
+    "gr:nmbssncb:227": {
         "route_long_name": "Luxemburg (LU) -- Brussel-Zuid",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:225": {
+    "gr:nmbssncb:228": {
         "route_long_name": "Brussel-Zuid -- Aarlen",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:226": {
-        "route_long_name": "Bertrange Strassen (LU) -- Brussel-Zuid",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:227": {
-        "route_long_name": "Luxemburg (LU) -- Libramont",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:228": {
-        "route_long_name": "Luxemburg (LU) -- Ciney",
-        "route_short_name": "IC"
-    },
     "gr:nmbssncb:229": {
-        "route_long_name": "Libramont -- Aarlen",
+        "route_long_name": "Bertrange Strassen (LU) -- Brussel-Zuid",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:23": {
@@ -600,131 +584,135 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:230": {
-        "route_long_name": "Ciney -- Aarlen",
+        "route_long_name": "Luxemburg (LU) -- Libramont",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:231": {
-        "route_long_name": "Luxemburg (LU) -- Oostende",
+        "route_long_name": "Ciney -- Aarlen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:232": {
-        "route_long_name": "Rochefort-Jemelle -- Ciney",
+        "route_long_name": "Libramont -- Aarlen",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:386": {
+        "route_long_name": "Namen -- Moeskroen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:233": {
-        "route_long_name": "Brussel-Zuid -- Ciney",
+        "route_long_name": "Luxemburg (LU) -- Oostende",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:234": {
-        "route_long_name": "Rochefort-Jemelle -- Oostende",
+        "route_long_name": "Rochefort-Jemelle -- Ciney",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:235": {
-        "route_long_name": "Rochefort-Jemelle -- Aarlen",
+        "route_long_name": "Brussel-Zuid -- Ciney",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:236": {
-        "route_long_name": "Luxemburg (LU) -- Rochefort-Jemelle",
+        "route_long_name": "Rochefort-Jemelle -- Oostende",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:237": {
-        "route_long_name": "Bertrange Strassen (LU) -- Rochefort-Jemelle",
+        "route_long_name": "Luxemburg (LU) -- Ciney",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:238": {
-        "route_long_name": "Ottignies -- Louvain-la-Neuve",
-        "route_short_name": "S4"
+        "route_long_name": "Rochefort-Jemelle -- Aarlen",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:239": {
-        "route_long_name": "Brussel-Luxemburg -- Aalst",
-        "route_short_name": "S4"
+        "route_long_name": "Luxemburg (LU) -- Rochefort-Jemelle",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:24": {
         "route_long_name": "Brugge -- Zeebrugge-Strand",
         "route_short_name": "L"
     },
     "gr:nmbssncb:240": {
-        "route_long_name": "Louvain-la-Neuve -- Aalst",
-        "route_short_name": "S4"
+        "route_long_name": "Bertrange Strassen (LU) -- Rochefort-Jemelle",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:241": {
-        "route_long_name": "Ternat -- Aalst",
+        "route_long_name": "Ottignies -- Louvain-la-Neuve",
         "route_short_name": "S4"
     },
     "gr:nmbssncb:242": {
-        "route_long_name": "Schaarbeek -- Aalst",
+        "route_long_name": "Brussel-Luxemburg -- Aalst",
         "route_short_name": "S4"
     },
     "gr:nmbssncb:243": {
-        "route_long_name": "Brussel-Luxemburg -- Denderleeuw",
+        "route_long_name": "Louvain-la-Neuve -- Aalst",
         "route_short_name": "S4"
     },
     "gr:nmbssncb:244": {
-        "route_long_name": "Ottignies -- Aalst",
+        "route_long_name": "Ternat -- Aalst",
         "route_short_name": "S4"
     },
     "gr:nmbssncb:245": {
-        "route_long_name": "Louvain-la-Neuve -- Denderleeuw",
+        "route_long_name": "Schaarbeek -- Aalst",
         "route_short_name": "S4"
     },
     "gr:nmbssncb:246": {
-        "route_long_name": "Brussels Airport-Zaventem -- Gent-Sint-Pieters",
-        "route_short_name": "IC"
+        "route_long_name": "Brussel-Luxemburg -- Denderleeuw",
+        "route_short_name": "S4"
     },
     "gr:nmbssncb:247": {
-        "route_long_name": "Brussels Airport-Zaventem -- Denderleeuw",
-        "route_short_name": "IC"
+        "route_long_name": "Ottignies -- Aalst",
+        "route_short_name": "S4"
     },
     "gr:nmbssncb:248": {
-        "route_long_name": "Dendermonde -- Geraardsbergen",
-        "route_short_name": "S3"
+        "route_long_name": "Louvain-la-Neuve -- Denderleeuw",
+        "route_short_name": "S4"
     },
     "gr:nmbssncb:249": {
-        "route_long_name": "Brussel-Noord -- Denderleeuw",
-        "route_short_name": "S3"
+        "route_long_name": "Brussels Airport-Zaventem -- Gent-Sint-Pieters",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:25": {
         "route_long_name": "Gent-Sint-Pieters -- Lichtervelde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:250": {
-        "route_long_name": "Dendermonde -- Denderleeuw",
-        "route_short_name": "S3"
+        "route_long_name": "Brussels Airport-Zaventem -- Denderleeuw",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:251": {
-        "route_long_name": "Brussel-Noord -- Geraardsbergen",
+        "route_long_name": "Dendermonde -- Geraardsbergen",
         "route_short_name": "S3"
     },
     "gr:nmbssncb:252": {
-        "route_long_name": "Brussel-Zuid -- Edingen",
+        "route_long_name": "Brussel-Noord -- Denderleeuw",
         "route_short_name": "S3"
     },
     "gr:nmbssncb:253": {
-        "route_long_name": "Jette -- Brussel-Zuid",
+        "route_long_name": "Dendermonde -- Denderleeuw",
         "route_short_name": "S3"
     },
     "gr:nmbssncb:254": {
-        "route_long_name": "Brussel-Zuid -- Dendermonde",
+        "route_long_name": "Brussel-Noord -- Geraardsbergen",
         "route_short_name": "S3"
     },
     "gr:nmbssncb:255": {
-        "route_long_name": "Brussel-Noord -- Edingen",
+        "route_long_name": "Brussel-Zuid -- Edingen",
         "route_short_name": "S3"
     },
     "gr:nmbssncb:256": {
-        "route_long_name": "Brussels Airport-Zaventem -- Kortrijk",
-        "route_short_name": "IC"
+        "route_long_name": "Jette -- Brussel-Zuid",
+        "route_short_name": "S3"
     },
     "gr:nmbssncb:257": {
-        "route_long_name": "Brussels Airport-Zaventem -- Zottegem",
-        "route_short_name": "IC"
+        "route_long_name": "Brussel-Zuid -- Dendermonde",
+        "route_short_name": "S3"
     },
     "gr:nmbssncb:258": {
-        "route_long_name": "Brussels Airport-Zaventem -- Oudenaarde",
-        "route_short_name": "IC"
+        "route_long_name": "Brussel-Noord -- Edingen",
+        "route_short_name": "S3"
     },
     "gr:nmbssncb:259": {
-        "route_long_name": "Denderleeuw -- Kortrijk",
+        "route_long_name": "Brussels Airport-Zaventem -- Kortrijk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:26": {
@@ -732,43 +720,43 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:260": {
-        "route_long_name": "Brussels Airport-Zaventem -- Oostende",
+        "route_long_name": "Brussels Airport-Zaventem -- Zottegem",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:261": {
-        "route_long_name": "Brussels Airport-Zaventem -- Lichtervelde",
+        "route_long_name": "Brussels Airport-Zaventem -- Oudenaarde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:262": {
-        "route_long_name": "Oostende -- Denderleeuw",
+        "route_long_name": "Denderleeuw -- Kortrijk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:263": {
-        "route_long_name": "Brussel-Noord -- Oudenaarde",
+        "route_long_name": "Brussels Airport-Zaventem -- Oostende",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:264": {
-        "route_long_name": "Luik-Sint-Lambertus -- Namen",
+        "route_long_name": "Brussels Airport-Zaventem -- Lichtervelde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:265": {
-        "route_long_name": "Brussel-Zuid -- Luik-Sint-Lambertus",
+        "route_long_name": "Oostende -- Denderleeuw",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:266": {
-        "route_long_name": "Luik-Sint-Lambertus -- Doornik",
+        "route_long_name": "Brussel-Noord -- Oudenaarde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:267": {
-        "route_long_name": "Luik-Sint-Lambertus -- Oostende",
+        "route_long_name": "Luik-Sint-Lambertus -- Namen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:268": {
-        "route_long_name": "Brussel-Zuid -- Luik-Guillemins",
+        "route_long_name": "Brussel-Zuid -- Luik-Sint-Lambertus",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:269": {
-        "route_long_name": "Brussel-Zuid -- Statte",
+        "route_long_name": "Luik-Sint-Lambertus -- Doornik",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:27": {
@@ -776,43 +764,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:270": {
-        "route_long_name": "Hasselt -- Leuven",
-        "route_short_name": "L"
+        "route_long_name": "Luik-Sint-Lambertus -- Oostende",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:271": {
-        "route_long_name": "Brussels Airport-Zaventem -- Dinant",
+        "route_long_name": "Brussel-Zuid -- Luik-Guillemins",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:272": {
-        "route_long_name": "Brussel-Zuid -- Dinant",
+        "route_long_name": "Brussel-Zuid -- Statte",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:273": {
-        "route_long_name": "Brussel-Zuid -- Gembloux",
-        "route_short_name": "IC"
+        "route_long_name": "Hasselt -- Leuven",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:274": {
-        "route_long_name": "Schaarbeek -- Dinant",
+        "route_long_name": "Brussels Airport-Zaventem -- Dinant",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:275": {
-        "route_long_name": "Ottignies -- Dinant",
+        "route_long_name": "Brussel-Zuid -- Dinant",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:276": {
-        "route_long_name": "Ottignies -- Brussel-Zuid",
+        "route_long_name": "Brussel-Zuid -- Gembloux",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:277": {
-        "route_long_name": "Brussel-Luxemburg -- Brussels Airport-Zaventem",
+        "route_long_name": "Schaarbeek -- Dinant",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:278": {
-        "route_long_name": "Schaarbeek -- Namen",
+        "route_long_name": "Ottignies -- Dinant",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:279": {
-        "route_long_name": "Ottignies -- Namen",
+        "route_long_name": "Ottignies -- Brussel-Zuid",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:28": {
@@ -820,43 +808,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:280": {
-        "route_long_name": "Antwerpen-Centraal -- Hasselt",
+        "route_long_name": "Brussel-Luxemburg -- Brussels Airport-Zaventem",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:281": {
-        "route_long_name": "Antwerpen-Centraal -- Leuven",
+        "route_long_name": "Schaarbeek -- Namen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:282": {
-        "route_long_name": "Antwerpen-Centraal -- Aarschot",
+        "route_long_name": "Ottignies -- Namen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:283": {
-        "route_long_name": "Essen -- Hasselt",
+        "route_long_name": "Antwerpen-Centraal -- Hasselt",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:284": {
-        "route_long_name": "Brussels Airport-Zaventem -- Hasselt",
+        "route_long_name": "Antwerpen-Centraal -- Leuven",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:285": {
-        "route_long_name": "Mechelen -- Hasselt",
+        "route_long_name": "Antwerpen-Centraal -- Aarschot",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:286": {
-        "route_long_name": "Mechelen -- Aarschot",
+        "route_long_name": "Essen -- Hasselt",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:287": {
-        "route_long_name": "Essen -- Tongeren",
+        "route_long_name": "Brussels Airport-Zaventem -- Hasselt",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:288": {
-        "route_long_name": "Antwerpen-Centraal -- Tongeren",
+        "route_long_name": "Mechelen -- Hasselt",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:289": {
-        "route_long_name": "Brussels Airport-Zaventem -- Leuven",
+        "route_long_name": "Mechelen -- Aarschot",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:29": {
@@ -864,44 +852,44 @@
         "route_short_name": "P"
     },
     "gr:nmbssncb:290": {
-        "route_long_name": "Essen -- Leuven",
+        "route_long_name": "Essen -- Tongeren",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:291": {
-        "route_long_name": "Antwerpen-Berchem -- Hasselt",
+        "route_long_name": "Antwerpen-Centraal -- Tongeren",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:292": {
+        "route_long_name": "Brussels Airport-Zaventem -- Leuven",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:293": {
+        "route_long_name": "Essen -- Leuven",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:294": {
+        "route_long_name": "Antwerpen-Berchem -- Hasselt",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:295": {
         "route_long_name": "Antwerpen-Centraal -- Sint-Niklaas",
         "route_short_name": "S34"
     },
-    "gr:nmbssncb:293": {
+    "gr:nmbssncb:296": {
         "route_long_name": "Leuven -- Sint-Niklaas",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:294": {
+    "gr:nmbssncb:297": {
         "route_long_name": "Mechelen -- Sint-Niklaas",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:295": {
+    "gr:nmbssncb:298": {
         "route_long_name": "Willebroek -- Sint-Niklaas",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:296": {
+    "gr:nmbssncb:299": {
         "route_long_name": "Mechelen -- Temse",
         "route_short_name": "L"
-    },
-    "gr:nmbssncb:297": {
-        "route_long_name": "Luik-Guillemins -- Brugge",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:298": {
-        "route_long_name": "Luik-Guillemins -- Knokke",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:299": {
-        "route_long_name": "Brussels Airport-Zaventem -- Luik-Guillemins",
-        "route_short_name": "IC"
     },
     "gr:nmbssncb:3": {
         "route_long_name": "Schaarbeek -- Brussel-Zuid",
@@ -912,127 +900,131 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:300": {
-        "route_long_name": "Luik-Guillemins -- Blankenberge",
-        "route_short_name": "IC"
+        "route_long_name": "Haacht -- Sint-Niklaas",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:301": {
-        "route_long_name": "Luik-Guillemins -- Oostende",
+        "route_long_name": "Luik-Guillemins -- Brugge",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:302": {
-        "route_long_name": "Leuven -- Knokke",
+        "route_long_name": "Luik-Guillemins -- Knokke",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:303": {
-        "route_long_name": "Landen -- Knokke",
+        "route_long_name": "Brussels Airport-Zaventem -- Luik-Guillemins",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:304": {
+        "route_long_name": "Luik-Guillemins -- Blankenberge",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:305": {
+        "route_long_name": "Luik-Guillemins -- Oostende",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:306": {
+        "route_long_name": "Leuven -- Knokke",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:307": {
+        "route_long_name": "Landen -- Knokke",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:308": {
         "route_long_name": "Antwerpen-Centraal -- Leuven",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:305": {
+    "gr:nmbssncb:309": {
         "route_long_name": "Antwerpen-Centraal -- Hasselt",
         "route_short_name": "L"
-    },
-    "gr:nmbssncb:306": {
-        "route_long_name": "Antwerpen-Centraal -- Mol",
-        "route_short_name": "S33"
-    },
-    "gr:nmbssncb:307": {
-        "route_long_name": "Antwerpen-Centraal -- Herentals",
-        "route_short_name": "S33"
-    },
-    "gr:nmbssncb:308": {
-        "route_long_name": "Antwerpen-Centraal -- Lier",
-        "route_short_name": "S33"
-    },
-    "gr:nmbssncb:309": {
-        "route_long_name": "Lier -- Mol",
-        "route_short_name": "S33"
     },
     "gr:nmbssncb:31": {
         "route_long_name": "Leuven -- Aarschot",
         "route_short_name": "L"
     },
     "gr:nmbssncb:310": {
-        "route_long_name": "Lier -- Herentals",
+        "route_long_name": "Antwerpen-Centraal -- Mol",
         "route_short_name": "S33"
     },
     "gr:nmbssncb:311": {
+        "route_long_name": "Antwerpen-Centraal -- Herentals",
+        "route_short_name": "S33"
+    },
+    "gr:nmbssncb:312": {
+        "route_long_name": "Antwerpen-Centraal -- Lier",
+        "route_short_name": "S33"
+    },
+    "gr:nmbssncb:313": {
+        "route_long_name": "Lier -- Mol",
+        "route_short_name": "S33"
+    },
+    "gr:nmbssncb:314": {
+        "route_long_name": "Lier -- Herentals",
+        "route_short_name": "S33"
+    },
+    "gr:nmbssncb:315": {
         "route_long_name": "Gent-Sint-Pieters -- De Panne",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:312": {
+    "gr:nmbssncb:316": {
         "route_long_name": "Antwerpen-Centraal -- De Panne",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:313": {
+    "gr:nmbssncb:317": {
         "route_long_name": "Antwerpen-Centraal -- Lichtervelde",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:314": {
+    "gr:nmbssncb:318": {
         "route_long_name": "Ottignies -- Leuven",
         "route_short_name": "S20"
     },
-    "gr:nmbssncb:315": {
+    "gr:nmbssncb:319": {
         "route_long_name": "Waver -- Leuven",
         "route_short_name": "S20"
     },
-    "gr:nmbssncb:316": {
-        "route_long_name": "Antwerpen-Berchem -- Charleroi-Centraal",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:317": {
-        "route_long_name": "Brussel-Zuid -- Antwerpen-Berchem",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:318": {
-        "route_long_name": "Antwerpen-Centraal -- Binche",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:319": {
-        "route_long_name": "Brussel-Noord -- Antwerpen-Centraal",
+    "gr:nmbssncb:32": {
+        "route_long_name": "Genk -- Landen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:320": {
-        "route_long_name": "Halle -- Mechelen",
-        "route_short_name": "S7"
+        "route_long_name": "Antwerpen-Berchem -- Charleroi-Centraal",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:321": {
-        "route_long_name": "Doornik -- Dendermonde",
+        "route_long_name": "Brussel-Zuid -- Antwerpen-Berchem",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:322": {
-        "route_long_name": "Moeskroen -- Dendermonde",
+        "route_long_name": "Antwerpen-Centraal -- Binche",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:323": {
-        "route_long_name": "Brussel-Zuid -- Dendermonde",
-        "route_short_name": "IC"
+        "route_long_name": "Halle -- Mechelen",
+        "route_short_name": "S7"
     },
     "gr:nmbssncb:324": {
-        "route_long_name": "Dendermonde -- Kortrijk",
+        "route_long_name": "Doornik -- Dendermonde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:325": {
-        "route_long_name": "Opwijk -- Brussel-Zuid",
+        "route_long_name": "Moeskroen -- Dendermonde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:326": {
-        "route_long_name": "Jette -- Kortrijk",
+        "route_long_name": "Brussel-Zuid -- Dendermonde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:327": {
-        "route_long_name": "Doornik -- Kortrijk",
+        "route_long_name": "Dendermonde -- Kortrijk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:328": {
-        "route_long_name": "Aat -- Kortrijk",
+        "route_long_name": "Opwijk -- Brussel-Zuid",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:329": {
-        "route_long_name": "Aat -- Dendermonde",
+        "route_long_name": "Jette -- Kortrijk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:33": {
@@ -1040,43 +1032,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:330": {
-        "route_long_name": "Nijvel -- Landen",
-        "route_short_name": "S9"
+        "route_long_name": "Doornik -- Kortrijk",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:331": {
-        "route_long_name": "Nijvel -- Leuven",
-        "route_short_name": "S9"
+        "route_long_name": "Aat -- Kortrijk",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:332": {
-        "route_long_name": "Antwerpen-Centraal -- Luttre",
+        "route_long_name": "Aat -- Dendermonde",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:333": {
+        "route_long_name": "Nijvel -- Landen",
+        "route_short_name": "S9"
+    },
+    "gr:nmbssncb:334": {
+        "route_long_name": "Nijvel -- Leuven",
+        "route_short_name": "S9"
+    },
+    "gr:nmbssncb:335": {
+        "route_long_name": "Antwerpen-Centraal -- Luttre",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:336": {
         "route_long_name": "Mechelen -- Geraardsbergen",
         "route_short_name": "S5"
     },
-    "gr:nmbssncb:334": {
+    "gr:nmbssncb:337": {
         "route_long_name": "Halle -- Mechelen",
         "route_short_name": "S5"
     },
-    "gr:nmbssncb:335": {
+    "gr:nmbssncb:338": {
         "route_long_name": "Brussel-Luxemburg -- Mechelen",
         "route_short_name": "S5"
     },
-    "gr:nmbssncb:336": {
-        "route_long_name": "Brussel-Luxemburg -- Halle",
-        "route_short_name": "S5"
-    },
-    "gr:nmbssncb:337": {
-        "route_long_name": "Vilvoorde -- Halle",
-        "route_short_name": "S5"
-    },
-    "gr:nmbssncb:338": {
-        "route_long_name": "Vilvoorde -- Brussel-Luxemburg",
-        "route_short_name": "S5"
-    },
     "gr:nmbssncb:339": {
-        "route_long_name": "Vilvoorde -- Geraardsbergen",
+        "route_long_name": "Brussel-Luxemburg -- Halle",
         "route_short_name": "S5"
     },
     "gr:nmbssncb:34": {
@@ -1084,39 +1076,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:340": {
-        "route_long_name": "Schaarbeek -- Geraardsbergen",
+        "route_long_name": "Vilvoorde -- Halle",
         "route_short_name": "S5"
     },
     "gr:nmbssncb:341": {
-        "route_long_name": "Mechelen -- Edingen",
+        "route_long_name": "Vilvoorde -- Brussel-Luxemburg",
         "route_short_name": "S5"
     },
     "gr:nmbssncb:342": {
+        "route_long_name": "Vilvoorde -- Geraardsbergen",
+        "route_short_name": "S5"
+    },
+    "gr:nmbssncb:343": {
+        "route_long_name": "Schaarbeek -- Geraardsbergen",
+        "route_short_name": "S5"
+    },
+    "gr:nmbssncb:344": {
+        "route_long_name": "Mechelen -- Edingen",
+        "route_short_name": "S5"
+    },
+    "gr:nmbssncb:345": {
         "route_long_name": "Schaarbeek -- Binche",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:343": {
+    "gr:nmbssncb:346": {
         "route_long_name": "Turnhout -- Binche",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:344": {
+    "gr:nmbssncb:347": {
         "route_long_name": "Schaarbeek -- Halle",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:345": {
+    "gr:nmbssncb:348": {
         "route_long_name": "Schaarbeek -- Manage",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:346": {
-        "route_long_name": "Schaarbeek -- 's-Gravenbrakel",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:347": {
-        "route_long_name": "Brussel-Zuid -- Binche",
-        "route_short_name": "IC"
-    },
     "gr:nmbssncb:349": {
-        "route_long_name": "Turnhout -- La Louvi\u00e8re-Zuid",
+        "route_long_name": "Schaarbeek -- 's-Gravenbrakel",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:35": {
@@ -1124,43 +1120,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:350": {
-        "route_long_name": "Turnhout -- Manage",
+        "route_long_name": "Brussel-Zuid -- Binche",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:351": {
-        "route_long_name": "Schaarbeek -- La Louvi\u00e8re-Zuid",
+        "route_long_name": "Lier -- Binche",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:352": {
-        "route_long_name": "Brussel-Zuid -- La Louvi\u00e8re-Zuid",
+        "route_long_name": "Turnhout -- La Louvi\u00e8re-Zuid",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:353": {
-        "route_long_name": "Vilvoorde -- Halle",
-        "route_short_name": "S7"
+        "route_long_name": "Turnhout -- Manage",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:354": {
-        "route_long_name": "Brussel-Luxemburg -- Geraardsbergen",
-        "route_short_name": "S5"
+        "route_long_name": "Schaarbeek -- La Louvi\u00e8re-Zuid",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:355": {
-        "route_long_name": "Leuven -- Gent-Sint-Pieters",
+        "route_long_name": "Brussel-Zuid -- La Louvi\u00e8re-Zuid",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:356": {
-        "route_long_name": "Brussel-Zuid -- Genk",
-        "route_short_name": "IC"
+        "route_long_name": "Vilvoorde -- Halle",
+        "route_short_name": "S7"
     },
     "gr:nmbssncb:357": {
-        "route_long_name": "Brussel-Zuid -- Leuven",
-        "route_short_name": "IC"
+        "route_long_name": "Brussel-Luxemburg -- Geraardsbergen",
+        "route_short_name": "S5"
     },
     "gr:nmbssncb:358": {
-        "route_long_name": "Brussel-Zuid -- Gent-Sint-Pieters",
+        "route_long_name": "Leuven -- Gent-Sint-Pieters",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:359": {
-        "route_long_name": "Leuven -- De Panne",
+        "route_long_name": "Brussel-Zuid -- Genk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:36": {
@@ -1168,43 +1164,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:360": {
-        "route_long_name": "Leuven -- Lichtervelde",
+        "route_long_name": "Brussel-Zuid -- Leuven",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:361": {
-        "route_long_name": "Leuven -- Veurne",
+        "route_long_name": "Brussel-Zuid -- Gent-Sint-Pieters",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:362": {
-        "route_long_name": "Brussel-Zuid -- Diksmuide",
+        "route_long_name": "Leuven -- De Panne",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:363": {
-        "route_long_name": "Leuven -- 's-Gravenbrakel",
-        "route_short_name": "S2"
+        "route_long_name": "Leuven -- Lichtervelde",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:364": {
-        "route_long_name": "Halle -- Leuven",
-        "route_short_name": "S2"
+        "route_long_name": "Leuven -- Veurne",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:365": {
-        "route_long_name": "Brussels Airport-Zaventem -- Bergen",
+        "route_long_name": "Brussel-Zuid -- Diksmuide",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:366": {
-        "route_long_name": "Brussel-Noord -- Bergen",
-        "route_short_name": "IC"
+        "route_long_name": "Leuven -- 's-Gravenbrakel",
+        "route_short_name": "S2"
     },
     "gr:nmbssncb:367": {
-        "route_long_name": "Brussels Airport-Zaventem -- 's-Gravenbrakel",
-        "route_short_name": "IC"
+        "route_long_name": "Halle -- Leuven",
+        "route_short_name": "S2"
     },
     "gr:nmbssncb:368": {
-        "route_long_name": "Brussels Airport-Zaventem -- Zinnik",
+        "route_long_name": "Brussels Airport-Zaventem -- Bergen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:369": {
-        "route_long_name": "Brussels Airport-Zaventem -- Qu\u00e9vy",
+        "route_long_name": "Brussel-Noord -- Bergen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:37": {
@@ -1212,67 +1208,83 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:370": {
-        "route_long_name": "Brussel-Zuid -- Bergen",
+        "route_long_name": "Brussels Airport-Zaventem -- 's-Gravenbrakel",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:371": {
-        "route_long_name": "Brussel-Noord -- Brussels Airport-Zaventem",
+        "route_long_name": "Brussels Airport-Zaventem -- Zinnik",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:372": {
+        "route_long_name": "Brussels Airport-Zaventem -- Qu\u00e9vy",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:373": {
+        "route_long_name": "Brussel-Zuid -- Bergen",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:374": {
+        "route_long_name": "Brussel-Noord -- Brussels Airport-Zaventem",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:375": {
         "route_long_name": "Brussel-Zuid -- Leuven",
         "route_short_name": "S2"
     },
-    "gr:nmbssncb:373": {
+    "gr:nmbssncb:376": {
         "route_long_name": "Brussel-Zuid -- 's-Gravenbrakel",
         "route_short_name": "S2"
     },
-    "gr:nmbssncb:374": {
+    "gr:nmbssncb:377": {
         "route_long_name": "Brussel-Noord -- Leuven",
         "route_short_name": "S2"
     },
-    "gr:nmbssncb:375": {
+    "gr:nmbssncb:378": {
         "route_long_name": "Brussel-Zuid -- Halle",
         "route_short_name": "S2"
     },
-    "gr:nmbssncb:376": {
+    "gr:nmbssncb:379": {
         "route_long_name": "Herstal -- Bergen",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:378": {
+    "gr:nmbssncb:38": {
+        "route_long_name": "Mol -- Hamont",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:380": {
+        "route_long_name": "Liers -- Bergen",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:381": {
         "route_long_name": "Liers -- Tamines",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:382": {
-        "route_long_name": "Tamines -- Moeskroen",
+        "route_long_name": "Tamines -- Bergen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:383": {
-        "route_long_name": "Namen -- Moeskroen",
+        "route_long_name": "Namen -- Bergen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:384": {
-        "route_long_name": "Luik-Guillemins -- Bergen",
+        "route_long_name": "Liers -- Moeskroen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:385": {
-        "route_long_name": "Namen -- Tamines",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:386": {
-        "route_long_name": "Bergen -- Moeskroen",
+        "route_long_name": "Tamines -- Moeskroen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:387": {
-        "route_long_name": "Charleroi-Centraal -- La Louvi\u00e8re-Zuid",
+        "route_long_name": "Luik-Guillemins -- Bergen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:388": {
-        "route_long_name": "Marchienne-au-Pont -- Bergen",
+        "route_long_name": "Namen -- Tamines",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:389": {
-        "route_long_name": "Luik-Guillemins -- Tamines",
+        "route_long_name": "Bergen -- Moeskroen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:39": {
@@ -1280,44 +1292,44 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:390": {
-        "route_long_name": "Herstal -- La Louvi\u00e8re-Zuid",
+        "route_long_name": "Charleroi-Centraal -- La Louvi\u00e8re-Zuid",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:391": {
-        "route_long_name": "Herstal -- Charleroi-Centraal",
+        "route_long_name": "Marchienne-au-Pont -- Bergen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:392": {
-        "route_long_name": "Herstal -- Tamines",
+        "route_long_name": "Luik-Guillemins -- Tamines",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:393": {
-        "route_long_name": "Namen -- Charleroi-Centraal",
+        "route_long_name": "Herstal -- La Louvi\u00e8re-Zuid",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:394": {
+        "route_long_name": "Herstal -- Charleroi-Centraal",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:395": {
+        "route_long_name": "Liers -- Charleroi-Centraal",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:396": {
+        "route_long_name": "Herstal -- Tamines",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:397": {
+        "route_long_name": "Namen -- Charleroi-Centraal",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:398": {
         "route_long_name": "Opwijk -- Brussel-Zuid",
         "route_short_name": "S10"
     },
-    "gr:nmbssncb:395": {
+    "gr:nmbssncb:399": {
         "route_long_name": "Brussel-Zuid -- Dendermonde",
         "route_short_name": "S10"
-    },
-    "gr:nmbssncb:396": {
-        "route_long_name": "Jette -- Dendermonde",
-        "route_short_name": "S10"
-    },
-    "gr:nmbssncb:397": {
-        "route_long_name": "Charleroi-Centraal -- Couvin",
-        "route_short_name": "S64"
-    },
-    "gr:nmbssncb:398": {
-        "route_long_name": "Charleroi-Centraal -- Mariembourg",
-        "route_short_name": "S64"
-    },
-    "gr:nmbssncb:399": {
-        "route_long_name": "Philippeville -- Couvin",
-        "route_short_name": "S64"
     },
     "gr:nmbssncb:4": {
         "route_long_name": "Schaarbeek -- Antwerpen-Centraal",
@@ -1328,219 +1340,219 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:400": {
+        "route_long_name": "Jette -- Dendermonde",
+        "route_short_name": "S10"
+    },
+    "gr:nmbssncb:401": {
+        "route_long_name": "Charleroi-Centraal -- Couvin",
+        "route_short_name": "S64"
+    },
+    "gr:nmbssncb:402": {
+        "route_long_name": "Charleroi-Centraal -- Mariembourg",
+        "route_short_name": "S64"
+    },
+    "gr:nmbssncb:403": {
+        "route_long_name": "Philippeville -- Couvin",
+        "route_short_name": "S64"
+    },
+    "gr:nmbssncb:404": {
         "route_long_name": "Ottignies -- Louvain-la-Neuve",
         "route_short_name": "S8"
     },
-    "gr:nmbssncb:401": {
+    "gr:nmbssncb:405": {
         "route_long_name": "Louvain-la-Neuve -- Oudenaarde",
         "route_short_name": "S8"
     },
-    "gr:nmbssncb:402": {
+    "gr:nmbssncb:406": {
         "route_long_name": "Louvain-la-Neuve -- Zottegem",
         "route_short_name": "S8"
     },
-    "gr:nmbssncb:403": {
+    "gr:nmbssncb:407": {
         "route_long_name": "Louvain-la-Neuve -- Brussel-Zuid",
         "route_short_name": "S8"
     },
-    "gr:nmbssncb:404": {
+    "gr:nmbssncb:408": {
         "route_long_name": "Ottignies -- Brussel-Zuid",
         "route_short_name": "S8"
     },
-    "gr:nmbssncb:405": {
+    "gr:nmbssncb:409": {
         "route_long_name": "Namen -- Zottegem",
         "route_short_name": "S8"
-    },
-    "gr:nmbssncb:406": {
-        "route_long_name": "Brussel-Luxemburg -- Leuven",
-        "route_short_name": "S19"
-    },
-    "gr:nmbssncb:407": {
-        "route_long_name": "Brussel-Luxemburg -- Nijvel",
-        "route_short_name": "S19"
-    },
-    "gr:nmbssncb:408": {
-        "route_long_name": "Brussel-Luxemburg -- Landen",
-        "route_short_name": "S19"
-    },
-    "gr:nmbssncb:409": {
-        "route_long_name": "Nijvel -- Landen",
-        "route_short_name": "S19"
     },
     "gr:nmbssncb:41": {
         "route_long_name": "Hasselt -- Diest",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:410": {
-        "route_long_name": "Nijvel -- Leuven",
+        "route_long_name": "Brussel-Luxemburg -- Leuven",
         "route_short_name": "S19"
     },
     "gr:nmbssncb:411": {
-        "route_long_name": "Nijvel -- Sint-Truiden",
+        "route_long_name": "Brussel-Luxemburg -- Nijvel",
         "route_short_name": "S19"
     },
     "gr:nmbssncb:412": {
-        "route_long_name": "Brussel-Luxemburg -- Sint-Truiden",
+        "route_long_name": "Brussel-Luxemburg -- Landen",
         "route_short_name": "S19"
     },
     "gr:nmbssncb:413": {
-        "route_long_name": "Brussels Airport-Zaventem -- Charleroi-Centraal",
+        "route_long_name": "Nijvel -- Landen",
         "route_short_name": "S19"
     },
     "gr:nmbssncb:414": {
-        "route_long_name": "Leuven -- Kortrijk",
-        "route_short_name": "IC"
+        "route_long_name": "Nijvel -- Leuven",
+        "route_short_name": "S19"
     },
     "gr:nmbssncb:415": {
-        "route_long_name": "Brussels Airport-Zaventem -- Luttre",
+        "route_long_name": "Nijvel -- Sint-Truiden",
         "route_short_name": "S19"
     },
     "gr:nmbssncb:416": {
-        "route_long_name": "Brussels Airport-Zaventem -- Marchienne-au-Pont",
+        "route_long_name": "Brussel-Luxemburg -- Sint-Truiden",
         "route_short_name": "S19"
     },
     "gr:nmbssncb:417": {
-        "route_long_name": "Welkenraedt -- Kortrijk",
-        "route_short_name": "IC"
+        "route_long_name": "Brussels Airport-Zaventem -- Charleroi-Centraal",
+        "route_short_name": "S19"
     },
     "gr:nmbssncb:418": {
-        "route_long_name": "Bergen -- 's-Gravenbrakel",
-        "route_short_name": "L"
+        "route_long_name": "Leuven -- Kortrijk",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:419": {
-        "route_long_name": "Jurbeke -- 's-Gravenbrakel",
-        "route_short_name": "L"
+        "route_long_name": "Brussels Airport-Zaventem -- Luttre",
+        "route_short_name": "S19"
     },
     "gr:nmbssncb:42": {
         "route_long_name": "Mechelen -- Leuven",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:420": {
-        "route_long_name": "Leuven -- Oostende",
-        "route_short_name": "IC"
+        "route_long_name": "Brussels Airport-Zaventem -- Marchienne-au-Pont",
+        "route_short_name": "S19"
     },
     "gr:nmbssncb:421": {
-        "route_long_name": "Leuven -- Dendermonde",
+        "route_long_name": "Welkenraedt -- Kortrijk",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:422": {
-        "route_long_name": "Mechelen -- Leuven",
+        "route_long_name": "Bergen -- 's-Gravenbrakel",
         "route_short_name": "L"
     },
     "gr:nmbssncb:423": {
-        "route_long_name": "Muizen -- Leuven",
+        "route_long_name": "Jurbeke -- 's-Gravenbrakel",
         "route_short_name": "L"
     },
     "gr:nmbssncb:424": {
-        "route_long_name": "Gent-Sint-Pieters -- Dendermonde",
+        "route_long_name": "Leuven -- Oostende",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:425": {
-        "route_long_name": "Jambes -- Charleroi-Centraal",
-        "route_short_name": "S61"
+        "route_long_name": "Leuven -- Dendermonde",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:426": {
-        "route_long_name": "Jambes -- Luttre",
-        "route_short_name": "S61"
+        "route_long_name": "Mechelen -- Leuven",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:427": {
-        "route_long_name": "Ottignies -- Jambes",
-        "route_short_name": "S61"
+        "route_long_name": "Muizen -- Leuven",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:428": {
-        "route_long_name": "Charleroi-Centraal -- Tamines",
-        "route_short_name": "S61"
+        "route_long_name": "Gent-Sint-Pieters -- Dendermonde",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:429": {
-        "route_long_name": "Gent-Sint-Pieters -- Kortrijk",
-        "route_short_name": "IC"
+        "route_long_name": "Jambes -- Charleroi-Centraal",
+        "route_short_name": "S61"
     },
     "gr:nmbssncb:43": {
         "route_long_name": "Antwerpen-Centraal -- Heist-op-den-Berg",
         "route_short_name": "L"
     },
     "gr:nmbssncb:430": {
+        "route_long_name": "Jambes -- Luttre",
+        "route_short_name": "S61"
+    },
+    "gr:nmbssncb:431": {
+        "route_long_name": "Ottignies -- Jambes",
+        "route_short_name": "S61"
+    },
+    "gr:nmbssncb:432": {
+        "route_long_name": "Charleroi-Centraal -- Tamines",
+        "route_short_name": "S61"
+    },
+    "gr:nmbssncb:433": {
+        "route_long_name": "Gent-Sint-Pieters -- Kortrijk",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:434": {
         "route_long_name": "Antwerpen-Centraal -- Turnhout",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:431": {
+    "gr:nmbssncb:435": {
         "route_long_name": "Herentals -- Turnhout",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:432": {
+    "gr:nmbssncb:436": {
         "route_long_name": "Lier -- Turnhout",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:433": {
+    "gr:nmbssncb:437": {
+        "route_long_name": "Turnhout -- Tielen",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:438": {
         "route_long_name": "Luttre -- La Louvi\u00e8re-Zuid",
         "route_short_name": "S62"
     },
-    "gr:nmbssncb:434": {
+    "gr:nmbssncb:439": {
         "route_long_name": "Luttre -- Charleroi-Centraal",
         "route_short_name": "S62"
-    },
-    "gr:nmbssncb:435": {
-        "route_long_name": "Charleroi-Centraal -- Charleroi-Centraal",
-        "route_short_name": "S62"
-    },
-    "gr:nmbssncb:436": {
-        "route_long_name": "Charleroi-Centraal -- La Louvi\u00e8re-Centrum",
-        "route_short_name": "S62"
-    },
-    "gr:nmbssncb:437": {
-        "route_long_name": "Charleroi-Centraal -- Manage",
-        "route_short_name": "S62"
-    },
-    "gr:nmbssncb:438": {
-        "route_long_name": "Charleroi-Centraal -- La Louvi\u00e8re-Zuid",
-        "route_short_name": "S62"
-    },
-    "gr:nmbssncb:439": {
-        "route_long_name": "Antwerpen-Centraal -- Hamont",
-        "route_short_name": "IC"
     },
     "gr:nmbssncb:44": {
         "route_long_name": "Mol -- Neerpelt",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:440": {
+        "route_long_name": "Charleroi-Centraal -- Charleroi-Centraal",
+        "route_short_name": "S62"
+    },
+    "gr:nmbssncb:441": {
+        "route_long_name": "Charleroi-Centraal -- La Louvi\u00e8re-Centrum",
+        "route_short_name": "S62"
+    },
+    "gr:nmbssncb:442": {
+        "route_long_name": "Charleroi-Centraal -- Manage",
+        "route_short_name": "S62"
+    },
+    "gr:nmbssncb:443": {
+        "route_long_name": "Charleroi-Centraal -- La Louvi\u00e8re-Zuid",
+        "route_short_name": "S62"
+    },
+    "gr:nmbssncb:444": {
+        "route_long_name": "Antwerpen-Centraal -- Hamont",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:445": {
         "route_long_name": "Antwerpen-Centraal -- Lier",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:441": {
+    "gr:nmbssncb:446": {
         "route_long_name": "Antwerpen-Centraal -- Neerpelt",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:442": {
+    "gr:nmbssncb:447": {
         "route_long_name": "Antwerpen-Centraal -- Mol",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:443": {
+    "gr:nmbssncb:448": {
         "route_long_name": "Binche -- 's-Gravenbrakel",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:444": {
-        "route_long_name": "La Louvi\u00e8re-Zuid -- 's-Gravenbrakel",
-        "route_short_name": "L"
-    },
-    "gr:nmbssncb:445": {
-        "route_long_name": "Welkenraedt -- Oostende",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:446": {
-        "route_long_name": "Hasselt -- Mol",
-        "route_short_name": "L"
-    },
-    "gr:nmbssncb:447": {
-        "route_long_name": "Qu\u00e9vy -- La Louvi\u00e8re-Zuid",
-        "route_short_name": "L"
-    },
-    "gr:nmbssncb:448": {
-        "route_long_name": "Bergen -- La Louvi\u00e8re-Zuid",
-        "route_short_name": "L"
-    },
     "gr:nmbssncb:449": {
-        "route_long_name": "Charleroi-Centraal -- Qu\u00e9vy",
+        "route_long_name": "La Louvi\u00e8re-Zuid -- 's-Gravenbrakel",
         "route_short_name": "L"
     },
     "gr:nmbssncb:45": {
@@ -1548,43 +1560,39 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:450": {
+        "route_long_name": "Welkenraedt -- Oostende",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:452": {
+        "route_long_name": "Qu\u00e9vy -- La Louvi\u00e8re-Zuid",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:453": {
+        "route_long_name": "Bergen -- La Louvi\u00e8re-Zuid",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:454": {
+        "route_long_name": "Charleroi-Centraal -- Qu\u00e9vy",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:455": {
         "route_long_name": "Charleroi-Centraal -- Bergen",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:451": {
+    "gr:nmbssncb:456": {
         "route_long_name": "Wien HBF (AT) -- Brussel-Zuid",
         "route_short_name": "NJ"
     },
-    "gr:nmbssncb:452": {
+    "gr:nmbssncb:457": {
+        "route_long_name": "Brussel-Zuid -- Charleroi-Centraal",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:458": {
         "route_long_name": "Antwerpen-Centraal -- Marchienne-au-Pont",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:453": {
-        "route_long_name": "Jambes -- Tamines",
-        "route_short_name": "S61"
-    },
-    "gr:nmbssncb:454": {
-        "route_long_name": "Charleroi-Centraal -- Ch\u00e2telet",
-        "route_short_name": "S61"
-    },
-    "gr:nmbssncb:455": {
-        "route_long_name": "Waver -- Ch\u00e2telet",
-        "route_short_name": "S61"
-    },
-    "gr:nmbssncb:456": {
-        "route_long_name": "Waver -- Jambes",
-        "route_short_name": "S61"
-    },
-    "gr:nmbssncb:457": {
-        "route_long_name": "Waver -- Tamines",
-        "route_short_name": "S61"
-    },
-    "gr:nmbssncb:458": {
-        "route_long_name": "Waver -- Namen",
-        "route_short_name": "S61"
-    },
     "gr:nmbssncb:459": {
-        "route_long_name": "Ottignies -- Ch\u00e2telet",
+        "route_long_name": "Jambes -- Tamines",
         "route_short_name": "S61"
     },
     "gr:nmbssncb:46": {
@@ -1592,87 +1600,87 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:460": {
-        "route_long_name": "Namen -- Tamines",
+        "route_long_name": "Charleroi-Centraal -- Ch\u00e2telet",
         "route_short_name": "S61"
     },
     "gr:nmbssncb:461": {
-        "route_long_name": "Ottignies -- Namen",
+        "route_long_name": "Waver -- Ch\u00e2telet",
         "route_short_name": "S61"
     },
     "gr:nmbssncb:462": {
-        "route_long_name": "Ottignies -- Charleroi-Centraal",
+        "route_long_name": "Waver -- Jambes",
         "route_short_name": "S61"
     },
     "gr:nmbssncb:463": {
-        "route_long_name": "Ottignies -- Waver",
+        "route_long_name": "Waver -- Tamines",
         "route_short_name": "S61"
     },
     "gr:nmbssncb:464": {
-        "route_long_name": "Waver -- Charleroi-Centraal",
+        "route_long_name": "Waver -- Namen",
         "route_short_name": "S61"
     },
     "gr:nmbssncb:465": {
-        "route_long_name": "Namen -- Charleroi-Centraal",
+        "route_long_name": "Ottignies -- Ch\u00e2telet",
         "route_short_name": "S61"
     },
     "gr:nmbssncb:466": {
-        "route_long_name": "Bertrange Strassen (LU) -- Aarlen",
-        "route_short_name": "IC"
+        "route_long_name": "Namen -- Tamines",
+        "route_short_name": "S61"
     },
     "gr:nmbssncb:467": {
-        "route_long_name": "Namen -- Rochefort-Jemelle",
-        "route_short_name": "IC"
+        "route_long_name": "Ottignies -- Namen",
+        "route_short_name": "S61"
     },
     "gr:nmbssncb:468": {
-        "route_long_name": "Bergen -- Qui\u00e9vrain",
-        "route_short_name": "L"
+        "route_long_name": "Ottignies -- Charleroi-Centraal",
+        "route_short_name": "S61"
     },
     "gr:nmbssncb:469": {
-        "route_long_name": "Luxemburg (LU) -- Athus",
-        "route_short_name": "L"
+        "route_long_name": "Ottignies -- Waver",
+        "route_short_name": "S61"
     },
     "gr:nmbssncb:47": {
         "route_long_name": "Antwerpen-Centraal -- Heist-op-den-Berg",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:470": {
-        "route_long_name": "Bergen -- Doornik",
-        "route_short_name": "L"
+        "route_long_name": "Waver -- Charleroi-Centraal",
+        "route_short_name": "S61"
     },
     "gr:nmbssncb:471": {
-        "route_long_name": "Moeskroen -- Geraardsbergen",
-        "route_short_name": "L"
+        "route_long_name": "Namen -- Charleroi-Centraal",
+        "route_short_name": "S61"
     },
     "gr:nmbssncb:472": {
-        "route_long_name": "Qu\u00e9vy -- Geraardsbergen",
-        "route_short_name": "L"
+        "route_long_name": "Bertrange Strassen (LU) -- Aarlen",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:473": {
-        "route_long_name": "Doornik -- Geraardsbergen",
-        "route_short_name": "L"
+        "route_long_name": "Namen -- Rochefort-Jemelle",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:474": {
-        "route_long_name": "Bergen -- Geraardsbergen",
+        "route_long_name": "Bergen -- Qui\u00e9vrain",
         "route_short_name": "L"
     },
     "gr:nmbssncb:475": {
-        "route_long_name": "Jurbeke -- Geraardsbergen",
+        "route_long_name": "Luxemburg (LU) -- Athus",
         "route_short_name": "L"
     },
     "gr:nmbssncb:476": {
-        "route_long_name": "Bergen -- Aat",
+        "route_long_name": "Bergen -- Doornik",
         "route_short_name": "L"
     },
     "gr:nmbssncb:477": {
-        "route_long_name": "Bergen -- Lessen",
+        "route_long_name": "Moeskroen -- Geraardsbergen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:478": {
-        "route_long_name": "Aat -- Lessen",
+        "route_long_name": "Qu\u00e9vy -- Geraardsbergen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:479": {
-        "route_long_name": "Saint-Ghislain -- Doornik",
+        "route_long_name": "Doornik -- Geraardsbergen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:48": {
@@ -1680,63 +1688,71 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:480": {
-        "route_long_name": "Luik-Guillemins -- Hoei",
+        "route_long_name": "Bergen -- Geraardsbergen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:481": {
-        "route_long_name": "Luik-Guillemins -- Namen",
+        "route_long_name": "Jurbeke -- Geraardsbergen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:482": {
-        "route_long_name": "Luik-Guillemins -- Statte",
+        "route_long_name": "Bergen -- Aat",
         "route_short_name": "L"
     },
     "gr:nmbssncb:483": {
-        "route_long_name": "Paris Nord (FR) -- Brussel-Zuid",
-        "route_short_name": "OTC"
+        "route_long_name": "Bergen -- Lessen",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:484": {
-        "route_long_name": "Aachen Hbf (DE) -- Luik-Guillemins",
-        "route_short_name": "S41"
+        "route_long_name": "Aat -- Lessen",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:485": {
+        "route_long_name": "Saint-Ghislain -- Doornik",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:486": {
+        "route_long_name": "Lier -- Hasselt",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:487": {
+        "route_long_name": "Luik-Guillemins -- Hoei",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:488": {
+        "route_long_name": "Luik-Guillemins -- Namen",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:489": {
+        "route_long_name": "Luik-Guillemins -- Statte",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:49": {
         "route_long_name": "Hasselt -- Leuven",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:490": {
+        "route_long_name": "Paris Nord (FR) -- Brussel-Zuid",
+        "route_short_name": "OTC"
+    },
+    "gr:nmbssncb:491": {
+        "route_long_name": "Aachen Hbf (DE) -- Luik-Guillemins",
+        "route_short_name": "S41"
+    },
+    "gr:nmbssncb:496": {
         "route_long_name": "Aachen Hbf (DE) -- Luik-Sint-Lambertus",
         "route_short_name": "S41"
     },
-    "gr:nmbssncb:491": {
+    "gr:nmbssncb:497": {
         "route_long_name": "Luik-Sint-Lambertus -- Welkenraedt",
         "route_short_name": "S41"
     },
-    "gr:nmbssncb:492": {
+    "gr:nmbssncb:498": {
         "route_long_name": "Luik-Guillemins -- Luik-Sint-Lambertus",
         "route_short_name": "S41"
     },
-    "gr:nmbssncb:493": {
-        "route_long_name": "Luik-Sint-Lambertus -- Verviers-Centraal",
-        "route_short_name": "S41"
-    },
-    "gr:nmbssncb:494": {
-        "route_long_name": "Luik-Guillemins -- Welkenraedt",
-        "route_short_name": "S41"
-    },
-    "gr:nmbssncb:495": {
-        "route_long_name": "Luik-Guillemins -- Verviers-Centraal",
-        "route_short_name": "S41"
-    },
-    "gr:nmbssncb:497": {
-        "route_long_name": "Eupen -- Oostende",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:498": {
-        "route_long_name": "Aachen Hbf (DE) -- Verviers-Centraal",
-        "route_short_name": "S41"
-    },
     "gr:nmbssncb:499": {
-        "route_long_name": "Aachen Hbf (DE) -- Welkenraedt",
+        "route_long_name": "Luik-Sint-Lambertus -- Verviers-Centraal",
         "route_short_name": "S41"
     },
     "gr:nmbssncb:5": {
@@ -1748,175 +1764,171 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:500": {
+        "route_long_name": "Luik-Guillemins -- Welkenraedt",
+        "route_short_name": "S41"
+    },
+    "gr:nmbssncb:501": {
+        "route_long_name": "Luik-Guillemins -- Verviers-Centraal",
+        "route_short_name": "S41"
+    },
+    "gr:nmbssncb:503": {
+        "route_long_name": "Eupen -- Oostende",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:504": {
+        "route_long_name": "Aachen Hbf (DE) -- Verviers-Centraal",
+        "route_short_name": "S41"
+    },
+    "gr:nmbssncb:505": {
+        "route_long_name": "Aachen Hbf (DE) -- Welkenraedt",
+        "route_short_name": "S41"
+    },
+    "gr:nmbssncb:506": {
         "route_long_name": "Schaarbeek -- Kortrijk",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:501": {
+    "gr:nmbssncb:507": {
         "route_long_name": "Brussel-Zuid -- Kortrijk",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:502": {
+    "gr:nmbssncb:508": {
         "route_long_name": "Landen -- Wezet",
         "route_short_name": "S44"
     },
-    "gr:nmbssncb:503": {
+    "gr:nmbssncb:509": {
         "route_long_name": "Landen -- Luik-Guillemins",
         "route_short_name": "S44"
-    },
-    "gr:nmbssncb:504": {
-        "route_long_name": "Luik-Guillemins -- Borgworm",
-        "route_short_name": "S44"
-    },
-    "gr:nmbssncb:505": {
-        "route_long_name": "Verviers-Centraal -- Oostende",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:506": {
-        "route_long_name": "Luik-Guillemins -- Fl\u00e9malle-Haute",
-        "route_short_name": "S42"
-    },
-    "gr:nmbssncb:507": {
-        "route_long_name": "Liers -- Fl\u00e9malle-Haute",
-        "route_short_name": "S42"
-    },
-    "gr:nmbssncb:508": {
-        "route_long_name": "Luxemburg (LU) -- Gouvy",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:509": {
-        "route_long_name": "Luxemburg (LU) -- Rivage",
-        "route_short_name": "IC"
     },
     "gr:nmbssncb:51": {
         "route_long_name": "Antwerpen-Centraal -- Lier",
         "route_short_name": "L"
     },
     "gr:nmbssncb:510": {
-        "route_long_name": "Luxemburg (LU) -- Luik-Guillemins",
-        "route_short_name": "IC"
+        "route_long_name": "Luik-Guillemins -- Borgworm",
+        "route_short_name": "S44"
     },
     "gr:nmbssncb:511": {
-        "route_long_name": "Troisvierges (LU) -- Luik-Guillemins",
+        "route_long_name": "Verviers-Centraal -- Oostende",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:512": {
-        "route_long_name": "Luxemburg (LU) -- Trois-Ponts",
-        "route_short_name": "IC"
+        "route_long_name": "Luik-Guillemins -- Fl\u00e9malle-Haute",
+        "route_short_name": "S42"
     },
     "gr:nmbssncb:513": {
-        "route_long_name": "Luxemburg (LU) -- Liers",
-        "route_short_name": "IC"
+        "route_long_name": "Liers -- Fl\u00e9malle-Haute",
+        "route_short_name": "S42"
     },
     "gr:nmbssncb:514": {
-        "route_long_name": "Troisvierges (LU) -- Liers",
+        "route_long_name": "Luxemburg (LU) -- Gouvy",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:515": {
-        "route_long_name": "Rivage -- Gouvy",
+        "route_long_name": "Luxemburg (LU) -- Rivage",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:516": {
-        "route_long_name": "Luik-Guillemins -- Gouvy",
+        "route_long_name": "Luxemburg (LU) -- Luik-Guillemins",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:517": {
-        "route_long_name": "Liers -- Gouvy",
+        "route_long_name": "Troisvierges (LU) -- Luik-Guillemins",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:518": {
-        "route_long_name": "Gouvy -- Trois-Ponts",
+        "route_long_name": "Luxemburg (LU) -- Trois-Ponts",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:519": {
-        "route_long_name": "Hasselt -- Verviers-Centraal",
-        "route_short_name": "S41"
+        "route_long_name": "Luxemburg (LU) -- Liers",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:52": {
         "route_long_name": "Herentals -- Hamont",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:520": {
-        "route_long_name": "Hasselt -- Luik-Guillemins",
-        "route_short_name": "S41"
+        "route_long_name": "Troisvierges (LU) -- Liers",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:521": {
-        "route_long_name": "Tongeren -- Luik-Guillemins",
-        "route_short_name": "S41"
+        "route_long_name": "Luik-Guillemins -- Gouvy",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:522": {
-        "route_long_name": "Luik-Guillemins -- Liers",
-        "route_short_name": "S41"
+        "route_long_name": "Rivage -- Gouvy",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:523": {
-        "route_long_name": "Hasselt -- Tongeren",
-        "route_short_name": "S41"
+        "route_long_name": "Liers -- Gouvy",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:524": {
-        "route_long_name": "Eupen -- Brugge",
+        "route_long_name": "Gouvy -- Trois-Ponts",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:525": {
-        "route_long_name": "Welkenraedt -- Brugge",
-        "route_short_name": "IC"
+        "route_long_name": "Hasselt -- Verviers-Centraal",
+        "route_short_name": "S41"
     },
     "gr:nmbssncb:526": {
-        "route_long_name": "Luik-Guillemins -- Liers",
-        "route_short_name": "S42"
+        "route_long_name": "Hasselt -- Luik-Guillemins",
+        "route_short_name": "S41"
     },
     "gr:nmbssncb:527": {
-        "route_long_name": "Herstal -- Fl\u00e9malle-Haute",
-        "route_short_name": "S42"
+        "route_long_name": "Tongeren -- Luik-Guillemins",
+        "route_short_name": "S41"
     },
     "gr:nmbssncb:528": {
-        "route_long_name": "Mechelen -- Gent-Sint-Pieters",
-        "route_short_name": "L"
+        "route_long_name": "Luik-Guillemins -- Liers",
+        "route_short_name": "S41"
     },
     "gr:nmbssncb:529": {
-        "route_long_name": "Mechelen -- Brugge",
-        "route_short_name": "L"
+        "route_long_name": "Hasselt -- Tongeren",
+        "route_short_name": "S41"
     },
     "gr:nmbssncb:53": {
         "route_long_name": "Herentals -- Mol",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:530": {
-        "route_long_name": "Mechelen -- Dendermonde",
-        "route_short_name": "L"
+        "route_long_name": "Eupen -- Brugge",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:531": {
-        "route_long_name": "Londerzeel -- Dendermonde",
-        "route_short_name": "L"
+        "route_long_name": "Welkenraedt -- Brugge",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:532": {
-        "route_long_name": "Londerzeel -- Gent-Sint-Pieters",
-        "route_short_name": "L"
+        "route_long_name": "Luik-Guillemins -- Liers",
+        "route_short_name": "S42"
     },
     "gr:nmbssncb:533": {
-        "route_long_name": "Liers -- Marloie",
-        "route_short_name": "L"
+        "route_long_name": "Herstal -- Fl\u00e9malle-Haute",
+        "route_short_name": "S42"
     },
     "gr:nmbssncb:534": {
-        "route_long_name": "Rivage -- Marloie",
+        "route_long_name": "Mechelen -- Gent-Sint-Pieters",
         "route_short_name": "L"
     },
     "gr:nmbssncb:535": {
-        "route_long_name": "Marloie -- Bomal",
+        "route_long_name": "Mechelen -- Brugge",
         "route_short_name": "L"
     },
     "gr:nmbssncb:536": {
-        "route_long_name": "Liers -- Rivage",
+        "route_long_name": "Mechelen -- Dendermonde",
         "route_short_name": "L"
     },
     "gr:nmbssncb:537": {
-        "route_long_name": "Herstal -- Marloie",
+        "route_long_name": "Londerzeel -- Dendermonde",
         "route_short_name": "L"
     },
     "gr:nmbssncb:538": {
-        "route_long_name": "Londerzeel -- Brugge",
+        "route_long_name": "Londerzeel -- Gent-Sint-Pieters",
         "route_short_name": "L"
     },
     "gr:nmbssncb:539": {
-        "route_long_name": "Liers -- Rochefort-Jemelle",
+        "route_long_name": "Liers -- Marloie",
         "route_short_name": "L"
     },
     "gr:nmbssncb:54": {
@@ -1924,244 +1936,248 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:540": {
-        "route_long_name": "Mechelen -- Zeebrugge-Dorp",
+        "route_long_name": "Rivage -- Marloie",
         "route_short_name": "L"
     },
     "gr:nmbssncb:541": {
-        "route_long_name": "Mechelen -- Zeebrugge-Strand",
+        "route_long_name": "Marloie -- Bomal",
         "route_short_name": "L"
     },
     "gr:nmbssncb:542": {
-        "route_long_name": "Rivage -- Rochefort-Jemelle",
+        "route_long_name": "Liers -- Rivage",
         "route_short_name": "L"
     },
     "gr:nmbssncb:543": {
-        "route_long_name": "Rochefort-Jemelle -- Bomal",
+        "route_long_name": "Herstal -- Marloie",
         "route_short_name": "L"
     },
     "gr:nmbssncb:544": {
-        "route_long_name": "Herstal -- Rochefort-Jemelle",
+        "route_long_name": "Londerzeel -- Brugge",
         "route_short_name": "L"
     },
     "gr:nmbssncb:545": {
-        "route_long_name": "Londerzeel -- Zeebrugge-Strand",
+        "route_long_name": "Liers -- Rochefort-Jemelle",
         "route_short_name": "L"
     },
     "gr:nmbssncb:546": {
-        "route_long_name": "Ottignies -- Charleroi-Centraal",
-        "route_short_name": "IC"
+        "route_long_name": "Mechelen -- Zeebrugge-Dorp",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:547": {
-        "route_long_name": "Leuven -- Charleroi-Centraal",
-        "route_short_name": "IC"
+        "route_long_name": "Mechelen -- Zeebrugge-Strand",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:548": {
-        "route_long_name": "Leuven -- Charleroi-West",
-        "route_short_name": "IC"
+        "route_long_name": "Rivage -- Rochefort-Jemelle",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:549": {
-        "route_long_name": "Waver -- Charleroi-Centraal",
-        "route_short_name": "IC"
+        "route_long_name": "Rochefort-Jemelle -- Bomal",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:55": {
         "route_long_name": "Brussel-Zuid -- Antwerpen-Centraal",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:550": {
-        "route_long_name": "Brugge -- Gent-Sint-Pieters",
+        "route_long_name": "Herstal -- Rochefort-Jemelle",
         "route_short_name": "L"
     },
     "gr:nmbssncb:551": {
-        "route_long_name": "Brugge -- Dendermonde",
+        "route_long_name": "Londerzeel -- Zeebrugge-Strand",
         "route_short_name": "L"
     },
     "gr:nmbssncb:552": {
-        "route_long_name": "Gent-Sint-Pieters -- Dendermonde",
-        "route_short_name": "L"
+        "route_long_name": "Ottignies -- Charleroi-Centraal",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:553": {
-        "route_long_name": "Ottignies -- Charleroi-West",
+        "route_long_name": "Leuven -- Charleroi-Centraal",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:554": {
-        "route_long_name": "Namen -- Libramont",
-        "route_short_name": "L"
+        "route_long_name": "Leuven -- Charleroi-West",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:555": {
-        "route_long_name": "Namen -- Ciney",
-        "route_short_name": "L"
+        "route_long_name": "Waver -- Charleroi-Centraal",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:556": {
-        "route_long_name": "Ciney -- Courri\u00e8re",
+        "route_long_name": "Brugge -- Gent-Sint-Pieters",
         "route_short_name": "L"
     },
     "gr:nmbssncb:557": {
-        "route_long_name": "Zeebrugge-Dorp -- Dendermonde",
+        "route_long_name": "Brugge -- Dendermonde",
         "route_short_name": "L"
     },
     "gr:nmbssncb:558": {
-        "route_long_name": "Zeebrugge-Strand -- Dendermonde",
+        "route_long_name": "Gent-Sint-Pieters -- Dendermonde",
         "route_short_name": "L"
     },
     "gr:nmbssncb:559": {
-        "route_long_name": "Luxemburg (LU) -- Libramont",
-        "route_short_name": "L"
+        "route_long_name": "Ottignies -- Charleroi-West",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:56": {
         "route_long_name": "Leuven -- Landen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:560": {
-        "route_long_name": "Bertrange Strassen (LU) -- Libramont",
+        "route_long_name": "Namen -- Libramont",
         "route_short_name": "L"
     },
     "gr:nmbssncb:561": {
-        "route_long_name": "Rochefort-Jemelle -- Aarlen",
+        "route_long_name": "Namen -- Ciney",
         "route_short_name": "L"
     },
     "gr:nmbssncb:562": {
-        "route_long_name": "Ciney -- Aarlen",
+        "route_long_name": "Ciney -- Courri\u00e8re",
         "route_short_name": "L"
     },
     "gr:nmbssncb:563": {
-        "route_long_name": "Luxemburg (LU) -- Aarlen",
+        "route_long_name": "Zeebrugge-Dorp -- Dendermonde",
         "route_short_name": "L"
     },
     "gr:nmbssncb:564": {
-        "route_long_name": "Bertrange Strassen (LU) -- Aarlen",
+        "route_long_name": "Zeebrugge-Strand -- Dendermonde",
         "route_short_name": "L"
     },
     "gr:nmbssncb:565": {
-        "route_long_name": "Luxemburg (LU) -- Marbehan",
+        "route_long_name": "Luxemburg (LU) -- Libramont",
         "route_short_name": "L"
     },
     "gr:nmbssncb:566": {
-        "route_long_name": "Aarlen -- Marbehan",
+        "route_long_name": "Bertrange Strassen (LU) -- Libramont",
         "route_short_name": "L"
     },
     "gr:nmbssncb:567": {
-        "route_long_name": "Bertrange Strassen (LU) -- Marbehan",
+        "route_long_name": "Rochefort-Jemelle -- Aarlen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:568": {
-        "route_long_name": "Aarlen -- Virton",
+        "route_long_name": "Ciney -- Aarlen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:569": {
-        "route_long_name": "Libramont -- Athus",
+        "route_long_name": "Luxemburg (LU) -- Aarlen",
         "route_short_name": "L"
     },
     "gr:nmbssncb:57": {
         "route_long_name": "Brussel-Zuid -- Brussels Airport-Zaventem",
         "route_short_name": "IC"
     },
+    "gr:nmbssncb:570": {
+        "route_long_name": "Bertrange Strassen (LU) -- Aarlen",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:571": {
+        "route_long_name": "Luxemburg (LU) -- Marbehan",
+        "route_short_name": "L"
+    },
     "gr:nmbssncb:572": {
-        "route_long_name": "Gendron-Celles -- Libramont",
+        "route_long_name": "Aarlen -- Marbehan",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:573": {
+        "route_long_name": "Bertrange Strassen (LU) -- Marbehan",
         "route_short_name": "L"
     },
     "gr:nmbssncb:574": {
-        "route_long_name": "Namen -- Bertrix",
+        "route_long_name": "Aarlen -- Virton",
         "route_short_name": "L"
     },
     "gr:nmbssncb:575": {
-        "route_long_name": "Gendron-Celles -- Bertrix",
-        "route_short_name": "L"
-    },
-    "gr:nmbssncb:576": {
-        "route_long_name": "Namen -- Dinant",
-        "route_short_name": "L"
-    },
-    "gr:nmbssncb:577": {
-        "route_long_name": "Rochefort-Jemelle -- Libramont",
-        "route_short_name": "L"
-    },
-    "gr:nmbssncb:578": {
-        "route_long_name": "Ciney -- Libramont",
+        "route_long_name": "Libramont -- Athus",
         "route_short_name": "L"
     },
     "gr:nmbssncb:579": {
-        "route_long_name": "Rochefort-Jemelle -- Ciney",
+        "route_long_name": "Gendron-Celles -- Libramont",
         "route_short_name": "L"
     },
     "gr:nmbssncb:58": {
         "route_long_name": "Brussel-Zuid -- Knokke",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:580": {
-        "route_long_name": "Ottignies -- Namen",
-        "route_short_name": "L"
-    },
     "gr:nmbssncb:581": {
-        "route_long_name": "Ottignies -- Gembloux",
+        "route_long_name": "Namen -- Bertrix",
         "route_short_name": "L"
     },
     "gr:nmbssncb:582": {
-        "route_long_name": "Gembloux -- Namen",
+        "route_long_name": "Gendron-Celles -- Bertrix",
         "route_short_name": "L"
     },
     "gr:nmbssncb:583": {
-        "route_long_name": "Ottignies -- Rhisnes",
+        "route_long_name": "Namen -- Dinant",
         "route_short_name": "L"
     },
     "gr:nmbssncb:584": {
-        "route_long_name": "Ottignies -- Waver",
-        "route_short_name": "S20"
+        "route_long_name": "Rochefort-Jemelle -- Libramont",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:585": {
-        "route_long_name": "Gent-Sint-Pieters -- Lokeren",
-        "route_short_name": "S53"
+        "route_long_name": "Ciney -- Libramont",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:586": {
-        "route_long_name": "Ottignies -- Zottegem",
-        "route_short_name": "S8"
+        "route_long_name": "Rochefort-Jemelle -- Ciney",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:587": {
-        "route_long_name": "Brussel-Zuid -- Zottegem",
-        "route_short_name": "S8"
+        "route_long_name": "Ottignies -- Namen",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:588": {
-        "route_long_name": "Brussel-Luxemburg -- Zottegem",
-        "route_short_name": "S8"
+        "route_long_name": "Ottignies -- Gembloux",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:589": {
-        "route_long_name": "Brussel-Noord -- Zottegem",
-        "route_short_name": "S8"
+        "route_long_name": "Gembloux -- Namen",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:59": {
         "route_long_name": "Leuven -- 's-Gravenbrakel",
         "route_short_name": "L"
     },
     "gr:nmbssncb:590": {
-        "route_long_name": "Ronse -- Lokeren",
-        "route_short_name": "S53"
+        "route_long_name": "Ottignies -- Rhisnes",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:591": {
-        "route_long_name": "Oudenaarde -- Lokeren",
-        "route_short_name": "S53"
+        "route_long_name": "Ottignies -- Waver",
+        "route_short_name": "S20"
     },
     "gr:nmbssncb:592": {
-        "route_long_name": "Louvain-la-Neuve -- Denderleeuw",
-        "route_short_name": "S8"
+        "route_long_name": "Gent-Sint-Pieters -- Lokeren",
+        "route_short_name": "S53"
     },
     "gr:nmbssncb:593": {
-        "route_long_name": "Louvain-la-Neuve -- Burst",
+        "route_long_name": "Ottignies -- Zottegem",
         "route_short_name": "S8"
     },
     "gr:nmbssncb:594": {
-        "route_long_name": "Antwerpen-Centraal -- Noorderkempen (Brecht)",
-        "route_short_name": "S35"
+        "route_long_name": "Brussel-Zuid -- Zottegem",
+        "route_short_name": "S8"
     },
     "gr:nmbssncb:595": {
-        "route_long_name": "Spa-G\u00e9ronst\u00e8re -- Welkenraedt",
-        "route_short_name": "L"
+        "route_long_name": "Brussel-Luxemburg -- Zottegem",
+        "route_short_name": "S8"
     },
     "gr:nmbssncb:596": {
-        "route_long_name": "Verviers-Centraal -- Spa-G\u00e9ronst\u00e8re",
-        "route_short_name": "L"
+        "route_long_name": "Brussel-Noord -- Zottegem",
+        "route_short_name": "S8"
     },
     "gr:nmbssncb:597": {
-        "route_long_name": "Schaarbeek -- Oostende",
-        "route_short_name": "P"
+        "route_long_name": "Ronse -- Lokeren",
+        "route_short_name": "S53"
+    },
+    "gr:nmbssncb:598": {
+        "route_long_name": "Oudenaarde -- Lokeren",
+        "route_short_name": "S53"
+    },
+    "gr:nmbssncb:599": {
+        "route_long_name": "Louvain-la-Neuve -- Denderleeuw",
+        "route_short_name": "S8"
     },
     "gr:nmbssncb:6": {
         "route_long_name": "Jette -- Brussels Airport-Zaventem",
@@ -2171,27 +2187,47 @@
         "route_long_name": "Brussel-Luxemburg -- Nijvel",
         "route_short_name": "L"
     },
+    "gr:nmbssncb:600": {
+        "route_long_name": "Louvain-la-Neuve -- Burst",
+        "route_short_name": "S8"
+    },
+    "gr:nmbssncb:601": {
+        "route_long_name": "Antwerpen-Centraal -- Noorderkempen (Brecht)",
+        "route_short_name": "S35"
+    },
+    "gr:nmbssncb:602": {
+        "route_long_name": "Spa-G\u00e9ronst\u00e8re -- Welkenraedt",
+        "route_short_name": "L"
+    },
+    "gr:nmbssncb:603": {
+        "route_long_name": "Verviers-Centraal -- Spa-G\u00e9ronst\u00e8re",
+        "route_short_name": "L"
+    },
     "gr:nmbssncb:604": {
-        "route_long_name": "Schaarbeek -- De Panne",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:605": {
-        "route_long_name": "Schaarbeek -- Gent-Sint-Pieters",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:609": {
-        "route_long_name": "Schaarbeek -- Poperinge",
+        "route_long_name": "Schaarbeek -- Oostende",
         "route_short_name": "P"
     },
     "gr:nmbssncb:61": {
         "route_long_name": "Ottignies -- Louvain-la-Neuve",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:610": {
+    "gr:nmbssncb:611": {
+        "route_long_name": "Schaarbeek -- De Panne",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:612": {
+        "route_long_name": "Schaarbeek -- Gent-Sint-Pieters",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:616": {
+        "route_long_name": "Schaarbeek -- Poperinge",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:617": {
         "route_long_name": "Gent-Sint-Pieters -- Aalst",
         "route_short_name": "P"
     },
-    "gr:nmbssncb:611": {
+    "gr:nmbssncb:618": {
         "route_long_name": "Schaarbeek -- Sint-Niklaas",
         "route_short_name": "P"
     },
@@ -2211,7 +2247,7 @@
         "route_long_name": "Brussel-Zuid -- Rochefort-Jemelle",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:651": {
+    "gr:nmbssncb:657": {
         "route_long_name": "Antwerpen-Centraal -- Poperinge",
         "route_short_name": "IC"
     },
@@ -2219,52 +2255,36 @@
         "route_long_name": "Brussel-Zuid -- Namen",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:662": {
+    "gr:nmbssncb:668": {
         "route_long_name": "Antwerpen-Centraal -- Kortrijk",
         "route_short_name": "IC"
-    },
-    "gr:nmbssncb:664": {
-        "route_long_name": "Brugge -- Gent-Sint-Pieters",
-        "route_short_name": "P"
     },
     "gr:nmbssncb:67": {
         "route_long_name": "Verviers-Centraal -- Welkenraedt",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:672": {
+    "gr:nmbssncb:670": {
+        "route_long_name": "Brugge -- Gent-Sint-Pieters",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:678": {
         "route_long_name": "Brugge -- Geraardsbergen",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:674": {
-        "route_long_name": "Brugge -- Blankenberge",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:675": {
-        "route_long_name": "Brugge -- Zeebrugge-Dorp",
         "route_short_name": "P"
     },
     "gr:nmbssncb:68": {
         "route_long_name": "Namen -- Yvoir",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:682": {
-        "route_long_name": "Brugge -- Knokke",
+    "gr:nmbssncb:680": {
+        "route_long_name": "Brugge -- Blankenberge",
         "route_short_name": "P"
     },
-    "gr:nmbssncb:685": {
-        "route_long_name": "Kortrijk -- Poperinge",
+    "gr:nmbssncb:681": {
+        "route_long_name": "Brugge -- Zeebrugge-Dorp",
         "route_short_name": "P"
-    },
-    "gr:nmbssncb:686": {
-        "route_long_name": "Gent-Sint-Pieters -- Eeklo",
-        "route_short_name": "S51"
     },
     "gr:nmbssncb:687": {
-        "route_long_name": "Leuven -- Sint-Niklaas",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:688": {
-        "route_long_name": "Mechelen -- Sint-Niklaas",
+        "route_long_name": "Brugge -- Knokke",
         "route_short_name": "P"
     },
     "gr:nmbssncb:69": {
@@ -2272,27 +2292,31 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:690": {
-        "route_long_name": "Gent-Sint-Pieters -- Dendermonde",
+        "route_long_name": "Kortrijk -- Poperinge",
         "route_short_name": "P"
     },
     "gr:nmbssncb:691": {
-        "route_long_name": "Mechelen -- Dendermonde",
+        "route_long_name": "Gent-Sint-Pieters -- Eeklo",
+        "route_short_name": "S51"
+    },
+    "gr:nmbssncb:692": {
+        "route_long_name": "Leuven -- Sint-Niklaas",
         "route_short_name": "P"
     },
     "gr:nmbssncb:693": {
-        "route_long_name": "Leuven -- Dendermonde",
+        "route_long_name": "Mechelen -- Sint-Niklaas",
         "route_short_name": "P"
     },
-    "gr:nmbssncb:697": {
-        "route_long_name": "Antwerpen-Centraal -- Menen",
-        "route_short_name": "IC"
+    "gr:nmbssncb:695": {
+        "route_long_name": "Gent-Sint-Pieters -- Dendermonde",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:696": {
+        "route_long_name": "Mechelen -- Dendermonde",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:698": {
-        "route_long_name": "Brussel-Zuid -- Mol",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:699": {
-        "route_long_name": "Brussel-Zuid -- Neerpelt",
+        "route_long_name": "Leuven -- Dendermonde",
         "route_short_name": "P"
     },
     "gr:nmbssncb:7": {
@@ -2303,88 +2327,80 @@
         "route_long_name": "Waver -- Leuven",
         "route_short_name": "L"
     },
-    "gr:nmbssncb:700": {
-        "route_long_name": "Antwerpen-Centraal -- Noorderkempen (Brecht)",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:701": {
-        "route_long_name": "Brussels Airport-Zaventem -- Noorderkempen (Brecht)",
-        "route_short_name": "P"
-    },
     "gr:nmbssncb:702": {
-        "route_long_name": "Antwerpen-Berchem -- Gent-Sint-Pieters",
+        "route_long_name": "Antwerpen-Centraal -- Menen",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:703": {
-        "route_long_name": "Antwerpen-Centraal -- Essen",
+        "route_long_name": "Brussel-Zuid -- Mol",
         "route_short_name": "P"
     },
     "gr:nmbssncb:704": {
-        "route_long_name": "Antwerpen-Berchem -- Herentals",
-        "route_short_name": "S33"
+        "route_long_name": "Brussel-Zuid -- Neerpelt",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:705": {
-        "route_long_name": "Antwerpen-Centraal -- Aarschot",
+        "route_long_name": "Antwerpen-Centraal -- Noorderkempen (Brecht)",
         "route_short_name": "P"
     },
     "gr:nmbssncb:706": {
-        "route_long_name": "Antwerpen-Centraal -- Leuven",
+        "route_long_name": "Brussels Airport-Zaventem -- Noorderkempen (Brecht)",
         "route_short_name": "P"
     },
     "gr:nmbssncb:707": {
-        "route_long_name": "Brussel-Zuid -- Tongeren",
-        "route_short_name": "P"
+        "route_long_name": "Antwerpen-Berchem -- Gent-Sint-Pieters",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:708": {
-        "route_long_name": "Hasselt -- Leuven",
+        "route_long_name": "Antwerpen-Centraal -- Essen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:709": {
-        "route_long_name": "Landen -- Ans",
-        "route_short_name": "S44"
+        "route_long_name": "Antwerpen-Berchem -- Herentals",
+        "route_short_name": "S33"
     },
     "gr:nmbssncb:71": {
         "route_long_name": "Libramont -- Bertrix",
         "route_short_name": "L"
     },
     "gr:nmbssncb:710": {
-        "route_long_name": "Mechelen -- Leuven",
+        "route_long_name": "Antwerpen-Centraal -- Aarschot",
         "route_short_name": "P"
     },
     "gr:nmbssncb:711": {
-        "route_long_name": "Brussel-Zuid -- Luik-Guillemins",
+        "route_long_name": "Antwerpen-Centraal -- Leuven",
         "route_short_name": "P"
     },
     "gr:nmbssncb:712": {
-        "route_long_name": "Antwerpen-Berchem -- Poperinge",
-        "route_short_name": "IC"
+        "route_long_name": "Brussel-Zuid -- Tongeren",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:713": {
-        "route_long_name": "Luik-Guillemins -- Statte",
+        "route_long_name": "Hasselt -- Leuven",
         "route_short_name": "P"
     },
     "gr:nmbssncb:714": {
-        "route_long_name": "Luik-Guillemins -- Gouvy",
-        "route_short_name": "P"
+        "route_long_name": "Landen -- Ans",
+        "route_short_name": "S44"
     },
     "gr:nmbssncb:715": {
-        "route_long_name": "Hoei -- Namen",
+        "route_long_name": "Mechelen -- Leuven",
         "route_short_name": "P"
     },
     "gr:nmbssncb:716": {
-        "route_long_name": "Luik-Guillemins -- Bomal",
+        "route_long_name": "Brussel-Zuid -- Luik-Guillemins",
         "route_short_name": "P"
     },
     "gr:nmbssncb:717": {
-        "route_long_name": "Verviers-Centraal -- Spa-G\u00e9ronst\u00e8re",
-        "route_short_name": "P"
+        "route_long_name": "Antwerpen-Berchem -- Poperinge",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:718": {
-        "route_long_name": "Moeskroen -- Geraardsbergen",
+        "route_long_name": "Luik-Guillemins -- Statte",
         "route_short_name": "P"
     },
     "gr:nmbssncb:719": {
-        "route_long_name": "Schaarbeek -- Moeskroen",
+        "route_long_name": "Luik-Guillemins -- Gouvy",
         "route_short_name": "P"
     },
     "gr:nmbssncb:72": {
@@ -2392,87 +2408,87 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:720": {
-        "route_long_name": "Ronse -- Eeklo",
-        "route_short_name": "S51"
+        "route_long_name": "Hoei -- Namen",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:721": {
-        "route_long_name": "Bergen -- Doornik",
+        "route_long_name": "Luik-Guillemins -- Bomal",
         "route_short_name": "P"
     },
     "gr:nmbssncb:722": {
-        "route_long_name": "Gent-Sint-Pieters -- Ronse",
-        "route_short_name": "S51"
+        "route_long_name": "Verviers-Centraal -- Spa-G\u00e9ronst\u00e8re",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:723": {
-        "route_long_name": "Schaarbeek -- Geraardsbergen",
-        "route_short_name": "S3"
+        "route_long_name": "Moeskroen -- Geraardsbergen",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:724": {
-        "route_long_name": "Bergen -- Geraardsbergen",
+        "route_long_name": "Schaarbeek -- Moeskroen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:725": {
-        "route_long_name": "Bergen -- Aat",
-        "route_short_name": "P"
+        "route_long_name": "Ronse -- Eeklo",
+        "route_short_name": "S51"
     },
     "gr:nmbssncb:726": {
-        "route_long_name": "Jurbeke -- Aat",
+        "route_long_name": "Bergen -- Doornik",
         "route_short_name": "P"
     },
     "gr:nmbssncb:727": {
-        "route_long_name": "Aat -- Geraardsbergen",
-        "route_short_name": "P"
+        "route_long_name": "Gent-Sint-Pieters -- Ronse",
+        "route_short_name": "S51"
     },
     "gr:nmbssncb:728": {
-        "route_long_name": "Brussel-Zuid -- Rochefort-Jemelle",
-        "route_short_name": "P"
+        "route_long_name": "Oudenaarde -- Eeklo",
+        "route_short_name": "S51"
     },
     "gr:nmbssncb:729": {
-        "route_long_name": "Luxemburg (LU) -- Marloie",
-        "route_short_name": "P"
+        "route_long_name": "Schaarbeek -- Geraardsbergen",
+        "route_short_name": "S3"
     },
     "gr:nmbssncb:73": {
         "route_long_name": "Liers -- Statte",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:730": {
-        "route_long_name": "Marloie -- Aarlen",
+        "route_long_name": "Bergen -- Geraardsbergen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:731": {
-        "route_long_name": "Luxemburg (LU) -- Brussel-Zuid",
+        "route_long_name": "Bergen -- Aat",
         "route_short_name": "P"
     },
     "gr:nmbssncb:732": {
-        "route_long_name": "Brussel-Zuid -- Aarlen",
+        "route_long_name": "Jurbeke -- Aat",
         "route_short_name": "P"
     },
     "gr:nmbssncb:733": {
-        "route_long_name": "Ottignies -- Gembloux",
+        "route_long_name": "Aat -- Geraardsbergen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:734": {
-        "route_long_name": "Ottignies -- Namen",
+        "route_long_name": "Brussel-Zuid -- Rochefort-Jemelle",
         "route_short_name": "P"
     },
     "gr:nmbssncb:735": {
-        "route_long_name": "Gembloux -- Namen",
+        "route_long_name": "Luxemburg (LU) -- Marloie",
         "route_short_name": "P"
     },
     "gr:nmbssncb:736": {
-        "route_long_name": "Luxemburg (LU) -- Aarlen",
+        "route_long_name": "Marloie -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:737": {
-        "route_long_name": "Bertrange Strassen (LU) -- Aarlen",
+        "route_long_name": "Luxemburg (LU) -- Brussel-Zuid",
         "route_short_name": "P"
     },
     "gr:nmbssncb:738": {
-        "route_long_name": "Aarlen -- Virton",
+        "route_long_name": "Brussel-Zuid -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:739": {
-        "route_long_name": "Bertrix -- Aarlen",
+        "route_long_name": "Ottignies -- Gembloux",
         "route_short_name": "P"
     },
     "gr:nmbssncb:74": {
@@ -2480,43 +2496,43 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:740": {
-        "route_long_name": "Namen -- Ciney",
+        "route_long_name": "Ottignies -- Namen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:741": {
-        "route_long_name": "Rochefort-Jemelle -- Libramont",
+        "route_long_name": "Gembloux -- Namen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:742": {
-        "route_long_name": "Luik-Sint-Lambertus -- Rochefort-Jemelle",
+        "route_long_name": "Luxemburg (LU) -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:743": {
-        "route_long_name": "Luik-Guillemins -- Marloie",
+        "route_long_name": "Bertrange Strassen (LU) -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:744": {
-        "route_long_name": "Luik-Guillemins -- Rochefort-Jemelle",
+        "route_long_name": "Aarlen -- Virton",
         "route_short_name": "P"
     },
     "gr:nmbssncb:745": {
-        "route_long_name": "Ciney -- Libramont",
+        "route_long_name": "Bertrix -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:746": {
-        "route_long_name": "Dinant -- Bertrix",
+        "route_long_name": "Namen -- Ciney",
         "route_short_name": "P"
     },
     "gr:nmbssncb:747": {
-        "route_long_name": "Namen -- Bertrix",
+        "route_long_name": "Rochefort-Jemelle -- Libramont",
         "route_short_name": "P"
     },
     "gr:nmbssncb:748": {
-        "route_long_name": "Libramont -- Athus",
+        "route_long_name": "Luik-Sint-Lambertus -- Rochefort-Jemelle",
         "route_short_name": "P"
     },
     "gr:nmbssncb:749": {
-        "route_long_name": "Beauraing -- Libramont",
+        "route_long_name": "Luik-Guillemins -- Marloie",
         "route_short_name": "P"
     },
     "gr:nmbssncb:75": {
@@ -2524,43 +2540,43 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:750": {
-        "route_long_name": "Libramont -- Virton",
+        "route_long_name": "Luik-Guillemins -- Rochefort-Jemelle",
         "route_short_name": "P"
     },
     "gr:nmbssncb:751": {
-        "route_long_name": "Gembloux -- Tamines",
+        "route_long_name": "Ciney -- Libramont",
         "route_short_name": "P"
     },
     "gr:nmbssncb:752": {
-        "route_long_name": "Gembloux -- Jemeppe-sur-Sambre",
+        "route_long_name": "Dinant -- Bertrix",
         "route_short_name": "P"
     },
     "gr:nmbssncb:753": {
-        "route_long_name": "Schaarbeek -- Jemeppe-sur-Sambre",
+        "route_long_name": "Namen -- Bertrix",
         "route_short_name": "P"
     },
     "gr:nmbssncb:754": {
-        "route_long_name": "Binche -- 's-Gravenbrakel",
+        "route_long_name": "Libramont -- Athus",
         "route_short_name": "P"
     },
     "gr:nmbssncb:755": {
-        "route_long_name": "Charleroi-Centraal -- Couvin",
+        "route_long_name": "Beauraing -- Libramont",
         "route_short_name": "P"
     },
     "gr:nmbssncb:756": {
-        "route_long_name": "Charleroi-Centraal -- Walcourt",
+        "route_long_name": "Libramont -- Virton",
         "route_short_name": "P"
     },
     "gr:nmbssncb:757": {
-        "route_long_name": "Bergen -- La Louvi\u00e8re-Zuid",
+        "route_long_name": "Gembloux -- Tamines",
         "route_short_name": "P"
     },
     "gr:nmbssncb:758": {
-        "route_long_name": "Manage -- 's-Gravenbrakel",
+        "route_long_name": "Gembloux -- Jemeppe-sur-Sambre",
         "route_short_name": "P"
     },
     "gr:nmbssncb:759": {
-        "route_long_name": "Luttre -- Charleroi-Centraal",
+        "route_long_name": "Schaarbeek -- Jemeppe-sur-Sambre",
         "route_short_name": "P"
     },
     "gr:nmbssncb:76": {
@@ -2568,43 +2584,43 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:760": {
-        "route_long_name": "Jambes -- Luttre",
+        "route_long_name": "Binche -- 's-Gravenbrakel",
         "route_short_name": "P"
     },
     "gr:nmbssncb:761": {
-        "route_long_name": "Schaarbeek -- Qui\u00e9vrain",
+        "route_long_name": "Charleroi-Centraal -- Couvin",
         "route_short_name": "P"
     },
     "gr:nmbssncb:762": {
-        "route_long_name": "Schaarbeek -- Saint-Ghislain",
+        "route_long_name": "Charleroi-Centraal -- Walcourt",
         "route_short_name": "P"
     },
     "gr:nmbssncb:763": {
-        "route_long_name": "Bergen -- Qui\u00e9vrain",
+        "route_long_name": "Bergen -- La Louvi\u00e8re-Zuid",
         "route_short_name": "P"
     },
     "gr:nmbssncb:764": {
-        "route_long_name": "Schaarbeek -- Qu\u00e9vy",
+        "route_long_name": "Manage -- 's-Gravenbrakel",
         "route_short_name": "P"
     },
     "gr:nmbssncb:765": {
-        "route_long_name": "Schaarbeek -- Bergen",
+        "route_long_name": "Luttre -- Charleroi-Centraal",
         "route_short_name": "P"
     },
     "gr:nmbssncb:766": {
-        "route_long_name": "Bergen -- Qu\u00e9vy",
+        "route_long_name": "Jambes -- Luttre",
         "route_short_name": "P"
     },
     "gr:nmbssncb:767": {
-        "route_long_name": "Bergen -- Saint-Ghislain",
+        "route_long_name": "Schaarbeek -- Qui\u00e9vrain",
         "route_short_name": "P"
     },
     "gr:nmbssncb:768": {
-        "route_long_name": "Oostende -- Zottegem",
+        "route_long_name": "Schaarbeek -- Saint-Ghislain",
         "route_short_name": "P"
     },
     "gr:nmbssncb:769": {
-        "route_long_name": "Oostende -- Kortrijk",
+        "route_long_name": "Bergen -- Qui\u00e9vrain",
         "route_short_name": "P"
     },
     "gr:nmbssncb:77": {
@@ -2612,43 +2628,39 @@
         "route_short_name": "P"
     },
     "gr:nmbssncb:770": {
-        "route_long_name": "Knokke -- Kortrijk",
+        "route_long_name": "Schaarbeek -- Qu\u00e9vy",
         "route_short_name": "P"
     },
     "gr:nmbssncb:771": {
-        "route_long_name": "Brugge -- Kortrijk",
+        "route_long_name": "Schaarbeek -- Bergen",
         "route_short_name": "P"
     },
-    "gr:nmbssncb:772": {
-        "route_long_name": "Oudenaarde -- Eeklo",
-        "route_short_name": "S51"
-    },
     "gr:nmbssncb:773": {
-        "route_long_name": "Gent-Sint-Pieters -- Oudenaarde",
-        "route_short_name": "S51"
+        "route_long_name": "Bergen -- Saint-Ghislain",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:774": {
-        "route_long_name": "Zottegem -- Kortrijk",
+        "route_long_name": "Oostende -- Zottegem",
         "route_short_name": "P"
     },
     "gr:nmbssncb:775": {
-        "route_long_name": "Gent-Sint-Pieters -- Geraardsbergen",
+        "route_long_name": "Oostende -- Kortrijk",
         "route_short_name": "P"
     },
     "gr:nmbssncb:776": {
-        "route_long_name": "Aalst -- Burst",
+        "route_long_name": "Knokke -- Kortrijk",
         "route_short_name": "P"
     },
     "gr:nmbssncb:777": {
-        "route_long_name": "Kortrijk -- Roeselare",
+        "route_long_name": "Brugge -- Kortrijk",
         "route_short_name": "P"
     },
     "gr:nmbssncb:778": {
-        "route_long_name": "Gent-Sint-Pieters -- Kortrijk",
-        "route_short_name": "P"
+        "route_long_name": "Gent-Sint-Pieters -- Oudenaarde",
+        "route_short_name": "S51"
     },
     "gr:nmbssncb:779": {
-        "route_long_name": "Gent-Sint-Pieters -- De Panne",
+        "route_long_name": "Zottegem -- Kortrijk",
         "route_short_name": "P"
     },
     "gr:nmbssncb:78": {
@@ -2656,18 +2668,34 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:780": {
-        "route_long_name": "Leuven -- De Panne",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:781": {
-        "route_long_name": "Leuven -- Lichtervelde",
+        "route_long_name": "Gent-Sint-Pieters -- Geraardsbergen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:782": {
-        "route_long_name": "Leuven -- Veurne",
+        "route_long_name": "Kortrijk -- Roeselare",
         "route_short_name": "P"
     },
     "gr:nmbssncb:783": {
+        "route_long_name": "Gent-Sint-Pieters -- Kortrijk",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:784": {
+        "route_long_name": "Gent-Sint-Pieters -- De Panne",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:785": {
+        "route_long_name": "Leuven -- De Panne",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:786": {
+        "route_long_name": "Leuven -- Lichtervelde",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:787": {
+        "route_long_name": "Leuven -- Veurne",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:788": {
         "route_long_name": "Leuven -- Diksmuide",
         "route_short_name": "P"
     },
@@ -2675,45 +2703,25 @@
         "route_long_name": "Namen -- Dinant",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:790": {
+    "gr:nmbssncb:795": {
         "route_long_name": "Brugge -- Kortrijk",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:791": {
+    "gr:nmbssncb:796": {
         "route_long_name": "Leuven -- Brugge",
         "route_short_name": "P"
     },
-    "gr:nmbssncb:792": {
-        "route_long_name": "Blankenberge -- Kortrijk",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:793": {
-        "route_long_name": "Mechelen -- Gent-Sint-Pieters",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:794": {
-        "route_long_name": "Blankenberge -- Kortrijk",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:795": {
-        "route_long_name": "Mol -- Hamont",
-        "route_short_name": "P"
-    },
-    "gr:nmbssncb:796": {
-        "route_long_name": "Hamont -- Sint-Joris-Weert",
-        "route_short_name": "P"
-    },
     "gr:nmbssncb:797": {
-        "route_long_name": "Herentals -- Sint-Joris-Weert",
+        "route_long_name": "Blankenberge -- Kortrijk",
         "route_short_name": "P"
     },
     "gr:nmbssncb:798": {
-        "route_long_name": "Essen -- Leuven",
+        "route_long_name": "Mechelen -- Gent-Sint-Pieters",
         "route_short_name": "P"
     },
     "gr:nmbssncb:799": {
-        "route_long_name": "Tongeren -- Gent-Sint-Pieters",
-        "route_short_name": "P"
+        "route_long_name": "Blankenberge -- Kortrijk",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:8": {
         "route_long_name": "Nijvel -- Charleroi-Centraal",
@@ -2724,43 +2732,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:800": {
-        "route_long_name": "Hasselt -- Gent-Sint-Pieters",
+        "route_long_name": "Mol -- Hamont",
         "route_short_name": "P"
     },
     "gr:nmbssncb:801": {
-        "route_long_name": "Tongeren -- Gent-Sint-Pieters",
-        "route_short_name": "IC"
+        "route_long_name": "Hamont -- Sint-Joris-Weert",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:802": {
-        "route_long_name": "Tongeren -- Leuven",
+        "route_long_name": "Herentals -- Sint-Joris-Weert",
         "route_short_name": "P"
     },
     "gr:nmbssncb:803": {
-        "route_long_name": "Luik-Guillemins -- Namen",
+        "route_long_name": "Essen -- Leuven",
         "route_short_name": "P"
     },
     "gr:nmbssncb:804": {
-        "route_long_name": "Louvain-la-Neuve -- Moeskroen",
+        "route_long_name": "Tongeren -- Gent-Sint-Pieters",
         "route_short_name": "P"
     },
     "gr:nmbssncb:805": {
-        "route_long_name": "Ottignies -- Moeskroen",
+        "route_long_name": "Hasselt -- Gent-Sint-Pieters",
         "route_short_name": "P"
     },
     "gr:nmbssncb:806": {
-        "route_long_name": "Gent-Sint-Pieters -- Kortrijk",
-        "route_short_name": "L"
+        "route_long_name": "Tongeren -- Gent-Sint-Pieters",
+        "route_short_name": "IC"
     },
     "gr:nmbssncb:807": {
-        "route_long_name": "Edingen -- Geraardsbergen",
-        "route_short_name": "S3"
+        "route_long_name": "Tongeren -- Leuven",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:808": {
-        "route_long_name": "Doornik -- Aat",
+        "route_long_name": "Luik-Guillemins -- Namen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:809": {
-        "route_long_name": "Brussel-Zuid -- Namen",
+        "route_long_name": "Louvain-la-Neuve -- Moeskroen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:81": {
@@ -2768,43 +2776,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:810": {
-        "route_long_name": "Namen -- Rochefort-Jemelle",
+        "route_long_name": "Ottignies -- Moeskroen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:811": {
-        "route_long_name": "Gembloux -- Aarlen",
-        "route_short_name": "P"
+        "route_long_name": "Gent-Sint-Pieters -- Kortrijk",
+        "route_short_name": "L"
     },
     "gr:nmbssncb:812": {
-        "route_long_name": "Herstal -- Aarlen",
-        "route_short_name": "P"
+        "route_long_name": "Edingen -- Geraardsbergen",
+        "route_short_name": "S3"
     },
     "gr:nmbssncb:813": {
-        "route_long_name": "Herstal -- Rochefort-Jemelle",
+        "route_long_name": "Doornik -- Aat",
         "route_short_name": "P"
     },
     "gr:nmbssncb:814": {
-        "route_long_name": "Bomal -- Aarlen",
+        "route_long_name": "Brussel-Zuid -- Namen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:815": {
-        "route_long_name": "Rochefort-Jemelle -- Ciney",
+        "route_long_name": "Namen -- Rochefort-Jemelle",
         "route_short_name": "P"
     },
     "gr:nmbssncb:816": {
-        "route_long_name": "Libramont -- Aarlen",
+        "route_long_name": "Gembloux -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:817": {
-        "route_long_name": "Marloie -- Libramont",
+        "route_long_name": "Herstal -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:818": {
-        "route_long_name": "Louvain-la-Neuve -- Binche",
+        "route_long_name": "Herstal -- Rochefort-Jemelle",
         "route_short_name": "P"
     },
     "gr:nmbssncb:819": {
-        "route_long_name": "Ottignies -- Binche",
+        "route_long_name": "Bomal -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:82": {
@@ -2812,43 +2820,43 @@
         "route_short_name": "L"
     },
     "gr:nmbssncb:820": {
-        "route_long_name": "Schaarbeek -- Tamines",
+        "route_long_name": "Rochefort-Jemelle -- Ciney",
         "route_short_name": "P"
     },
     "gr:nmbssncb:821": {
-        "route_long_name": "Schaarbeek -- Ch\u00e2telet",
+        "route_long_name": "Libramont -- Aarlen",
         "route_short_name": "P"
     },
     "gr:nmbssncb:822": {
-        "route_long_name": "Bergen -- Manage",
+        "route_long_name": "Marloie -- Libramont",
         "route_short_name": "P"
     },
     "gr:nmbssncb:823": {
-        "route_long_name": "Luttre -- Manage",
-        "route_short_name": "S62"
+        "route_long_name": "Louvain-la-Neuve -- Binche",
+        "route_short_name": "P"
     },
     "gr:nmbssncb:824": {
-        "route_long_name": "'s-Gravenbrakel -- Saint-Ghislain",
+        "route_long_name": "Ottignies -- Binche",
         "route_short_name": "P"
     },
     "gr:nmbssncb:825": {
-        "route_long_name": "Saint-Ghislain -- Qui\u00e9vrain",
+        "route_long_name": "Schaarbeek -- Tamines",
         "route_short_name": "P"
     },
     "gr:nmbssncb:826": {
-        "route_long_name": "Sint-Joris-Weert -- Poperinge",
+        "route_long_name": "Schaarbeek -- Ch\u00e2telet",
         "route_short_name": "P"
     },
     "gr:nmbssncb:827": {
-        "route_long_name": "Sint-Joris-Weert -- Kortrijk",
+        "route_long_name": "Bergen -- Manage",
         "route_short_name": "P"
     },
     "gr:nmbssncb:828": {
-        "route_long_name": "Aalst -- Geraardsbergen",
-        "route_short_name": "P"
+        "route_long_name": "Luttre -- Manage",
+        "route_short_name": "S62"
     },
     "gr:nmbssncb:829": {
-        "route_long_name": "Gent-Sint-Pieters -- Lichtervelde",
+        "route_long_name": "'s-Gravenbrakel -- Saint-Ghislain",
         "route_short_name": "P"
     },
     "gr:nmbssncb:83": {
@@ -2856,39 +2864,59 @@
         "route_short_name": "IC"
     },
     "gr:nmbssncb:830": {
+        "route_long_name": "Saint-Ghislain -- Qui\u00e9vrain",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:831": {
+        "route_long_name": "Sint-Joris-Weert -- Poperinge",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:832": {
+        "route_long_name": "Sint-Joris-Weert -- Kortrijk",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:833": {
+        "route_long_name": "Aalst -- Geraardsbergen",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:834": {
+        "route_long_name": "Gent-Sint-Pieters -- Lichtervelde",
+        "route_short_name": "P"
+    },
+    "gr:nmbssncb:835": {
         "route_long_name": "Namen -- Kortrijk",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:831": {
+    "gr:nmbssncb:836": {
         "route_long_name": "Namen -- Doornik",
         "route_short_name": "IC"
     },
-    "gr:nmbssncb:832": {
+    "gr:nmbssncb:837": {
         "route_long_name": "Rotterdam Centraal (NL) -- Brussel-Zuid",
         "route_short_name": "EC"
     },
-    "gr:nmbssncb:833": {
+    "gr:nmbssncb:838": {
         "route_long_name": "Breda (NL) -- Brussel-Zuid",
         "route_short_name": "EC"
     },
-    "gr:nmbssncb:834": {
+    "gr:nmbssncb:839": {
         "route_long_name": "Rotterdam Centraal (NL) -- Brussel-Noord",
         "route_short_name": "EC"
     },
-    "gr:nmbssncb:835": {
+    "gr:nmbssncb:84": {
+        "route_long_name": "Doornik -- Aat",
+        "route_short_name": "IC"
+    },
+    "gr:nmbssncb:840": {
         "route_long_name": "Breda (NL) -- Brussel-Noord",
         "route_short_name": "EC"
     },
-    "gr:nmbssncb:836": {
+    "gr:nmbssncb:841": {
         "route_long_name": "Rotterdam Centraal (NL) -- Antwerpen-Centraal",
         "route_short_name": "EC"
     },
-    "gr:nmbssncb:837": {
+    "gr:nmbssncb:842": {
         "route_long_name": "Namen -- Saint-Ghislain",
-        "route_short_name": "IC"
-    },
-    "gr:nmbssncb:84": {
-        "route_long_name": "Doornik -- Aat",
         "route_short_name": "IC"
     },
     "gr:nmbssncb:85": {
