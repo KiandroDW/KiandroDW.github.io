@@ -1,4 +1,14 @@
 {
+    "gs:nmbssncb:8011065": {
+        "stop_name": "FRANKFURT(MAIN) SUD",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
+    },
+    "gs:nmbssncb:8015190": {
+        "stop_name": "Herzogenrath",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
+    },
     "gs:nmbssncb:8811148": {
         "stop_name": "Buda",
         "stop_lat": "50.90749183513076",
@@ -44,6 +54,26 @@
         "stop_lat": "51.03820429978068",
         "stop_lon": "5.281785835437138"
     },
+    "gs:nmbssncb:8015199": {
+        "stop_name": "Aken West",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
+    },
+    "gs:nmbssncb:8015345": {
+        "stop_name": "Aachen Hbf (DE)",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
+    },
+    "gs:nmbssncb:8015458": {
+        "stop_name": "K\u00f6ln Hbf (DE)",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
+    },
+    "gs:nmbssncb:8015485": {
+        "stop_name": "Bonn Hbf",
+        "stop_lat": "50.691705",
+        "stop_lon": "6.051737"
+    },
     "gs:nmbssncb:8832250": {
         "stop_name": "Zolder",
         "stop_lat": "51.03368171889993",
@@ -53,6 +83,11 @@
         "stop_name": "Zonhoven",
         "stop_lat": "50.98956016137075",
         "stop_lon": "5.348820782219636"
+    },
+    "gs:nmbssncb:8863008": {
+        "stop_name": "Namen",
+        "stop_lat": "50.46936637829282",
+        "stop_lon": "4.862120011137793"
     },
     "gs:nmbssncb:8863818": {
         "stop_name": "Anseremme",
@@ -108,6 +143,11 @@
         "stop_name": "Aubange",
         "stop_lat": "49.56403659342106",
         "stop_lon": "5.7980089712129645"
+    },
+    "gs:nmbssncb:8866662": {
+        "stop_name": "Messancy",
+        "stop_lat": "49.5927581812673",
+        "stop_lon": "5.818478105265633"
     },
     "gs:nmbssncb:8866845": {
         "stop_name": "Florenville",
@@ -174,13 +214,23 @@
         "stop_lat": "50.833566766340844",
         "stop_lon": "3.391622034332242"
     },
+    "gs:nmbssncb:8728673": {
+        "stop_name": "Roubaix (FR)",
+        "stop_lat": "50.722088",
+        "stop_lon": "3.196125"
+    },
     "gs:nmbssncb:S8811007": {
         "stop_name": "Schaarbeek",
         "stop_lat": "50.87865132836583",
         "stop_lon": "4.378442468032661"
     },
-    "gs:nmbssncb:8200102": {
-        "stop_name": "Pfaffenthal-Kirchberg (LU)",
+    "gs:nmbssncb:8200120": {
+        "stop_name": "Ettelbruck (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8200128": {
+        "stop_name": "Michelau (LU)",
         "stop_lat": "49.643827",
         "stop_lon": "5.904205"
     },
@@ -193,11 +243,6 @@
         "stop_name": "Haren-Zuid",
         "stop_lat": "50.889737014766624",
         "stop_lon": "4.415329717455487"
-    },
-    "gs:nmbssncb:8200518": {
-        "stop_name": "Capellen (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
     },
     "gs:nmbssncb:S8811148": {
         "stop_name": "Buda",
@@ -219,6 +264,11 @@
         "stop_lat": "50.85406618321925",
         "stop_lon": "4.3943736878300115"
     },
+    "gs:nmbssncb:8400307": {
+        "stop_name": "Heerlen",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
+    },
     "gs:nmbssncb:S8811189": {
         "stop_name": "Vilvoorde",
         "stop_lat": "50.924494043173866",
@@ -234,20 +284,20 @@
         "stop_lat": "50.81839895095671",
         "stop_lon": "4.403717183446168"
     },
+    "gs:nmbssncb:8200129": {
+        "stop_name": "GOEBELSMUHLE",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
+    },
+    "gs:nmbssncb:8200130": {
+        "stop_name": "Kautenbach (LU)",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
+    },
     "gs:nmbssncb:S8811213": {
         "stop_name": "Diegem",
         "stop_lat": "50.89052125447162",
         "stop_lon": "4.4427908612279765"
-    },
-    "gs:nmbssncb:8200710": {
-        "stop_name": "Hollerich (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8728683": {
-        "stop_name": "Pont de Bois (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
     },
     "gs:nmbssncb:S8811221": {
         "stop_name": "Zaventem",
@@ -269,6 +319,21 @@
         "stop_lat": "50.896594029975866",
         "stop_lon": "4.584982154819628"
     },
+    "gs:nmbssncb:8400426": {
+        "stop_name": "Maastricht Randwijck (NL)",
+        "stop_lat": "50.758783",
+        "stop_lon": "5.703079"
+    },
+    "gs:nmbssncb:8811288": {
+        "stop_name": "Herent",
+        "stop_lat": "50.90363222459015",
+        "stop_lon": "4.672167443003991"
+    },
+    "gs:nmbssncb:8200516": {
+        "stop_name": "Mamer (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
     "gs:nmbssncb:S8811270": {
         "stop_name": "Veltem",
         "stop_lat": "50.900591892772596",
@@ -284,30 +349,15 @@
         "stop_lat": "50.838869070010446",
         "stop_lon": "4.374020333800672"
     },
-    "gs:nmbssncb:8200110": {
-        "stop_name": "Mersch (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8200120": {
-        "stop_name": "Ettelbruck (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8728685": {
-        "stop_name": "Annappes (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
-    },
-    "gs:nmbssncb:8728686": {
-        "stop_name": "Ascq (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
-    },
     "gs:nmbssncb:S8811403": {
         "stop_name": "Mouterij",
         "stop_lat": "50.83009198858447",
         "stop_lon": "4.379626540735409"
+    },
+    "gs:nmbssncb:8200132": {
+        "stop_name": "Wilwerwiltz (LU)",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
     },
     "gs:nmbssncb:S8811411": {
         "stop_name": "Etterbeek",
@@ -329,6 +379,11 @@
         "stop_lat": "50.766074602347025",
         "stop_lon": "4.44946649327332"
     },
+    "gs:nmbssncb:8811270": {
+        "stop_name": "Veltem",
+        "stop_lat": "50.900591892772596",
+        "stop_lon": "4.633505414621676"
+    },
     "gs:nmbssncb:S8811460": {
         "stop_name": "Hoeilaart",
         "stop_lat": "50.76018438231837",
@@ -344,16 +399,6 @@
         "stop_lat": "50.72573249226183",
         "stop_lon": "4.5148950196706"
     },
-    "gs:nmbssncb:8728687": {
-        "stop_name": "Baisieux (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
-    },
-    "gs:nmbssncb:8728710": {
-        "stop_name": "Lezennes (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
-    },
     "gs:nmbssncb:S8811536": {
         "stop_name": "Rixensart",
         "stop_lat": "50.71155578111591",
@@ -363,6 +408,11 @@
         "stop_name": "Profondsart",
         "stop_lat": "50.69965930695497",
         "stop_lon": "4.545457665883087"
+    },
+    "gs:nmbssncb:8200133": {
+        "stop_name": "Drauffelt (LU)",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
     },
     "gs:nmbssncb:S8811601": {
         "stop_name": "Ottignies",
@@ -379,6 +429,11 @@
         "stop_lat": "50.66968964662668",
         "stop_lon": "4.615941848406488"
     },
+    "gs:nmbssncb:8200518": {
+        "stop_name": "Capellen (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
     "gs:nmbssncb:S8811718": {
         "stop_name": "Bierges-Walibi",
         "stop_lat": "50.70758871958083",
@@ -394,25 +449,10 @@
         "stop_lat": "50.724338384353565",
         "stop_lon": "4.62173119511394"
     },
-    "gs:nmbssncb:8729500": {
-        "stop_name": "Maubeuge (FR)",
-        "stop_lat": "50.329088",
-        "stop_lon": "3.908248"
-    },
     "gs:nmbssncb:S8811742": {
         "stop_name": "Gastuche",
         "stop_lat": "50.73642373882479",
         "stop_lon": "4.649894164717105"
-    },
-    "gs:nmbssncb:8200128": {
-        "stop_name": "Michelau (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8200129": {
-        "stop_name": "GOEBELSMUHLE",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
     },
     "gs:nmbssncb:S8811759": {
         "stop_name": "Eerken",
@@ -424,6 +464,11 @@
         "stop_lat": "50.76158704561815",
         "stop_lon": "4.654013264061327"
     },
+    "gs:nmbssncb:8200134": {
+        "stop_name": "Clervaux (LU)",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
+    },
     "gs:nmbssncb:S8811775": {
         "stop_name": "P\u00e9crot",
         "stop_lat": "50.778519861530334",
@@ -433,6 +478,11 @@
         "stop_name": "C\u00e9roux-Mousty",
         "stop_lat": "50.65994003131667",
         "stop_lon": "4.569132944860785"
+    },
+    "gs:nmbssncb:8200520": {
+        "stop_name": "Kleinbettingen (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
     },
     "gs:nmbssncb:S8811825": {
         "stop_name": "Court-Saint-Etienne",
@@ -444,16 +494,6 @@
         "stop_lat": "50.84326443785091",
         "stop_lon": "4.380751763532582"
     },
-    "gs:nmbssncb:8729560": {
-        "stop_name": "Aulnoye Aymeries (FR)",
-        "stop_lat": "50.329088",
-        "stop_lon": "3.908248"
-    },
-    "gs:nmbssncb:8811007": {
-        "stop_name": "Schaarbeek",
-        "stop_lat": "50.87865132836583",
-        "stop_lon": "4.378442468032661"
-    },
     "gs:nmbssncb:S8811940": {
         "stop_name": "Anderlecht",
         "stop_lat": "50.81787352713705",
@@ -463,16 +503,6 @@
         "stop_name": "Brussel-Noord",
         "stop_lat": "50.85955978879701",
         "stop_lon": "4.361419358877286"
-    },
-    "gs:nmbssncb:8200130": {
-        "stop_name": "Kautenbach (LU)",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
-    },
-    "gs:nmbssncb:8200132": {
-        "stop_name": "Wilwerwiltz (LU)",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
     },
     "gs:nmbssncb:S8812013": {
         "stop_name": "Simonis",
@@ -489,10 +519,20 @@
         "stop_lat": "50.88069407423516",
         "stop_lon": "4.3262448720533"
     },
+    "gs:nmbssncb:8200136": {
+        "stop_name": "Troisvierges (LU)",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
+    },
     "gs:nmbssncb:S8812062": {
         "stop_name": "Zellik",
         "stop_lat": "50.89002322321888",
         "stop_lon": "4.274533288478644"
+    },
+    "gs:nmbssncb:8200710": {
+        "stop_name": "Hollerich (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
     },
     "gs:nmbssncb:S8812070": {
         "stop_name": "Asse",
@@ -534,6 +574,16 @@
         "stop_lat": "50.86830312635505",
         "stop_lon": "4.2735503005839774"
     },
+    "gs:nmbssncb:8200510": {
+        "stop_name": "Bertrange Strassen (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8200712": {
+        "stop_name": "Leudelange (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
     "gs:nmbssncb:S8812237": {
         "stop_name": "Dilbeek",
         "stop_lat": "50.86646128290336",
@@ -558,16 +608,6 @@
         "stop_name": "Brussel-Centraal",
         "stop_lat": "50.845556409172765",
         "stop_lon": "4.357154888369378"
-    },
-    "gs:nmbssncb:8200133": {
-        "stop_name": "Drauffelt (LU)",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
-    },
-    "gs:nmbssncb:8200134": {
-        "stop_name": "Clervaux (LU)",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
     },
     "gs:nmbssncb:S8813037": {
         "stop_name": "Brussel-Kapellekerk",
@@ -608,21 +648,6 @@
         "stop_name": "Holleken",
         "stop_lat": "50.767603246831094",
         "stop_lon": "4.353914019281436"
-    },
-    "gs:nmbssncb:8200136": {
-        "stop_name": "Troisvierges (LU)",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
-    },
-    "gs:nmbssncb:8200510": {
-        "stop_name": "Bertrange Strassen (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:S8882339": {
-        "stop_name": "Leval",
-        "stop_lat": "50.43065219968284",
-        "stop_lon": "4.2113964866324665"
     },
     "gs:nmbssncb:S8814167": {
         "stop_name": "Sint-Genesius-Rode",
@@ -704,11 +729,6 @@
         "stop_lat": "50.77832106131255",
         "stop_lon": "4.33072893486048"
     },
-    "gs:nmbssncb:S8831401": {
-        "stop_name": "Diest",
-        "stop_lat": "50.99338902699537",
-        "stop_lon": "5.050057754962318"
-    },
     "gs:nmbssncb:S8814449": {
         "stop_name": "Sint-Job",
         "stop_lat": "50.794417367734326",
@@ -748,11 +768,6 @@
         "stop_name": "Antwerpen-Centraal",
         "stop_lat": "51.217195956303335",
         "stop_lon": "4.4211876600489415"
-    },
-    "gs:nmbssncb:8200516": {
-        "stop_name": "Mamer (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
     },
     "gs:nmbssncb:S8821063": {
         "stop_name": "Antwerpen-Luchtbal",
@@ -794,11 +809,6 @@
         "stop_lat": "51.17125587301791",
         "stop_lon": "4.455754629784107"
     },
-    "gs:nmbssncb:8200520": {
-        "stop_name": "Kleinbettingen (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
     "gs:nmbssncb:S8821246": {
         "stop_name": "Mortsel-Liersesteenweg",
         "stop_lat": "51.169022288733544",
@@ -839,15 +849,15 @@
         "stop_lat": "51.36462713263929",
         "stop_lon": "4.460453028583458"
     },
-    "nmbssncb:s-bertrangestrassenlu": {
-        "stop_name": "Bertrange Strassen (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
     "gs:nmbssncb:S8821535": {
         "stop_name": "Kapellen",
         "stop_lat": "51.31350929985734",
         "stop_lon": "4.432759539161157"
+    },
+    "gs:nmbssncb:8200714": {
+        "stop_name": "Dippach-Reckange (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
     },
     "gs:nmbssncb:S8821543": {
         "stop_name": "Sint-Mariaburg",
@@ -864,6 +874,11 @@
         "stop_lat": "51.16349452305695",
         "stop_lon": "4.494508750623987"
     },
+    "gs:nmbssncb:8728686": {
+        "stop_name": "Ascq (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
+    },
     "gs:nmbssncb:S8821659": {
         "stop_name": "Kessel",
         "stop_lat": "51.15099856130384",
@@ -879,25 +894,15 @@
         "stop_lat": "51.16862248861318",
         "stop_lon": "4.7860975314527545"
     },
-    "gs:nmbssncb:8811106": {
-        "stop_name": "Evere",
-        "stop_lat": "50.86779450373923",
-        "stop_lon": "4.400933757938347"
-    },
     "gs:nmbssncb:S8821717": {
         "stop_name": "Herentals",
         "stop_lat": "51.18144782524369",
         "stop_lon": "4.829603953055202"
     },
-    "gs:nmbssncb:8200712": {
-        "stop_name": "Leudelange (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8200714": {
-        "stop_name": "Dippach-Reckange (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
+    "gs:nmbssncb:8728105": {
+        "stop_name": "Croix l'Allumette (FR)",
+        "stop_lat": "50.722088",
+        "stop_lon": "3.196125"
     },
     "gs:nmbssncb:S8821725": {
         "stop_name": "Bouwel",
@@ -909,6 +914,16 @@
         "stop_lat": "51.113558029792635",
         "stop_lon": "4.638662938150853"
     },
+    "gs:nmbssncb:8200716": {
+        "stop_name": "Schouweiler (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8200718": {
+        "stop_name": "Bascharage-Sanem (LU)",
+        "stop_lat": "49.570828",
+        "stop_lon": "5.832399"
+    },
     "gs:nmbssncb:S8821824": {
         "stop_name": "Melkouwen",
         "stop_lat": "51.094937509881625",
@@ -918,6 +933,11 @@
         "stop_name": "Heist-op-den-Berg",
         "stop_lat": "51.07414410862157",
         "stop_lon": "4.708229722004932"
+    },
+    "gs:nmbssncb:8400632": {
+        "stop_name": "Valkenburg",
+        "stop_lat": "50.758783",
+        "stop_lon": "5.703079"
     },
     "gs:nmbssncb:S8821857": {
         "stop_name": "Booischot",
@@ -934,15 +954,15 @@
         "stop_lat": "51.322001389986646",
         "stop_lon": "4.937552987824179"
     },
+    "gs:nmbssncb:8811007": {
+        "stop_name": "Schaarbeek",
+        "stop_lat": "50.87865132836583",
+        "stop_lon": "4.378442468032661"
+    },
     "gs:nmbssncb:S8821964": {
         "stop_name": "Tielen",
         "stop_lat": "51.24091430269699",
         "stop_lon": "4.89334397601611"
-    },
-    "nmbssncb:s-blandainfrontire": {
-        "stop_name": "Blandain-Fronti\u00e8re",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
     },
     "gs:nmbssncb:S8822004": {
         "stop_name": "Mechelen",
@@ -959,6 +979,11 @@
         "stop_lat": "51.00911456809682",
         "stop_lon": "4.299076901314873"
     },
+    "gs:nmbssncb:8200930": {
+        "stop_name": "P\u00e9tange (LU)",
+        "stop_lat": "49.560596796467806",
+        "stop_lon": "5.82802486799637"
+    },
     "gs:nmbssncb:S8822137": {
         "stop_name": "Malderen",
         "stop_lat": "51.014400421948245",
@@ -968,11 +993,6 @@
         "stop_name": "Buggenhout",
         "stop_lat": "51.016247745578085",
         "stop_lon": "4.201654019351895"
-    },
-    "gs:nmbssncb:8811130": {
-        "stop_name": "Haren-Zuid",
-        "stop_lat": "50.889737014766624",
-        "stop_lon": "4.415329717455487"
     },
     "gs:nmbssncb:S8822160": {
         "stop_name": "Baasrode-Zuid",
@@ -984,15 +1004,15 @@
         "stop_lat": "51.09121507174779",
         "stop_lon": "4.492850317020734"
     },
+    "gs:nmbssncb:8400234": {
+        "stop_name": "Eygelshoven markt",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
+    },
     "gs:nmbssncb:S8822228": {
         "stop_name": "Sint-Katelijne-Waver",
         "stop_lat": "51.06998105376235",
         "stop_lon": "4.4957670402033845"
-    },
-    "nmbssncb:s-bonnbeuelde": {
-        "stop_name": "Bonn-Beuel (DE)",
-        "stop_lat": "50.691705",
-        "stop_lon": "6.051737"
     },
     "gs:nmbssncb:S8822251": {
         "stop_name": "Weerde",
@@ -1014,6 +1034,11 @@
         "stop_lat": "51.029885",
         "stop_lon": "4.490265"
     },
+    "gs:nmbssncb:8200935": {
+        "stop_name": "Lamadeleine (LU)",
+        "stop_lat": "49.55818394165489",
+        "stop_lon": "5.827290134565749"
+    },
     "gs:nmbssncb:S8822426": {
         "stop_name": "Muizen",
         "stop_lat": "51.00833633755576",
@@ -1029,20 +1054,15 @@
         "stop_lat": "50.98191341439011",
         "stop_lon": "4.57396993112285"
     },
+    "gs:nmbssncb:8400424": {
+        "stop_name": "Maastricht (NL)",
+        "stop_lat": "50.758783",
+        "stop_lon": "5.703079"
+    },
     "gs:nmbssncb:S8822517": {
         "stop_name": "Haacht",
         "stop_lat": "50.96629298412876",
         "stop_lon": "4.6132136110595106"
-    },
-    "gs:nmbssncb:8200716": {
-        "stop_name": "Schouweiler (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8200718": {
-        "stop_name": "Bascharage-Sanem (LU)",
-        "stop_lat": "49.570828",
-        "stop_lon": "5.832399"
     },
     "gs:nmbssncb:S8822525": {
         "stop_name": "Wespelaar-Tildonk",
@@ -1069,10 +1089,30 @@
         "stop_lat": "51.09916450520168",
         "stop_lon": "4.240421510555451"
     },
+    "gs:nmbssncb:8200940": {
+        "stop_name": "Rodange (LU)",
+        "stop_lat": "49.551786",
+        "stop_lon": "5.824954"
+    },
+    "gs:nmbssncb:8210014": {
+        "stop_name": "Mamer-Lyc\u00e9e (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
     "gs:nmbssncb:S8822814": {
         "stop_name": "Boom",
         "stop_lat": "51.090858158478575",
         "stop_lon": "4.360417438004642"
+    },
+    "gs:nmbssncb:8729500": {
+        "stop_name": "Maubeuge (FR)",
+        "stop_lat": "50.329088",
+        "stop_lon": "3.908248"
+    },
+    "gs:nmbssncb:8400434": {
+        "stop_name": "Meerssen",
+        "stop_lat": "50.758783",
+        "stop_lon": "5.703079"
     },
     "gs:nmbssncb:S8822848": {
         "stop_name": "Ruisbroek-Sauvegarde",
@@ -1099,11 +1139,6 @@
         "stop_lat": "51.11166065270157",
         "stop_lon": "4.338669336260234"
     },
-    "gs:nmbssncb:8811155": {
-        "stop_name": "Haren",
-        "stop_lat": "50.88887856145254",
-        "stop_lon": "4.419981223615913"
-    },
     "gs:nmbssncb:S8831005": {
         "stop_name": "Hasselt",
         "stop_lat": "50.93053697772471",
@@ -1118,6 +1153,16 @@
         "stop_name": "Schulen",
         "stop_lat": "50.963713797120626",
         "stop_lon": "5.1873787169041385"
+    },
+    "gs:nmbssncb:8400131": {
+        "stop_name": "Breda (NL)",
+        "stop_lat": "51.485713",
+        "stop_lon": "4.734527"
+    },
+    "gs:nmbssncb:8400219": {
+        "stop_name": "Eijsden (NL)",
+        "stop_lat": "50.758783",
+        "stop_lon": "5.703079"
     },
     "gs:nmbssncb:S8831112": {
         "stop_name": "Diepenbeek",
@@ -1134,10 +1179,10 @@
         "stop_lat": "50.78447284691013",
         "stop_lon": "5.473832435283902"
     },
-    "nmbssncb:s-bonnhbf": {
-        "stop_name": "Bonn Hbf",
-        "stop_lat": "50.691705",
-        "stop_lon": "6.051737"
+    "gs:nmbssncb:S8831401": {
+        "stop_name": "Diest",
+        "stop_lat": "50.99338902699537",
+        "stop_lon": "5.050057754962318"
     },
     "gs:nmbssncb:S8831765": {
         "stop_name": "Genk",
@@ -1183,11 +1228,6 @@
         "stop_name": "Zolder",
         "stop_lat": "51.03368171889993",
         "stop_lon": "5.3303121246761025"
-    },
-    "gs:nmbssncb:8811163": {
-        "stop_name": "Bordet",
-        "stop_lat": "50.877801065569834",
-        "stop_lon": "4.409984902623345"
     },
     "gs:nmbssncb:S8832334": {
         "stop_name": "Zonhoven",
@@ -1274,16 +1314,6 @@
         "stop_lat": "50.95617957321225",
         "stop_lon": "4.747817274897377"
     },
-    "gs:nmbssncb:8200930": {
-        "stop_name": "P\u00e9tange (LU)",
-        "stop_lat": "49.560596796467806",
-        "stop_lon": "5.82802486799637"
-    },
-    "gs:nmbssncb:8200935": {
-        "stop_name": "Lamadeleine (LU)",
-        "stop_lat": "49.55818394165489",
-        "stop_lon": "5.827290134565749"
-    },
     "gs:nmbssncb:S8833258": {
         "stop_name": "Langdorp",
         "stop_lat": "51.00243866284068",
@@ -1314,10 +1344,10 @@
         "stop_lat": "50.74785420335914",
         "stop_lon": "5.079594440766596"
     },
-    "gs:nmbssncb:S8841673": {
-        "stop_name": "Liers",
-        "stop_lat": "50.698178",
-        "stop_lon": "5.566829"
+    "gs:nmbssncb:8400526": {
+        "stop_name": "Roosendaal (NL)",
+        "stop_lat": "51.469135",
+        "stop_lon": "4.4489"
     },
     "gs:nmbssncb:S8833670": {
         "stop_name": "Neerwinden",
@@ -1328,11 +1358,6 @@
         "stop_name": "Luik-Guillemins",
         "stop_lat": "50.62446243038007",
         "stop_lon": "5.566527843375113"
-    },
-    "nmbssncb:s-bredanl": {
-        "stop_name": "Breda (NL)",
-        "stop_lat": "51.485713",
-        "stop_lon": "4.734527"
     },
     "gs:nmbssncb:S8841202": {
         "stop_name": "Ans",
@@ -1359,30 +1384,30 @@
         "stop_lat": "50.685204276538286",
         "stop_lon": "5.286462801901168"
     },
-    "gs:nmbssncb:8811189": {
-        "stop_name": "Vilvoorde",
-        "stop_lat": "50.924494043173866",
-        "stop_lon": "4.4331627822645"
-    },
     "gs:nmbssncb:S8841442": {
         "stop_name": "Remicourt",
         "stop_lat": "50.67861076841735",
         "stop_lon": "5.321410361384778"
+    },
+    "gs:nmbssncb:8728671": {
+        "stop_name": "Croix Wasquehal (FR)",
+        "stop_lat": "50.722088",
+        "stop_lon": "3.196125"
     },
     "gs:nmbssncb:S8841459": {
         "stop_name": "Momalle",
         "stop_lat": "50.669883149090005",
         "stop_lon": "5.367587335808515"
     },
+    "gs:nmbssncb:8400530": {
+        "stop_name": "Rotterdam Centraal (NL)",
+        "stop_lat": "51.469135",
+        "stop_lon": "4.4489"
+    },
     "gs:nmbssncb:S8841467": {
         "stop_name": "Fexhe-le-Haut-Clocher",
         "stop_lat": "50.66404063223768",
         "stop_lon": "5.398446054966147"
-    },
-    "nmbssncb:s-capellenlu": {
-        "stop_name": "Capellen (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
     },
     "gs:nmbssncb:S8841525": {
         "stop_name": "Luik-Sint-Lambertus",
@@ -1404,10 +1429,20 @@
         "stop_lat": "50.69247780171714",
         "stop_lon": "5.600188817649281"
     },
+    "gs:nmbssncb:S8841673": {
+        "stop_name": "Liers",
+        "stop_lat": "50.698178",
+        "stop_lon": "5.566829"
+    },
     "gs:nmbssncb:S8841731": {
         "stop_name": "Glaaien",
         "stop_lat": "50.7504123929595",
         "stop_lon": "5.5352656739387"
+    },
+    "gs:nmbssncb:8728683": {
+        "stop_name": "Pont de Bois (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
     },
     "gs:nmbssncb:S8842002": {
         "stop_name": "Angleur",
@@ -1418,6 +1453,11 @@
         "stop_name": "Ch\u00ean\u00e9e",
         "stop_lat": "50.60804429087745",
         "stop_lon": "5.61609221627247"
+    },
+    "gs:nmbssncb:8400548": {
+        "stop_name": "Landgraaf",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
     },
     "gs:nmbssncb:S8842051": {
         "stop_name": "Chaudfontaine",
@@ -1449,6 +1489,11 @@
         "stop_lat": "50.50924377706114",
         "stop_lon": "5.578813050152141"
     },
+    "gs:nmbssncb:8728685": {
+        "stop_name": "Annappes (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
+    },
     "gs:nmbssncb:S8842705": {
         "stop_name": "Rivage",
         "stop_lat": "50.48333981227956",
@@ -1463,6 +1508,11 @@
         "stop_name": "Comblain-la-Tour",
         "stop_lat": "50.456877908314155",
         "stop_lon": "5.567055648128635"
+    },
+    "gs:nmbssncb:8401134": {
+        "stop_name": "Eygelshoven markt",
+        "stop_lat": "50.718497",
+        "stop_lon": "6.041265"
     },
     "gs:nmbssncb:S8842846": {
         "stop_name": "Hamoir",
@@ -1489,6 +1539,11 @@
         "stop_lat": "50.619700527589",
         "stop_lon": "5.510139918325846"
     },
+    "gs:nmbssncb:8728687": {
+        "stop_name": "Baisieux (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
+    },
     "gs:nmbssncb:S8843158": {
         "stop_name": "Jemeppe-sur-Meuse",
         "stop_lat": "50.6184375628471",
@@ -1509,15 +1564,10 @@
         "stop_lat": "50.595217727607704",
         "stop_lon": "5.457762381971855"
     },
-    "gs:nmbssncb:8200940": {
-        "stop_name": "Rodange (LU)",
-        "stop_lat": "49.551786",
-        "stop_lon": "5.824954"
-    },
-    "gs:nmbssncb:8210014": {
-        "stop_name": "Mamer-Lyc\u00e9e (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
+    "gs:nmbssncb:8701687": {
+        "stop_name": "Creil - B\u00e2t Voyageurs",
+        "stop_lat": "50.40985",
+        "stop_lon": "3.684115"
     },
     "gs:nmbssncb:S8843224": {
         "stop_name": "Leman",
@@ -1538,6 +1588,11 @@
         "stop_name": "Ampsin",
         "stop_lat": "50.53926318684825",
         "stop_lon": "5.289716101148191"
+    },
+    "gs:nmbssncb:8728710": {
+        "stop_name": "Lezennes (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
     },
     "gs:nmbssncb:S8843331": {
         "stop_name": "Amay",
@@ -1564,15 +1619,15 @@
         "stop_lat": "50.644063950235406",
         "stop_lon": "5.6110235112368985"
     },
+    "gs:nmbssncb:8727100": {
+        "stop_name": "Paris Nord (FR)",
+        "stop_lat": "50.40985",
+        "stop_lon": "3.684115"
+    },
     "gs:nmbssncb:S8844008": {
         "stop_name": "Verviers-Centraal",
         "stop_lat": "50.5880583774505",
         "stop_lon": "5.855060179612215"
-    },
-    "gs:nmbssncb:8811197": {
-        "stop_name": "Merode",
-        "stop_lat": "50.83941534876006",
-        "stop_lon": "4.39982335740804"
     },
     "gs:nmbssncb:S8844057": {
         "stop_name": "Verviers-Paleis",
@@ -1583,6 +1638,11 @@
         "stop_name": "Pepinster",
         "stop_lat": "50.56834501734515",
         "stop_lon": "5.806141179401092"
+    },
+    "gs:nmbssncb:8729560": {
+        "stop_name": "Aulnoye Aymeries (FR)",
+        "stop_lat": "50.329088",
+        "stop_lon": "3.908248"
     },
     "gs:nmbssncb:S8844230": {
         "stop_name": "Nessonvaux",
@@ -1609,25 +1669,15 @@
         "stop_lat": "50.54475544946392",
         "stop_lon": "5.81009095591835"
     },
-    "gs:nmbssncb:8400131": {
-        "stop_name": "Breda (NL)",
-        "stop_lat": "51.485713",
-        "stop_lon": "4.734527"
-    },
-    "gs:nmbssncb:8400219": {
-        "stop_name": "Eijsden (NL)",
-        "stop_lat": "50.758783",
-        "stop_lon": "5.703079"
-    },
-    "gs:nmbssncb:8811205": {
-        "stop_name": "Delta",
-        "stop_lat": "50.81839895095671",
-        "stop_lon": "4.403717183446168"
-    },
     "gs:nmbssncb:S8844339": {
         "stop_name": "Theux",
         "stop_lat": "50.53622375409327",
         "stop_lon": "5.815173285826768"
+    },
+    "gs:nmbssncb:8728600": {
+        "stop_name": "Lille Flandres (FR)",
+        "stop_lat": "50.722088",
+        "stop_lon": "3.196125"
     },
     "gs:nmbssncb:S8844347": {
         "stop_name": "Franchimont",
@@ -1674,6 +1724,11 @@
         "stop_lat": "50.27893580408078",
         "stop_lon": "5.909325091500205"
     },
+    "gs:nmbssncb:8728606": {
+        "stop_name": "Hellemmes (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
+    },
     "gs:nmbssncb:S8845203": {
         "stop_name": "Trois-Ponts",
         "stop_lat": "50.36823123952668",
@@ -1704,11 +1759,6 @@
         "stop_lat": "50.44325039958979",
         "stop_lon": "4.76245513455099"
     },
-    "gs:nmbssncb:8811213": {
-        "stop_name": "Diegem",
-        "stop_lat": "50.89052125447162",
-        "stop_lon": "4.4427908612279765"
-    },
     "gs:nmbssncb:S8861143": {
         "stop_name": "Frani\u00e8re",
         "stop_lat": "50.43960950824007",
@@ -1723,6 +1773,11 @@
         "stop_name": "Gembloux",
         "stop_lat": "50.57046356825778",
         "stop_lon": "4.691449223831111"
+    },
+    "gs:nmbssncb:8728654": {
+        "stop_name": "Tourcoing (FR)",
+        "stop_lat": "50.722088",
+        "stop_lon": "3.196125"
     },
     "gs:nmbssncb:S8861317": {
         "stop_name": "Chapelle-Dieu",
@@ -1804,16 +1859,6 @@
         "stop_lat": "50.42901370487856",
         "stop_lon": "4.884277561952786"
     },
-    "gs:nmbssncb:8400234": {
-        "stop_name": "Eygelshoven markt",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
-    },
-    "gs:nmbssncb:8400307": {
-        "stop_name": "Heerlen",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
-    },
     "gs:nmbssncb:S8863404": {
         "stop_name": "Andenne",
         "stop_lat": "50.496766495514315",
@@ -1833,11 +1878,6 @@
         "stop_name": "Nam\u00eache",
         "stop_lat": "50.47018609431444",
         "stop_lon": "4.998105252052512"
-    },
-    "nmbssncb:s-aixlachapelleouest": {
-        "stop_name": "Aken West",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
     },
     "gs:nmbssncb:S8863461": {
         "stop_name": "Marche-les-Dames",
@@ -1859,11 +1899,6 @@
         "stop_lat": "50.348883718368306",
         "stop_lon": "4.869967752919903"
     },
-    "gs:nmbssncb:S8864352": {
-        "stop_name": "Aye",
-        "stop_lat": "50.2241878240283",
-        "stop_lon": "5.3012370227684755"
-    },
     "gs:nmbssncb:S8863818": {
         "stop_name": "Anseremme",
         "stop_lat": "50.238014287893854",
@@ -1878,11 +1913,6 @@
         "stop_name": "Houyet",
         "stop_lat": "50.1898806415955",
         "stop_lon": "5.006137679202253"
-    },
-    "gs:nmbssncb:8811221": {
-        "stop_name": "Zaventem",
-        "stop_lat": "50.885684873463305",
-        "stop_lon": "4.4698740436560715"
     },
     "gs:nmbssncb:S8863867": {
         "stop_name": "Beauraing",
@@ -1909,15 +1939,10 @@
         "stop_lat": "50.20284287858243",
         "stop_lon": "5.313828211885503"
     },
-    "gs:nmbssncb:8400424": {
-        "stop_name": "Maastricht (NL)",
-        "stop_lat": "50.758783",
-        "stop_lon": "5.703079"
-    },
-    "gs:nmbssncb:8400426": {
-        "stop_name": "Maastricht Randwijck (NL)",
-        "stop_lat": "50.758783",
-        "stop_lon": "5.703079"
+    "gs:nmbssncb:S8864352": {
+        "stop_name": "Aye",
+        "stop_lat": "50.2241878240283",
+        "stop_lon": "5.3012370227684755"
     },
     "gs:nmbssncb:S8864410": {
         "stop_name": "Marche-en-Famenne",
@@ -1969,11 +1994,6 @@
         "stop_lat": "50.36813928486583",
         "stop_lon": "5.02283894251099"
     },
-    "gs:nmbssncb:8811247": {
-        "stop_name": "Nossegem",
-        "stop_lat": "50.88347917437234",
-        "stop_lon": "4.506028300386456"
-    },
     "gs:nmbssncb:S8864949": {
         "stop_name": "Courri\u00e8re",
         "stop_lat": "50.38742051607249",
@@ -2008,11 +2028,6 @@
         "stop_name": "Paliseul",
         "stop_lat": "49.89542939742859",
         "stop_lon": "5.118374820525687"
-    },
-    "gs:nmbssncb:S8866530": {
-        "stop_name": "Halanzy",
-        "stop_lat": "49.55601202362665",
-        "stop_lon": "5.7413253006900815"
     },
     "gs:nmbssncb:S8865565": {
         "stop_name": "Carlsbourg",
@@ -2054,15 +2069,15 @@
         "stop_lat": "49.85426269816129",
         "stop_lon": "5.452443462365516"
     },
-    "gs:nmbssncb:8811254": {
-        "stop_name": "Kortenberg",
-        "stop_lat": "50.89304482483142",
-        "stop_lon": "4.543305386908723"
-    },
     "gs:nmbssncb:S8866407": {
         "stop_name": "Virton",
         "stop_lat": "49.56056831351916",
         "stop_lon": "5.5189269850345966"
+    },
+    "gs:nmbssncb:S8866530": {
+        "stop_name": "Halanzy",
+        "stop_lat": "49.55601202362665",
+        "stop_lon": "5.7413253006900815"
     },
     "gs:nmbssncb:S8866605": {
         "stop_name": "Athus",
@@ -2099,20 +2114,10 @@
         "stop_lat": "50.333913155255274",
         "stop_lon": "4.406456797427576"
     },
-    "gs:nmbssncb:8811262": {
-        "stop_name": "Erps-Kwerps",
-        "stop_lat": "50.896594029975866",
-        "stop_lon": "4.584982154819628"
-    },
     "gs:nmbssncb:S8871217": {
         "stop_name": "Roux",
         "stop_lat": "50.443088143934084",
         "stop_lon": "4.3938355268248195"
-    },
-    "gs:nmbssncb:S8873387": {
-        "stop_name": "Ham-sur-Heure",
-        "stop_lat": "50.319545610618526",
-        "stop_lon": "4.404818878898505"
     },
     "gs:nmbssncb:S8871225": {
         "stop_name": "Courcelles-Motte",
@@ -2154,11 +2159,6 @@
         "stop_lat": "50.43319813892954",
         "stop_lon": "4.325384392222175"
     },
-    "nmbssncb:s-clervauxlu": {
-        "stop_name": "Clervaux (LU)",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
-    },
     "gs:nmbssncb:S8871605": {
         "stop_name": "Erquelinnes",
         "stop_lat": "50.30414187958361",
@@ -2183,11 +2183,6 @@
         "stop_name": "Fontaine-Valmont",
         "stop_lat": "50.32118649829302",
         "stop_lon": "4.212777340537578"
-    },
-    "gs:nmbssncb:8811270": {
-        "stop_name": "Veltem",
-        "stop_lat": "50.900591892772596",
-        "stop_lon": "4.633505414621676"
     },
     "gs:nmbssncb:S8871712": {
         "stop_name": "Lobbes",
@@ -2249,16 +2244,6 @@
         "stop_lat": "50.57813729691808",
         "stop_lon": "4.533379376531359"
     },
-    "gs:nmbssncb:8400434": {
-        "stop_name": "Meerssen",
-        "stop_lat": "50.758783",
-        "stop_lon": "5.703079"
-    },
-    "gs:nmbssncb:8400526": {
-        "stop_name": "Roosendaal (NL)",
-        "stop_lat": "51.469135",
-        "stop_lon": "4.4489"
-    },
     "gs:nmbssncb:S8872587": {
         "stop_name": "La Roche (brabant)",
         "stop_lat": "50.61023284145013",
@@ -2274,11 +2259,6 @@
         "stop_lat": "50.25919999221219",
         "stop_lon": "4.436000898148724"
     },
-    "gs:nmbssncb:8811288": {
-        "stop_name": "Herent",
-        "stop_lat": "50.90363222459015",
-        "stop_lon": "4.672167443003991"
-    },
     "gs:nmbssncb:S8873122": {
         "stop_name": "Philippeville",
         "stop_lat": "50.19161395454891",
@@ -2288,6 +2268,16 @@
         "stop_name": "Yves-Gomez\u00e9e",
         "stop_lat": "50.23699877328608",
         "stop_lon": "4.500403704698302"
+    },
+    "gs:nmbssncb:8811163": {
+        "stop_name": "Bordet",
+        "stop_lat": "50.877801065569834",
+        "stop_lon": "4.409984902623345"
+    },
+    "gs:nmbssncb:8811213": {
+        "stop_name": "Diegem",
+        "stop_lat": "50.89052125447162",
+        "stop_lon": "4.4427908612279765"
     },
     "gs:nmbssncb:S8873312": {
         "stop_name": "Pry",
@@ -2304,10 +2294,10 @@
         "stop_lat": "50.30011725312265",
         "stop_lon": "4.391577413948533"
     },
-    "nmbssncb:s-creilbtvoyageurs": {
-        "stop_name": "Creil - B\u00e2t Voyageurs",
-        "stop_lat": "50.40985",
-        "stop_lon": "3.684115"
+    "gs:nmbssncb:S8873387": {
+        "stop_name": "Ham-sur-Heure",
+        "stop_lat": "50.319545610618526",
+        "stop_lon": "4.404818878898505"
     },
     "gs:nmbssncb:S8874005": {
         "stop_name": "Ch\u00e2telet",
@@ -2349,20 +2339,10 @@
         "stop_lat": "50.45091714536993",
         "stop_lon": "4.662674258968679"
     },
-    "gs:nmbssncb:S8881406": {
-        "stop_name": "Obourg",
-        "stop_lat": "50.46986625655623",
-        "stop_lon": "4.007808360308064"
-    },
     "gs:nmbssncb:S8875002": {
         "stop_name": "Mariembourg",
         "stop_lat": "50.09531545153556",
         "stop_lon": "4.52545948917456"
-    },
-    "gs:nmbssncb:8811304": {
-        "stop_name": "Brussel-Luxemburg",
-        "stop_lat": "50.838869070010446",
-        "stop_lon": "4.374020333800672"
     },
     "gs:nmbssncb:S8875127": {
         "stop_name": "Couvin",
@@ -2404,6 +2384,11 @@
         "stop_lat": "50.471649176312425",
         "stop_lon": "3.956086919496992"
     },
+    "gs:nmbssncb:S8881406": {
+        "stop_name": "Obourg",
+        "stop_lat": "50.46986625655623",
+        "stop_lon": "4.007808360308064"
+    },
     "gs:nmbssncb:S8881430": {
         "stop_name": "Havr\u00e9",
         "stop_lat": "50.470650408915716",
@@ -2413,6 +2398,11 @@
         "stop_name": "Thieu",
         "stop_lat": "50.46970676308581",
         "stop_lon": "4.098448093027494"
+    },
+    "gs:nmbssncb:8811189": {
+        "stop_name": "Vilvoorde",
+        "stop_lat": "50.924494043173866",
+        "stop_lon": "4.4331627822645"
     },
     "gs:nmbssncb:S8881463": {
         "stop_name": "Bracquegnies",
@@ -2434,6 +2424,11 @@
         "stop_lat": "50.405951454226084",
         "stop_lon": "3.9064866374669793"
     },
+    "gs:nmbssncb:8811106": {
+        "stop_name": "Evere",
+        "stop_lat": "50.86779450373923",
+        "stop_lon": "4.400933757938347"
+    },
     "gs:nmbssncb:S8882107": {
         "stop_name": "La Louvi\u00e8re-Centrum",
         "stop_lat": "50.47795999804947",
@@ -2453,6 +2448,11 @@
         "stop_name": "Carni\u00e8res",
         "stop_lat": "50.447967764066085",
         "stop_lon": "4.26383009815392"
+    },
+    "gs:nmbssncb:S8882339": {
+        "stop_name": "Leval",
+        "stop_lat": "50.43065219968284",
+        "stop_lon": "4.2113964866324665"
     },
     "gs:nmbssncb:S8882362": {
         "stop_name": "Binche",
@@ -2489,16 +2489,6 @@
         "stop_lat": "50.56236789532523",
         "stop_lon": "4.156599832975341"
     },
-    "gs:nmbssncb:8015485": {
-        "stop_name": "Bonn Hbf",
-        "stop_lat": "50.691705",
-        "stop_lon": "6.051737"
-    },
-    "gs:nmbssncb:8101003": {
-        "stop_name": "Wien HBF (AT)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
     "gs:nmbssncb:S8883220": {
         "stop_name": "Marche-lez-Ecaussinnes",
         "stop_lat": "50.54616701285178",
@@ -2529,10 +2519,10 @@
         "stop_lat": "50.44281170331363",
         "stop_lon": "3.820289336269627"
     },
-    "nmbssncb:s-annappesfr": {
-        "stop_name": "Annappes (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
+    "gs:nmbssncb:8811130": {
+        "stop_name": "Haren-Zuid",
+        "stop_lat": "50.889737014766624",
+        "stop_lon": "4.415329717455487"
     },
     "gs:nmbssncb:S8884319": {
         "stop_name": "Boussu",
@@ -2573,11 +2563,6 @@
         "stop_name": "Harchies",
         "stop_lat": "50.48250979241036",
         "stop_lon": "3.6986721930116726"
-    },
-    "gs:nmbssncb:8811403": {
-        "stop_name": "Mouterij",
-        "stop_lat": "50.83009198858447",
-        "stop_lon": "4.379626540735409"
     },
     "gs:nmbssncb:S8884715": {
         "stop_name": "Blaton",
@@ -2634,20 +2619,15 @@
         "stop_lat": "50.6143552831809",
         "stop_lon": "3.8001208855131914"
     },
+    "gs:nmbssncb:8200102": {
+        "stop_name": "Pfaffenthal-Kirchberg (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
     "gs:nmbssncb:S8886058": {
         "stop_name": "M\u00e9vergnies-Attre",
         "stop_lat": "50.600024686941225",
         "stop_lon": "3.8338505018937"
-    },
-    "gs:nmbssncb:8400530": {
-        "stop_name": "Rotterdam Centraal (NL)",
-        "stop_lat": "51.469135",
-        "stop_lon": "4.4489"
-    },
-    "gs:nmbssncb:8400548": {
-        "stop_name": "Landgraaf",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
     },
     "gs:nmbssncb:S8886066": {
         "stop_name": "Brugelette",
@@ -2663,11 +2643,6 @@
         "stop_name": "Leuze",
         "stop_lat": "50.60058225472435",
         "stop_lon": "3.6168950010739565"
-    },
-    "gs:nmbssncb:8811411": {
-        "stop_name": "Etterbeek",
-        "stop_lat": "50.82222303653938",
-        "stop_lon": "4.3895912016200125"
     },
     "gs:nmbssncb:S8886504": {
         "stop_name": "Lessen",
@@ -2689,15 +2664,20 @@
         "stop_lat": "50.68658788179144",
         "stop_lon": "3.8233949563833396"
     },
+    "gs:nmbssncb:8811155": {
+        "stop_name": "Haren",
+        "stop_lat": "50.88887856145254",
+        "stop_lon": "4.419981223615913"
+    },
+    "gs:nmbssncb:8200110": {
+        "stop_name": "Mersch (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
     "gs:nmbssncb:S8886587": {
         "stop_name": "Rebaix",
         "stop_lat": "50.66124023904604",
         "stop_lon": "3.7936163260256723"
-    },
-    "nmbssncb:s-croixlallumettefr": {
-        "stop_name": "Croix l'Allumette (FR)",
-        "stop_lat": "50.722088",
-        "stop_lon": "3.196125"
     },
     "gs:nmbssncb:S8891009": {
         "stop_name": "Brugge",
@@ -2789,15 +2769,15 @@
         "stop_lat": "51.228333876519045",
         "stop_lon": "2.926393517974653"
     },
-    "gs:nmbssncb:8811429": {
-        "stop_name": "Watermaal",
-        "stop_lat": "50.80919134299283",
-        "stop_lon": "4.399997294826141"
-    },
     "gs:nmbssncb:S8892007": {
         "stop_name": "Gent-Sint-Pieters",
         "stop_lat": "51.03533482220722",
         "stop_lon": "3.7103611904589098"
+    },
+    "gs:nmbssncb:8811197": {
+        "stop_name": "Merode",
+        "stop_lat": "50.83941534876006",
+        "stop_lon": "4.39982335740804"
     },
     "gs:nmbssncb:S8892031": {
         "stop_name": "Drongen",
@@ -2834,10 +2814,10 @@
         "stop_lat": "50.984530301212416",
         "stop_lon": "3.4183770303243524"
     },
-    "gs:nmbssncb:S8895125": {
-        "stop_name": "Aalst Kerrebroek",
-        "stop_lat": "50.948228015728645",
-        "stop_lon": "4.0244014337688725"
+    "gs:nmbssncb:8811171": {
+        "stop_name": "Meiser",
+        "stop_lat": "50.85406618321925",
+        "stop_lon": "4.3943736878300115"
     },
     "gs:nmbssncb:S8892304": {
         "stop_name": "Veurne",
@@ -2874,25 +2854,25 @@
         "stop_lat": "50.87042968918927",
         "stop_lon": "3.6237630322889363"
     },
-    "gs:nmbssncb:8811437": {
-        "stop_name": "Bosvoorde",
-        "stop_lat": "50.7947173420342",
-        "stop_lon": "4.408163375917535"
-    },
     "gs:nmbssncb:S8892635": {
         "stop_name": "Zingem",
         "stop_lat": "50.90802912844919",
         "stop_lon": "3.6463371973353773"
     },
-    "gs:nmbssncb:S8895463": {
-        "stop_name": "Bambrugge",
-        "stop_lat": "50.91370475992947",
-        "stop_lon": "3.935789864850129"
-    },
     "gs:nmbssncb:S8892643": {
         "stop_name": "Gavere-Asper",
         "stop_lat": "50.930018155182395",
         "stop_lon": "3.6397105560992413"
+    },
+    "gs:nmbssncb:8811205": {
+        "stop_name": "Delta",
+        "stop_lat": "50.81839895095671",
+        "stop_lon": "4.403717183446168"
+    },
+    "gs:nmbssncb:8811221": {
+        "stop_name": "Zaventem",
+        "stop_lat": "50.885684873463305",
+        "stop_lon": "4.4698740436560715"
     },
     "gs:nmbssncb:S8892650": {
         "stop_name": "Eke-Nazareth",
@@ -2928,11 +2908,6 @@
         "stop_name": "Gontrode",
         "stop_lat": "50.98016121245828",
         "stop_lon": "3.80180147748078"
-    },
-    "nmbssncb:s-aulnoyeaymeriesfr": {
-        "stop_name": "Aulnoye Aymeries (FR)",
-        "stop_lat": "50.329088",
-        "stop_lon": "3.908248"
     },
     "gs:nmbssncb:S8893054": {
         "stop_name": "Landskouter",
@@ -2999,11 +2974,6 @@
         "stop_lat": "51.00190379241135",
         "stop_lon": "3.9691907373284345"
     },
-    "gs:nmbssncb:8811445": {
-        "stop_name": "Groenendaal",
-        "stop_lat": "50.766074602347025",
-        "stop_lon": "4.44946649327332"
-    },
     "gs:nmbssncb:S8893542": {
         "stop_name": "Schellebelle",
         "stop_lat": "51.003105758514685",
@@ -3023,11 +2993,6 @@
         "stop_name": "Serskamp",
         "stop_lat": "50.98456165523272",
         "stop_lon": "3.959576813938443"
-    },
-    "nmbssncb:s-baisieuxfr": {
-        "stop_name": "Baisieux (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
     },
     "gs:nmbssncb:S8893708": {
         "stop_name": "Eeklo",
@@ -3114,25 +3079,15 @@
         "stop_lat": "50.91961658119228",
         "stop_lon": "4.055438455154767"
     },
-    "gs:nmbssncb:8015458": {
-        "stop_name": "K\u00f6ln Hbf (DE)",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
-    },
-    "gs:nmbssncb:8811171": {
-        "stop_name": "Meiser",
-        "stop_lat": "50.85406618321925",
-        "stop_lon": "4.3943736878300115"
+    "gs:nmbssncb:S8895125": {
+        "stop_name": "Aalst Kerrebroek",
+        "stop_lat": "50.948228015728645",
+        "stop_lon": "4.0244014337688725"
     },
     "gs:nmbssncb:S8895208": {
         "stop_name": "Zottegem",
         "stop_lat": "50.869083689075325",
         "stop_lon": "3.8146282730001615"
-    },
-    "gs:nmbssncb:8811460": {
-        "stop_name": "Hoeilaart",
-        "stop_lat": "50.76018438231837",
-        "stop_lon": "4.467430110838788"
     },
     "gs:nmbssncb:S8895232": {
         "stop_name": "Munkzwalm",
@@ -3169,20 +3124,10 @@
         "stop_lat": "50.90713747244177",
         "stop_lon": "3.9224424501907547"
     },
-    "gs:nmbssncb:8022193": {
-        "stop_name": "NURNBERG",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8400632": {
-        "stop_name": "Valkenburg",
-        "stop_lat": "50.758783",
-        "stop_lon": "5.703079"
-    },
-    "gs:nmbssncb:8811510": {
-        "stop_name": "Terhulpen",
-        "stop_lat": "50.73813725704175",
-        "stop_lon": "4.49744232063652"
+    "gs:nmbssncb:S8895463": {
+        "stop_name": "Bambrugge",
+        "stop_lat": "50.91370475992947",
+        "stop_lon": "3.935789864850129"
     },
     "gs:nmbssncb:S8895471": {
         "stop_name": "Erpe-Mere",
@@ -3264,25 +3209,10 @@
         "stop_lat": "50.89176261819852",
         "stop_lon": "4.071597615253536"
     },
-    "gs:nmbssncb:8811528": {
-        "stop_name": "Genval",
-        "stop_lat": "50.72573249226183",
-        "stop_lon": "4.5148950196706"
-    },
     "gs:nmbssncb:S8895836": {
         "stop_name": "Liedekerke",
         "stop_lat": "50.88252468388133",
         "stop_lon": "4.09528982822651"
-    },
-    "gs:nmbssncb:8101032": {
-        "stop_name": "St.Poelten Hbf",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8101073": {
-        "stop_name": "Linz Hbf (AT)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
     },
     "gs:nmbssncb:S8895844": {
         "stop_name": "Iddergem",
@@ -3324,16 +3254,6 @@
         "stop_lat": "50.833566766340844",
         "stop_lon": "3.391622034332242"
     },
-    "gs:nmbssncb:8101114": {
-        "stop_name": "Salzburg Hbf (AT)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8103107": {
-        "stop_name": "Wien Meidling (AT)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
     "gs:nmbssncb:S8896305": {
         "stop_name": "Menen",
         "stop_lat": "50.79947315882453",
@@ -3359,11 +3279,6 @@
         "stop_lat": "50.771996863567864",
         "stop_lon": "2.999337220531329"
     },
-    "nmbssncb:s-ascqfr": {
-        "stop_name": "Ascq (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
-    },
     "gs:nmbssncb:S8896503": {
         "stop_name": "Ieper",
         "stop_lat": "50.84750047135455",
@@ -3378,11 +3293,6 @@
         "stop_name": "Roeselare",
         "stop_lat": "50.94902117972797",
         "stop_lon": "3.130363690984459"
-    },
-    "nmbssncb:s-bascharagesanemlu": {
-        "stop_name": "Bascharage-Sanem (LU)",
-        "stop_lat": "49.570828",
-        "stop_lon": "5.832399"
     },
     "gs:nmbssncb:S8896909": {
         "stop_name": "Izegem",
@@ -3404,15 +3314,20 @@
         "stop_lat": "50.718497",
         "stop_lon": "6.041265"
     },
-    "gs:nmbssncb:8015199": {
+    "nmbssncb:s-aixlachapelleouest": {
         "stop_name": "Aken West",
         "stop_lat": "50.718497",
         "stop_lon": "6.041265"
     },
-    "gs:nmbssncb:8015345": {
-        "stop_name": "Aachen Hbf (DE)",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
+    "nmbssncb:s-annappesfr": {
+        "stop_name": "Annappes (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
+    },
+    "nmbssncb:s-ascqfr": {
+        "stop_name": "Ascq (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
     },
     "nmbssncb:s-athusfrontire": {
         "stop_name": "Athus-Fronti\u00e8re",
@@ -3423,6 +3338,66 @@
         "stop_name": "Aubange-Fronti\u00e8re-Luxembourg",
         "stop_lat": "49.551786",
         "stop_lon": "5.824954"
+    },
+    "nmbssncb:s-aulnoyeaymeriesfr": {
+        "stop_name": "Aulnoye Aymeries (FR)",
+        "stop_lat": "50.329088",
+        "stop_lon": "3.908248"
+    },
+    "nmbssncb:s-baisieuxfr": {
+        "stop_name": "Baisieux (FR)",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
+    },
+    "nmbssncb:s-bascharagesanemlu": {
+        "stop_name": "Bascharage-Sanem (LU)",
+        "stop_lat": "49.570828",
+        "stop_lon": "5.832399"
+    },
+    "nmbssncb:s-bertrangestrassenlu": {
+        "stop_name": "Bertrange Strassen (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "nmbssncb:s-blandainfrontire": {
+        "stop_name": "Blandain-Fronti\u00e8re",
+        "stop_lat": "50.617467",
+        "stop_lon": "3.26377"
+    },
+    "nmbssncb:s-bonnbeuelde": {
+        "stop_name": "Bonn-Beuel (DE)",
+        "stop_lat": "50.691705",
+        "stop_lon": "6.051737"
+    },
+    "nmbssncb:s-bonnhbf": {
+        "stop_name": "Bonn Hbf",
+        "stop_lat": "50.691705",
+        "stop_lon": "6.051737"
+    },
+    "nmbssncb:s-bredanl": {
+        "stop_name": "Breda (NL)",
+        "stop_lat": "51.485713",
+        "stop_lon": "4.734527"
+    },
+    "nmbssncb:s-capellenlu": {
+        "stop_name": "Capellen (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "nmbssncb:s-clervauxlu": {
+        "stop_name": "Clervaux (LU)",
+        "stop_lat": "50.173035",
+        "stop_lon": "5.965376"
+    },
+    "nmbssncb:s-creilbtvoyageurs": {
+        "stop_name": "Creil - B\u00e2t Voyageurs",
+        "stop_lat": "50.40985",
+        "stop_lon": "3.684115"
+    },
+    "nmbssncb:s-croixlallumettefr": {
+        "stop_name": "Croix l'Allumette (FR)",
+        "stop_lat": "50.722088",
+        "stop_lon": "3.196125"
     },
     "nmbssncb:s-croixwasquehalfr": {
         "stop_name": "Croix Wasquehal (FR)",
@@ -3454,11 +3429,6 @@
         "stop_lat": "51.46908822931659",
         "stop_lon": "4.448916980721837"
     },
-    "gs:nmbssncb:8701687": {
-        "stop_name": "Creil - B\u00e2t Voyageurs",
-        "stop_lat": "50.40985",
-        "stop_lon": "3.684115"
-    },
     "nmbssncb:s-ettelbrucklu": {
         "stop_name": "Ettelbruck (LU)",
         "stop_lat": "49.643827",
@@ -3468,11 +3438,6 @@
         "stop_name": "FRANKFURT(MAIN) SUD",
         "stop_lat": "50.173035",
         "stop_lon": "5.965376"
-    },
-    "gs:nmbssncb:8015577": {
-        "stop_name": "Bonn-Beuel (DE)",
-        "stop_lat": "50.691705",
-        "stop_lon": "6.051737"
     },
     "nmbssncb:s-freilassing": {
         "stop_name": "Freilassing",
@@ -3504,11 +3469,6 @@
         "stop_lat": "50.718497",
         "stop_lon": "6.041265"
     },
-    "gs:nmbssncb:8727100": {
-        "stop_name": "Paris Nord (FR)",
-        "stop_lat": "50.40985",
-        "stop_lon": "3.684115"
-    },
     "nmbssncb:s-herzogenrath": {
         "stop_name": "Herzogenrath",
         "stop_lat": "50.718497",
@@ -3523,26 +3483,6 @@
         "stop_name": "Kautenbach (LU)",
         "stop_lat": "50.173035",
         "stop_lon": "5.965376"
-    },
-    "gs:nmbssncb:8019023": {
-        "stop_name": "Koblenz Hbf (DE)",
-        "stop_lat": "50.635852",
-        "stop_lon": "6.048571"
-    },
-    "gs:nmbssncb:8020110": {
-        "stop_name": "Freilassing",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8200100": {
-        "stop_name": "Luxemburg (LU)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8401134": {
-        "stop_name": "Eygelshoven markt",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
     },
     "nmbssncb:s-kleinbettingenlu": {
         "stop_name": "Kleinbettingen (LU)",
@@ -3564,10 +3504,10 @@
         "stop_lat": "49.55818394165489",
         "stop_lon": "5.827290134565749"
     },
-    "gs:nmbssncb:8728105": {
-        "stop_name": "Croix l'Allumette (FR)",
-        "stop_lat": "50.722088",
-        "stop_lon": "3.196125"
+    "gs:nmbssncb:8811247": {
+        "stop_name": "Nossegem",
+        "stop_lat": "50.88347917437234",
+        "stop_lon": "4.506028300386456"
     },
     "nmbssncb:s-landgraaf": {
         "stop_name": "Landgraaf",
@@ -3594,11 +3534,6 @@
         "stop_lat": "49.643827",
         "stop_lon": "5.904205"
     },
-    "gs:nmbssncb:8020174": {
-        "stop_name": "Rosenheim (DE)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
     "nmbssncb:s-luxembourglu": {
         "stop_name": "Luxemburg (LU)",
         "stop_lat": "49.643827",
@@ -3613,11 +3548,6 @@
         "stop_name": "Maastricht Randwijck (NL)",
         "stop_lat": "50.758783",
         "stop_lon": "5.703079"
-    },
-    "gs:nmbssncb:8728600": {
-        "stop_name": "Lille Flandres (FR)",
-        "stop_lat": "50.722088",
-        "stop_lon": "3.196125"
     },
     "nmbssncb:s-mamerlu": {
         "stop_name": "Mamer (LU)",
@@ -3649,11 +3579,6 @@
         "stop_lat": "49.643827",
         "stop_lon": "5.904205"
     },
-    "gs:nmbssncb:8020234": {
-        "stop_name": "M\u00fcnchen Ost (DE)",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
     "nmbssncb:s-michelaulu": {
         "stop_name": "Michelau (LU)",
         "stop_lat": "49.643827",
@@ -3664,16 +3589,6 @@
         "stop_lat": "49.643827",
         "stop_lon": "5.904205"
     },
-    "gs:nmbssncb:8728606": {
-        "stop_name": "Hellemmes (FR)",
-        "stop_lat": "50.617467",
-        "stop_lon": "3.26377"
-    },
-    "gs:nmbssncb:8728654": {
-        "stop_name": "Tourcoing (FR)",
-        "stop_lat": "50.722088",
-        "stop_lon": "3.196125"
-    },
     "nmbssncb:s-mouscronfrontire": {
         "stop_name": "Mouscron-Fronti\u00e8re",
         "stop_lat": "50.722088",
@@ -3683,6 +3598,11 @@
         "stop_name": "NURNBERG",
         "stop_lat": "49.643827",
         "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8811254": {
+        "stop_name": "Kortenberg",
+        "stop_lat": "50.89304482483142",
+        "stop_lon": "4.543305386908723"
     },
     "nmbssncb:s-parisnordfr": {
         "stop_name": "Paris Nord (FR)",
@@ -3704,25 +3624,20 @@
         "stop_lat": "50.617467",
         "stop_lon": "3.26377"
     },
+    "gs:nmbssncb:8811403": {
+        "stop_name": "Mouterij",
+        "stop_lat": "50.83009198858447",
+        "stop_lon": "4.379626540735409"
+    },
     "nmbssncb:s-ptangelu": {
         "stop_name": "P\u00e9tange (LU)",
         "stop_lat": "49.560596796467806",
         "stop_lon": "5.82802486799637"
     },
-    "gs:nmbssncb:8022534": {
-        "stop_name": "W\u00fcrzburg Hbf",
-        "stop_lat": "50.173035",
-        "stop_lon": "5.965376"
-    },
     "nmbssncb:s-quevyfrontiere": {
         "stop_name": "QUEVY-FRONTIERE",
         "stop_lat": "50.329088",
         "stop_lon": "3.908248"
-    },
-    "gs:nmbssncb:8728671": {
-        "stop_name": "Croix Wasquehal (FR)",
-        "stop_lat": "50.722088",
-        "stop_lon": "3.196125"
     },
     "nmbssncb:s-rodangelu": {
         "stop_name": "Rodange (LU)",
@@ -3764,16 +3679,6 @@
         "stop_lat": "49.643828203918176",
         "stop_lon": "5.90414381515858"
     },
-    "gs:nmbssncb:8026506": {
-        "stop_name": "PASSAU HBF",
-        "stop_lat": "49.643827",
-        "stop_lon": "5.904205"
-    },
-    "gs:nmbssncb:8728673": {
-        "stop_name": "Roubaix (FR)",
-        "stop_lat": "50.722088",
-        "stop_lon": "3.196125"
-    },
     "nmbssncb:s-stpoeltenhbf": {
         "stop_name": "St.Poelten Hbf",
         "stop_lat": "49.643827",
@@ -3794,6 +3699,11 @@
         "stop_lat": "50.758783",
         "stop_lon": "5.703079"
     },
+    "gs:nmbssncb:8811262": {
+        "stop_name": "Erps-Kwerps",
+        "stop_lat": "50.896594029975866",
+        "stop_lon": "4.584982154819628"
+    },
     "nmbssncb:s-wienhbfat": {
         "stop_name": "Wien HBF (AT)",
         "stop_lat": "49.643827",
@@ -3803,6 +3713,11 @@
         "stop_name": "Wien Meidling (AT)",
         "stop_lat": "49.643827",
         "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8811411": {
+        "stop_name": "Etterbeek",
+        "stop_lat": "50.82222303653938",
+        "stop_lon": "4.3895912016200125"
     },
     "nmbssncb:s-wilwerwiltzlu": {
         "stop_name": "Wilwerwiltz (LU)",
@@ -3814,15 +3729,110 @@
         "stop_lat": "50.173035",
         "stop_lon": "5.965376"
     },
-    "gs:nmbssncb:8011065": {
-        "stop_name": "FRANKFURT(MAIN) SUD",
+    "gs:nmbssncb:8015577": {
+        "stop_name": "Bonn-Beuel (DE)",
+        "stop_lat": "50.691705",
+        "stop_lon": "6.051737"
+    },
+    "gs:nmbssncb:8019023": {
+        "stop_name": "Koblenz Hbf (DE)",
+        "stop_lat": "50.635852",
+        "stop_lon": "6.048571"
+    },
+    "gs:nmbssncb:8020110": {
+        "stop_name": "Freilassing",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8020174": {
+        "stop_name": "Rosenheim (DE)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8020234": {
+        "stop_name": "M\u00fcnchen Ost (DE)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8022193": {
+        "stop_name": "NURNBERG",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8022534": {
+        "stop_name": "W\u00fcrzburg Hbf",
         "stop_lat": "50.173035",
         "stop_lon": "5.965376"
     },
-    "gs:nmbssncb:8015190": {
-        "stop_name": "Herzogenrath",
-        "stop_lat": "50.718497",
-        "stop_lon": "6.041265"
+    "gs:nmbssncb:8026506": {
+        "stop_name": "PASSAU HBF",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8101003": {
+        "stop_name": "Wien HBF (AT)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8101032": {
+        "stop_name": "St.Poelten Hbf",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8101073": {
+        "stop_name": "Linz Hbf (AT)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8101114": {
+        "stop_name": "Salzburg Hbf (AT)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8103107": {
+        "stop_name": "Wien Meidling (AT)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8200100": {
+        "stop_name": "Luxemburg (LU)",
+        "stop_lat": "49.643827",
+        "stop_lon": "5.904205"
+    },
+    "gs:nmbssncb:8811304": {
+        "stop_name": "Brussel-Luxemburg",
+        "stop_lat": "50.838869070010446",
+        "stop_lon": "4.374020333800672"
+    },
+    "gs:nmbssncb:8811429": {
+        "stop_name": "Watermaal",
+        "stop_lat": "50.80919134299283",
+        "stop_lon": "4.399997294826141"
+    },
+    "gs:nmbssncb:8811437": {
+        "stop_name": "Bosvoorde",
+        "stop_lat": "50.7947173420342",
+        "stop_lon": "4.408163375917535"
+    },
+    "gs:nmbssncb:8811445": {
+        "stop_name": "Groenendaal",
+        "stop_lat": "50.766074602347025",
+        "stop_lon": "4.44946649327332"
+    },
+    "gs:nmbssncb:8811460": {
+        "stop_name": "Hoeilaart",
+        "stop_lat": "50.76018438231837",
+        "stop_lon": "4.467430110838788"
+    },
+    "gs:nmbssncb:8811510": {
+        "stop_name": "Terhulpen",
+        "stop_lat": "50.73813725704175",
+        "stop_lon": "4.49744232063652"
+    },
+    "gs:nmbssncb:8811528": {
+        "stop_name": "Genval",
+        "stop_lat": "50.72573249226183",
+        "stop_lon": "4.5148950196706"
     },
     "gs:nmbssncb:8811536": {
         "stop_name": "Rixensart",
@@ -4414,6 +4424,11 @@
         "stop_lat": "51.0810125040011",
         "stop_lon": "4.325002999427709"
     },
+    "gs:nmbssncb:8831039": {
+        "stop_name": "Alken",
+        "stop_lat": "50.88692671350262",
+        "stop_lon": "5.292730531130729"
+    },
     "gs:nmbssncb:8824158": {
         "stop_name": "Hoboken-Polder",
         "stop_lat": "51.182683",
@@ -4448,11 +4463,6 @@
         "stop_name": "Hasselt",
         "stop_lat": "50.93053697772471",
         "stop_lon": "5.327450096945477"
-    },
-    "gs:nmbssncb:8831039": {
-        "stop_name": "Alken",
-        "stop_lat": "50.88692671350262",
-        "stop_lon": "5.292730531130729"
     },
     "gs:nmbssncb:8831088": {
         "stop_name": "Schulen",
@@ -4979,6 +4989,11 @@
         "stop_lat": "50.55729495521207",
         "stop_lon": "4.697754135383076"
     },
+    "gs:nmbssncb:8863404": {
+        "stop_name": "Andenne",
+        "stop_lat": "50.496766495514315",
+        "stop_lon": "5.094700766262314"
+    },
     "gs:nmbssncb:8861333": {
         "stop_name": "Mazy",
         "stop_lat": "50.51344432123453",
@@ -5029,11 +5044,6 @@
         "stop_lat": "49.690814698197805",
         "stop_lon": "5.76908258922738"
     },
-    "gs:nmbssncb:8863008": {
-        "stop_name": "Namen",
-        "stop_lat": "50.46936637829282",
-        "stop_lon": "4.862120011137793"
-    },
     "gs:nmbssncb:8863115": {
         "stop_name": "Jambes",
         "stop_lat": "50.45485540439782",
@@ -5053,11 +5063,6 @@
         "stop_name": "Dave-Saint-Martin",
         "stop_lat": "50.42901370487856",
         "stop_lon": "4.884277561952786"
-    },
-    "gs:nmbssncb:8863404": {
-        "stop_name": "Andenne",
-        "stop_lat": "50.496766495514315",
-        "stop_lon": "5.094700766262314"
     },
     "gs:nmbssncb:8863438": {
         "stop_name": "Ch\u00e2teau-de-Seilles",
@@ -5228,11 +5233,6 @@
         "stop_name": "Athus",
         "stop_lat": "49.56333561057384",
         "stop_lon": "5.8289873470133085"
-    },
-    "gs:nmbssncb:8866662": {
-        "stop_name": "Messancy",
-        "stop_lat": "49.5927581812673",
-        "stop_lon": "5.818478105265633"
     },
     "gs:nmbssncb:8869047": {
         "stop_name": "Athus-Fronti\u00e8re",
